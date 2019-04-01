@@ -5,7 +5,7 @@ To run the app locally:
 ```
 bundle install
 ```
-The start the server:
+Then start the server:
 ```
 rails s
 ```
