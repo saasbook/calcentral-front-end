@@ -338,3 +338,45 @@ Started GET "/api/academics/degree_progress/ugrd" for 127.0.0.1 at 2019-03-31 12
 Processing by MyDegreeProgressController#get_undergraduate_requirements as JSON
   Rendered public/dummy/json/degree_progress_ugrd.json (0.7ms)
 Completed 200 OK in 11ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/degree_progress/ugrd" for ::1 at 2019-04-04 10:32:42 -0700
+Processing by MyDegreeProgressController#get_undergraduate_requirements as JSON
+  Rendered public/dummy/json/degree_progress_ugrd.json (1.5ms)
+Completed 200 OK in 26ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/degree_progress/grad" for ::1 at 2019-04-04 10:32:50 -0700
+Processing by MyDegreeProgressController#get_graduate_milestones as JSON
+  Rendered public/dummy/json/degree_progress_grad.json (0.4ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/degree_progress/ugrd" for ::1 at 2019-04-04 10:32:52 -0700
+Processing by MyDegreeProgressController#get_undergraduate_requirements as JSON
+  Rendered public/dummy/json/degree_progress_ugrd.json (0.0ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/degree_progress/grad" for ::1 at 2019-04-04 10:40:17 -0700
+Processing by MyDegreeProgressController#get_graduate_milestones as JSON
+  Rendered public/dummy/json/degree_progress_grad.json (1.0ms)
+Completed 200 OK in 22ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/degree_progress/ugrd" for ::1 at 2019-04-04 10:40:22 -0700
+Processing by MyDegreeProgressController#get_undergraduate_requirements as JSON
+  Rendered public/dummy/json/degree_progress_ugrd.json (0.4ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/degree_progress/grad" for ::1 at 2019-04-04 10:52:51 -0700
+Processing by MyDegreeProgressController#get_graduate_milestones as JSON
+  Rendered public/dummy/json/degree_progress_grad.json (0.9ms)
+Completed 200 OK in 21ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/degree_progress/grad" for ::1 at 2019-04-04 10:52:53 -0700
+Processing by MyDegreeProgressController#get_graduate_milestones as JSON
+  Rendered public/dummy/json/degree_progress_grad.json (0.0ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
