@@ -56,8 +56,9 @@ Rails.application.routes.draw do
  get '/api/stats' => 'stats#get_stats', :defaults => { :format => 'json' }
 
     # Feeds of read-only content
-    get '/api/academics/degree_progress/grad' => 'my_degree_progress#get_graduate_milestones', :defaults => { :format => 'json' }
-    get '/api/academics/degree_progress/ugrd' => 'my_degree_progress#get_undergraduate_requirements', :defaults => { :format => 'json' }
+    # TODO: replace all routes to 'master#master'
+    get '/api/academics/degree_progress/grad' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/degree_progress/ugrd' => 'master#master', :defaults => { :format => 'json' }
     get '/api/academics/enrollment_verification' => 'enrollment_verification#get_feed', :defaults => { :format => 'json' }
     get '/api/academics/exam_results' => 'exam_results#get_exam_results', :defaults => { :format => 'json' }
     get '/api/academics/has_exam_results' => 'exam_results#has_exam_results', :defaults => { :format => 'json' }
