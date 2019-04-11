@@ -398,3 +398,15 @@ Started GET "/api/academics/degree_progress/ugrd" for ::1 at 2019-04-04 10:59:30
 Processing by MyDegreeProgressController#get_undergraduate_requirements as JSON
   Rendered public/dummy/json/degree_progress_ugrd.json (0.3ms)
 Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-10 20:23:04 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/hanxiaochen/.rvm/gems/ruby-2.3.7/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 21ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/degree_progress/ugrd" for ::1 at 2019-04-10 20:23:16 -0700
+Processing by MyDegreeProgressController#get_undergraduate_requirements as JSON
+  Rendered public/dummy/json/degree_progress_ugrd.json (0.3ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
