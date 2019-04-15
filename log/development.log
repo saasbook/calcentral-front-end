@@ -526,3 +526,1109 @@ Started GET "/api/academics/degree_progress/grad" for ::1 at 2019-04-10 20:42:13
 Processing by MasterController#master as JSON
   Rendered public/dummy/json/degree_progress_grad.json (0.4ms)
 Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/a" for 127.0.0.1 at 2019-04-13 17:59:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/a"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (30.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.0ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (27.2ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (363.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (153.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (265.9ms)
+
+
+Started GET "/api/academics/degree_progress/ugrd" for 127.0.0.1 at 2019-04-13 18:01:34 -0400
+Processing by MasterController#master as JSON
+  Rendered public/dummy/json/degree_progress_ugrd.json (0.5ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/degree_progress/grad" for 127.0.0.1 at 2019-04-13 18:02:16 -0400
+Processing by MasterController#master as JSON
+  Rendered public/dummy/json/degree_progress_grad.json (0.5ms)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/rosters/campus/csv/:campus_course_id" for 127.0.0.1 at 2019-04-13 18:02:57 -0400
+
+ActionController::RoutingError (uninitialized constant CampusRostersController):
+  activesupport (4.2.10) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.10) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.10) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.10) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.10) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.11) lib/rack/etag.rb:24:in `call'
+  rack (1.6.11) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.11) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.11) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.11) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (160.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (96.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (188.1ms)
+  [1m[36m (12.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreatePathmaps (20190413220909)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "pathmaps" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uripath" varchar, "filepath" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190413220909"]]
+  [1m[35m (23.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-13 18:27:10 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 58ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/academics/degree_progress/grad" for 127.0.0.1 at 2019-04-13 18:27:37 -0400
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.7ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/academics/degree_progress/grad"]]
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 1.5ms)
+
+NoMethodError (undefined method `filepath' for nil:NilClass):
+  app/controllers/master_controller.rb:8:in `master'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (34.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (21.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (160.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (10.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (142.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (274.8ms)
+
+
+Started GET "/api/academics/degree_progress/grad" for 127.0.0.1 at 2019-04-13 18:34:53 -0400
+Processing by MasterController#master as JSON
+  [1m[36mPathmap Load (0.1ms)[0m  [1mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1[0m  [["uripath", "/api/academics/degree_progress/grad"]]
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.1ms)
+
+NoMethodError (undefined method `filepath' for nil:NilClass):
+  app/controllers/master_controller.rb:8:in `master'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (120.0ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (3.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (93.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (198.0ms)
+
+
+Started GET "/api/academics/degree_progress/grad" for 127.0.0.1 at 2019-04-13 18:35:08 -0400
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.1ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/academics/degree_progress/grad"]]
+
+
+Started GET "/api/academics/degree_progress/grad" for 127.0.0.1 at 2019-04-13 18:41:43 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.1ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/academics/degree_progress/grad"]]
+  [1m[36mPathmap Load (0.2ms)[0m  [1mSELECT "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?[0m  [["uripath", "/api/academics/degree_progress/grad"]]
+  [1m[35mPathmap Load (0.1ms)[0m  SELECT "pathmaps".* FROM "pathmaps"
+Completed 500 Internal Server Error in 269699ms (ActiveRecord: 1.2ms)
+
+SystemExit (exit):
+  app/controllers/master_controller.rb:11:in `master'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (516.0ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (120.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (785.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (348.0ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (6.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (6.0ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (534.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/api/academics/degree_progress/grad" for 127.0.0.1 at 2019-04-13 18:47:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.1ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/academics/degree_progress/grad"]]
+  [1m[36mPathmap Load (0.1ms)[0m  [1mSELECT "pathmaps".* FROM "pathmaps"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/academics/degree_progress/grad"]]
+Completed 500 Internal Server Error in 99727ms (ActiveRecord: 0.6ms)
+
+NoMethodError (undefined method `filepath' for nil:NilClass):
+  app/controllers/master_controller.rb:11:in `master'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (30.1ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.1ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (147.0ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.2ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (115.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (223.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/degree_progress/grad"], ["filepath", "/public/dummy/json/degree_progress_grad.json"], ["created_at", "2019-04-13 22:49:18.986843"], ["updated_at", "2019-04-13 22:49:18.986843"]]
+  [1m[35m (16.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/degree_progress/ugrd"], ["filepath", "/public/dummy/json/degree_progress_ugrd.json"], ["created_at", "2019-04-13 22:49:19.007398"], ["updated_at", "2019-04-13 22:49:19.007398"]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/api/academics/degree_progress/grad" for 127.0.0.1 at 2019-04-13 18:49:30 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.2ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/academics/degree_progress/grad"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1[0m  [["uripath", "/api/academics/degree_progress/grad"]]
+  Rendered public/dummy/json/degree_progress_grad.json (1.8ms)
+Completed 200 OK in 17074ms (Views: 46.4ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/api/academics/degree_progress/ugrad" for 127.0.0.1 at 2019-04-13 18:50:15 -0400
+
+ActionController::RoutingError (No route matches [GET] "/api/academics/degree_progress/ugrad"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (24.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (200.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (116.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (220.5ms)
+
+
+Started GET "/api/academics/degree_progress/ugrd" for 127.0.0.1 at 2019-04-13 18:50:30 -0400
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.2ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/academics/degree_progress/ugrd"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1[0m  [["uripath", "/api/academics/degree_progress/ugrd"]]
+  Rendered public/dummy/json/degree_progress_ugrd.json (0.5ms)
+Completed 200 OK in 14099ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/academics/degree_progress/grad" for 127.0.0.1 at 2019-04-13 18:50:58 -0400
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.1ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/academics/degree_progress/grad"]]
+  Rendered public/dummy/json/degree_progress_grad.json (0.1ms)
+Completed 200 OK in 69ms (Views: 28.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/academics/degree_progress/ugrd" for 127.0.0.1 at 2019-04-13 18:51:05 -0400
+Processing by MasterController#master as JSON
+  [1m[36mPathmap Load (0.1ms)[0m  [1mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1[0m  [["uripath", "/api/academics/degree_progress/ugrd"]]
+  Rendered public/dummy/json/degree_progress_ugrd.json (0.1ms)
+Completed 200 OK in 19ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/degree_progress/grad"], ["filepath", "/public/dummy/json/degree_progress_grad.json"], ["created_at", "2019-04-13 23:06:39.107672"], ["updated_at", "2019-04-13 23:06:39.107672"]]
+  [1m[35m (15.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/degree_progress/ugrd"], ["filepath", "/public/dummy/json/degree_progress_ugrd.json"], ["created_at", "2019-04-13 23:06:39.125273"], ["updated_at", "2019-04-13 23:06:39.125273"]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/enrollment_verification"], ["filepath", "/public/dummy/json/enrollment_verification.json"], ["created_at", "2019-04-13 23:06:39.135849"], ["updated_at", "2019-04-13 23:06:39.135849"]]
+  [1m[35m (7.1ms)[0m  commit transaction
+
+
+Started GET "/api/academics/enrollment_verification" for 127.0.0.1 at 2019-04-13 19:06:50 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.1ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/academics/enrollment_verification"]]
+  Rendered public/dummy/json/enrollment_verification.json (13.9ms)
+Completed 200 OK in 104ms (Views: 51.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/my/badges" for 127.0.0.1 at 2019-04-14 14:11:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.1ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/my/badges"]]
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `filepath' for nil:NilClass):
+  app/controllers/master_controller.rb:12:in `master'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (138.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (113.9ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (264.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/degree_progress/grad"], ["filepath", "/public/dummy/json/degree_progress_grad.json"], ["created_at", "2019-04-14 18:11:37.459626"], ["updated_at", "2019-04-14 18:11:37.459626"]]
+  [1m[35m (12.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/degree_progress/ugrd"], ["filepath", "/public/dummy/json/degree_progress_ugrd.json"], ["created_at", "2019-04-14 18:11:37.478857"], ["updated_at", "2019-04-14 18:11:37.478857"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/enrollment_verification"], ["filepath", "/public/dummy/json/enrollment_verification.json"], ["created_at", "2019-04-14 18:11:37.490344"], ["updated_at", "2019-04-14 18:11:37.490344"]]
+  [1m[35m (12.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/exam_results"], ["filepath", "/public/dummy/json/exam_results.json"], ["created_at", "2019-04-14 18:11:37.504566"], ["updated_at", "2019-04-14 18:11:37.504566"]]
+  [1m[36m (9.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/has_exam_results"], ["filepath", "/public/dummy/json/has_exam_results.json"], ["created_at", "2019-04-14 18:11:37.516943"], ["updated_at", "2019-04-14 18:11:37.516943"]]
+  [1m[35m (7.6ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/pnp_calculator/ratio_message"], ["filepath", "/public/dummy/json/pnp_ratio_message.json"], ["created_at", "2019-04-14 18:11:37.526731"], ["updated_at", "2019-04-14 18:11:37.526731"]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/rosters/campus/:campus_course_id"], ["filepath", "campus_rosters.json"], ["created_at", "2019-04-14 18:11:37.537123"], ["updated_at", "2019-04-14 18:11:37.537123"]]
+  [1m[35m (12.9ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/transfer_credits"], ["filepath", "/public/dummy/json/transfer_credit.json"], ["created_at", "2019-04-14 18:11:37.551908"], ["updated_at", "2019-04-14 18:11:37.551908"]]
+  [1m[36m (14.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/advising/my_advising"], ["filepath", "/public/dummy/json/my_advising.json"], ["created_at", "2019-04-14 18:11:37.567984"], ["updated_at", "2019-04-14 18:11:37.567984"]]
+  [1m[35m (8.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/academic_records"], ["filepath", "/public/dummy/json/my_academic_records.json"], ["created_at", "2019-04-14 18:11:37.579314"], ["updated_at", "2019-04-14 18:11:37.579314"]]
+  [1m[36m (10.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/activities"], ["filepath", "/public/dummy/json/activites.json"], ["created_at", "2019-04-14 18:11:37.593067"], ["updated_at", "2019-04-14 18:11:37.593067"]]
+  [1m[35m (8.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/badges"], ["filepath", "/public/dummy/json/badges.json"], ["created_at", "2019-04-14 18:11:37.604496"], ["updated_at", "2019-04-14 18:11:37.604496"]]
+  [1m[36m (10.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/financial_aid_summary"], ["filepath", "/public/dummy/json/finaid_summary.json"], ["created_at", "2019-04-14 18:11:37.617149"], ["updated_at", "2019-04-14 18:11:37.617149"]]
+  [1m[35m (7.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/classes"], ["filepath", "/public/dummy/json/classes.json"], ["created_at", "2019-04-14 18:11:37.626835"], ["updated_at", "2019-04-14 18:11:37.626835"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/committees"], ["filepath", "/public/dummy/json/committees.json"], ["created_at", "2019-04-14 18:11:37.637620"], ["updated_at", "2019-04-14 18:11:37.637620"]]
+  [1m[35m (8.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/financials"], ["filepath", "/public/dummy/json/financials.json"], ["created_at", "2019-04-14 18:11:37.648652"], ["updated_at", "2019-04-14 18:11:37.648652"]]
+  [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/groups"], ["filepath", "/public/dummy/json/groups.json"], ["created_at", "2019-04-14 18:11:37.658733"], ["updated_at", "2019-04-14 18:11:37.658733"]]
+  [1m[35m (8.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/holds"], ["filepath", "/public/dummy/json/holds_present.json"], ["created_at", "2019-04-14 18:11:37.669107"], ["updated_at", "2019-04-14 18:11:37.669107"]]
+  [1m[36m (10.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/new_admit_resources"], ["filepath", "/public/dummy/json/new_admit_resources.json"], ["created_at", "2019-04-14 18:11:37.681950"], ["updated_at", "2019-04-14 18:11:37.681950"]]
+  [1m[35m (8.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/registrations"], ["filepath", "my_registrations.json"], ["created_at", "2019-04-14 18:11:37.692318"], ["updated_at", "2019-04-14 18:11:37.692318"]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/residency"], ["filepath", "residency.json"], ["created_at", "2019-04-14 18:11:37.703673"], ["updated_at", "2019-04-14 18:11:37.703673"]]
+  [1m[35m (9.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/sir_statuses"], ["filepath", "/public/dummy/json/sir_statuses_completed.json"], ["created_at", "2019-04-14 18:11:37.714852"], ["updated_at", "2019-04-14 18:11:37.714852"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/standings"], ["filepath", "/public/dummy/json/standings_present.json"], ["created_at", "2019-04-14 18:11:37.725453"], ["updated_at", "2019-04-14 18:11:37.725453"]]
+  [1m[35m (10.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/tasks"], ["filepath", "/public/dummy/json/tasks.json"], ["created_at", "2019-04-14 18:11:37.739188"], ["updated_at", "2019-04-14 18:11:37.739188"]]
+  [1m[36m (10.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/textbooks_details"], ["filepath", "/public/dummy/json/textbooks_details.json"], ["created_at", "2019-04-14 18:11:37.751210"], ["updated_at", "2019-04-14 18:11:37.751210"]]
+  [1m[35m (8.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/up_next"], ["filepath", "/public/dummy/json/up_next.json"], ["created_at", "2019-04-14 18:11:37.761788"], ["updated_at", "2019-04-14 18:11:37.761788"]]
+  [1m[36m (12.0ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/api/my/badges" for 127.0.0.1 at 2019-04-14 14:11:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.2ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/my/badges"]]
+  Rendered public/dummy/json/badges.json (9.7ms)
+Completed 200 OK in 111ms (Views: 56.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/my/badges" for 127.0.0.1 at 2019-04-14 14:44:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.1ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/my/badges"]]
+  Rendered public/dummy/json/badges.json (7.7ms)
+Completed 200 OK in 143ms (Views: 79.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/my/textbooks" for 127.0.0.1 at 2019-04-14 14:44:32 -0400
+
+ActionController::RoutingError (No route matches [GET] "/api/my/textbooks"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /home/osboxes/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (245.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (126.0ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (228.7ms)
+
+
+Started GET "/api/my/activities" for 127.0.0.1 at 2019-04-14 14:45:00 -0400
+Processing by MasterController#master as JSON
+  [1m[36mPathmap Load (0.1ms)[0m  [1mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1[0m  [["uripath", "/api/my/activities"]]
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.1ms)
+
+ActionView::MissingTemplate (Missing template public/dummy/json/activites.json with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/osboxes/cs169/project/it2/calcentral-front-end-master/app/views"
+  * "/home/osboxes/cs169/project/it2/calcentral-front-end-master"
+  * "/"
+):
+  app/controllers/master_controller.rb:9:in `master'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (30.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.9ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (147.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (105.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (8.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (213.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/degree_progress/grad"], ["filepath", "/public/dummy/json/degree_progress_grad.json"], ["created_at", "2019-04-14 18:45:18.372993"], ["updated_at", "2019-04-14 18:45:18.372993"]]
+  [1m[35m (9.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/degree_progress/ugrd"], ["filepath", "/public/dummy/json/degree_progress_ugrd.json"], ["created_at", "2019-04-14 18:45:18.385991"], ["updated_at", "2019-04-14 18:45:18.385991"]]
+  [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/enrollment_verification"], ["filepath", "/public/dummy/json/enrollment_verification.json"], ["created_at", "2019-04-14 18:45:18.396286"], ["updated_at", "2019-04-14 18:45:18.396286"]]
+  [1m[35m (8.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.7ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/exam_results"], ["filepath", "/public/dummy/json/exam_results.json"], ["created_at", "2019-04-14 18:45:18.406765"], ["updated_at", "2019-04-14 18:45:18.406765"]]
+  [1m[36m (7.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/has_exam_results"], ["filepath", "/public/dummy/json/has_exam_results.json"], ["created_at", "2019-04-14 18:45:18.427299"], ["updated_at", "2019-04-14 18:45:18.427299"]]
+  [1m[35m (7.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/pnp_calculator/ratio_message"], ["filepath", "/public/dummy/json/pnp_ratio_message.json"], ["created_at", "2019-04-14 18:45:18.437230"], ["updated_at", "2019-04-14 18:45:18.437230"]]
+  [1m[36m (9.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/rosters/campus/:campus_course_id"], ["filepath", "campus_rosters.json"], ["created_at", "2019-04-14 18:45:18.449157"], ["updated_at", "2019-04-14 18:45:18.449157"]]
+  [1m[35m (11.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/transfer_credits"], ["filepath", "/public/dummy/json/transfer_credit.json"], ["created_at", "2019-04-14 18:45:18.462769"], ["updated_at", "2019-04-14 18:45:18.462769"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/advising/my_advising"], ["filepath", "/public/dummy/json/my_advising.json"], ["created_at", "2019-04-14 18:45:18.473655"], ["updated_at", "2019-04-14 18:45:18.473655"]]
+  [1m[35m (9.5ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/academic_records"], ["filepath", "/public/dummy/json/my_academic_records.json"], ["created_at", "2019-04-14 18:45:18.485001"], ["updated_at", "2019-04-14 18:45:18.485001"]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/activities"], ["filepath", "/public/dummy/json/activites.json"], ["created_at", "2019-04-14 18:45:18.495661"], ["updated_at", "2019-04-14 18:45:18.495661"]]
+  [1m[35m (8.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/badges"], ["filepath", "/public/dummy/json/badges.json"], ["created_at", "2019-04-14 18:45:18.505851"], ["updated_at", "2019-04-14 18:45:18.505851"]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/financial_aid_summary"], ["filepath", "/public/dummy/json/finaid_summary.json"], ["created_at", "2019-04-14 18:45:18.517153"], ["updated_at", "2019-04-14 18:45:18.517153"]]
+  [1m[35m (8.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/classes"], ["filepath", "/public/dummy/json/classes.json"], ["created_at", "2019-04-14 18:45:18.527362"], ["updated_at", "2019-04-14 18:45:18.527362"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/committees"], ["filepath", "/public/dummy/json/committees.json"], ["created_at", "2019-04-14 18:45:18.537761"], ["updated_at", "2019-04-14 18:45:18.537761"]]
+  [1m[35m (12.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/financials"], ["filepath", "/public/dummy/json/financials.json"], ["created_at", "2019-04-14 18:45:18.551931"], ["updated_at", "2019-04-14 18:45:18.551931"]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/groups"], ["filepath", "/public/dummy/json/groups.json"], ["created_at", "2019-04-14 18:45:18.563242"], ["updated_at", "2019-04-14 18:45:18.563242"]]
+  [1m[35m (7.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/holds"], ["filepath", "/public/dummy/json/holds_present.json"], ["created_at", "2019-04-14 18:45:18.573324"], ["updated_at", "2019-04-14 18:45:18.573324"]]
+  [1m[36m (9.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/new_admit_resources"], ["filepath", "/public/dummy/json/new_admit_resources.json"], ["created_at", "2019-04-14 18:45:18.585662"], ["updated_at", "2019-04-14 18:45:18.585662"]]
+  [1m[35m (7.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/registrations"], ["filepath", "my_registrations.json"], ["created_at", "2019-04-14 18:45:18.595391"], ["updated_at", "2019-04-14 18:45:18.595391"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/residency"], ["filepath", "residency.json"], ["created_at", "2019-04-14 18:45:18.605954"], ["updated_at", "2019-04-14 18:45:18.605954"]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/sir_statuses"], ["filepath", "/public/dummy/json/sir_statuses_completed.json"], ["created_at", "2019-04-14 18:45:18.617521"], ["updated_at", "2019-04-14 18:45:18.617521"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/standings"], ["filepath", "/public/dummy/json/standings_present.json"], ["created_at", "2019-04-14 18:45:18.627244"], ["updated_at", "2019-04-14 18:45:18.627244"]]
+  [1m[35m (9.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/tasks"], ["filepath", "/public/dummy/json/tasks.json"], ["created_at", "2019-04-14 18:45:18.639393"], ["updated_at", "2019-04-14 18:45:18.639393"]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/textbooks_details"], ["filepath", "/public/dummy/json/textbooks_details.json"], ["created_at", "2019-04-14 18:45:18.651649"], ["updated_at", "2019-04-14 18:45:18.651649"]]
+  [1m[35m (7.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/up_next"], ["filepath", "/public/dummy/json/up_next.json"], ["created_at", "2019-04-14 18:45:18.661260"], ["updated_at", "2019-04-14 18:45:18.661260"]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/api/my/activities" for 127.0.0.1 at 2019-04-14 14:45:28 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (4.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.3ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/my/activities"]]
+Completed 500 Internal Server Error in 107ms (ActiveRecord: 1.2ms)
+
+ActionView::MissingTemplate (Missing template public/dummy/json/activites.json with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/osboxes/cs169/project/it2/calcentral-front-end-master/app/views"
+  * "/home/osboxes/cs169/project/it2/calcentral-front-end-master"
+  * "/"
+):
+  app/controllers/master_controller.rb:9:in `master'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (38.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (127.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (9.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (106.9ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (223.0ms)
+
+
+Started GET "/api/my/badges" for 127.0.0.1 at 2019-04-14 14:45:57 -0400
+Processing by MasterController#master as JSON
+  [1m[36mPathmap Load (5.8ms)[0m  [1mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1[0m  [["uripath", "/api/my/badges"]]
+  Rendered public/dummy/json/badges.json (0.8ms)
+Completed 200 OK in 34ms (Views: 26.8ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/api/my/activities" for 127.0.0.1 at 2019-04-14 14:46:26 -0400
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.1ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/my/activities"]]
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.1ms)
+
+ActionView::MissingTemplate (Missing template public/dummy/json/activites.json with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/osboxes/cs169/project/it2/calcentral-front-end-master/app/views"
+  * "/home/osboxes/cs169/project/it2/calcentral-front-end-master"
+  * "/"
+):
+  app/controllers/master_controller.rb:9:in `master'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (32.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (23.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (162.1ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (6.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (121.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (234.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/degree_progress/grad"], ["filepath", "/public/dummy/json/degree_progress_grad.json"], ["created_at", "2019-04-14 18:46:42.000621"], ["updated_at", "2019-04-14 18:46:42.000621"]]
+  [1m[35m (17.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/degree_progress/ugrd"], ["filepath", "/public/dummy/json/degree_progress_ugrd.json"], ["created_at", "2019-04-14 18:46:42.020705"], ["updated_at", "2019-04-14 18:46:42.020705"]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/enrollment_verification"], ["filepath", "/public/dummy/json/enrollment_verification.json"], ["created_at", "2019-04-14 18:46:42.031485"], ["updated_at", "2019-04-14 18:46:42.031485"]]
+  [1m[35m (7.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/exam_results"], ["filepath", "/public/dummy/json/exam_results.json"], ["created_at", "2019-04-14 18:46:42.041780"], ["updated_at", "2019-04-14 18:46:42.041780"]]
+  [1m[36m (17.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/has_exam_results"], ["filepath", "/public/dummy/json/has_exam_results.json"], ["created_at", "2019-04-14 18:46:42.068856"], ["updated_at", "2019-04-14 18:46:42.068856"]]
+  [1m[35m (10.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/pnp_calculator/ratio_message"], ["filepath", "/public/dummy/json/pnp_ratio_message.json"], ["created_at", "2019-04-14 18:46:42.081472"], ["updated_at", "2019-04-14 18:46:42.081472"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/rosters/campus/:campus_course_id"], ["filepath", "campus_rosters.json"], ["created_at", "2019-04-14 18:46:42.092771"], ["updated_at", "2019-04-14 18:46:42.092771"]]
+  [1m[35m (8.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/transfer_credits"], ["filepath", "/public/dummy/json/transfer_credit.json"], ["created_at", "2019-04-14 18:46:42.103418"], ["updated_at", "2019-04-14 18:46:42.103418"]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/advising/my_advising"], ["filepath", "/public/dummy/json/my_advising.json"], ["created_at", "2019-04-14 18:46:42.115768"], ["updated_at", "2019-04-14 18:46:42.115768"]]
+  [1m[35m (8.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/academic_records"], ["filepath", "/public/dummy/json/my_academic_records.json"], ["created_at", "2019-04-14 18:46:42.126763"], ["updated_at", "2019-04-14 18:46:42.126763"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/activities"], ["filepath", "/public/dummy/json/activities.json"], ["created_at", "2019-04-14 18:46:42.137531"], ["updated_at", "2019-04-14 18:46:42.137531"]]
+  [1m[35m (12.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/badges"], ["filepath", "/public/dummy/json/badges.json"], ["created_at", "2019-04-14 18:46:42.151776"], ["updated_at", "2019-04-14 18:46:42.151776"]]
+  [1m[36m (13.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/financial_aid_summary"], ["filepath", "/public/dummy/json/finaid_summary.json"], ["created_at", "2019-04-14 18:46:42.167265"], ["updated_at", "2019-04-14 18:46:42.167265"]]
+  [1m[35m (9.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/classes"], ["filepath", "/public/dummy/json/classes.json"], ["created_at", "2019-04-14 18:46:42.178749"], ["updated_at", "2019-04-14 18:46:42.178749"]]
+  [1m[36m (9.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/committees"], ["filepath", "/public/dummy/json/committees.json"], ["created_at", "2019-04-14 18:46:42.190777"], ["updated_at", "2019-04-14 18:46:42.190777"]]
+  [1m[35m (11.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/financials"], ["filepath", "/public/dummy/json/financials.json"], ["created_at", "2019-04-14 18:46:42.204351"], ["updated_at", "2019-04-14 18:46:42.204351"]]
+  [1m[36m (10.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/groups"], ["filepath", "/public/dummy/json/groups.json"], ["created_at", "2019-04-14 18:46:42.217912"], ["updated_at", "2019-04-14 18:46:42.217912"]]
+  [1m[35m (9.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/holds"], ["filepath", "/public/dummy/json/holds_present.json"], ["created_at", "2019-04-14 18:46:42.229846"], ["updated_at", "2019-04-14 18:46:42.229846"]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/new_admit_resources"], ["filepath", "/public/dummy/json/new_admit_resources.json"], ["created_at", "2019-04-14 18:46:42.240270"], ["updated_at", "2019-04-14 18:46:42.240270"]]
+  [1m[35m (11.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/registrations"], ["filepath", "my_registrations.json"], ["created_at", "2019-04-14 18:46:42.254418"], ["updated_at", "2019-04-14 18:46:42.254418"]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/residency"], ["filepath", "residency.json"], ["created_at", "2019-04-14 18:46:42.264936"], ["updated_at", "2019-04-14 18:46:42.264936"]]
+  [1m[35m (8.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/sir_statuses"], ["filepath", "/public/dummy/json/sir_statuses_completed.json"], ["created_at", "2019-04-14 18:46:42.275597"], ["updated_at", "2019-04-14 18:46:42.275597"]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/standings"], ["filepath", "/public/dummy/json/standings_present.json"], ["created_at", "2019-04-14 18:46:42.288696"], ["updated_at", "2019-04-14 18:46:42.288696"]]
+  [1m[35m (8.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/tasks"], ["filepath", "/public/dummy/json/tasks.json"], ["created_at", "2019-04-14 18:46:42.299056"], ["updated_at", "2019-04-14 18:46:42.299056"]]
+  [1m[36m (9.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/textbooks_details"], ["filepath", "/public/dummy/json/textbooks_details.json"], ["created_at", "2019-04-14 18:46:42.310479"], ["updated_at", "2019-04-14 18:46:42.310479"]]
+  [1m[35m (8.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/up_next"], ["filepath", "/public/dummy/json/up_next.json"], ["created_at", "2019-04-14 18:46:42.321070"], ["updated_at", "2019-04-14 18:46:42.321070"]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/api/my/activities" for 127.0.0.1 at 2019-04-14 14:46:53 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.2ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/my/activities"]]
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.5ms)
+
+ActionView::MissingTemplate (Missing template public/dummy/json/activites.json with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/osboxes/cs169/project/it2/calcentral-front-end-master/app/views"
+  * "/home/osboxes/cs169/project/it2/calcentral-front-end-master"
+  * "/"
+):
+  app/controllers/master_controller.rb:9:in `master'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (28.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (185.0ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (154.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (266.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/degree_progress/grad"], ["filepath", "/public/dummy/json/degree_progress_grad.json"], ["created_at", "2019-04-14 18:47:25.711602"], ["updated_at", "2019-04-14 18:47:25.711602"]]
+  [1m[35m (12.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/degree_progress/ugrd"], ["filepath", "/public/dummy/json/degree_progress_ugrd.json"], ["created_at", "2019-04-14 18:47:25.727849"], ["updated_at", "2019-04-14 18:47:25.727849"]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/enrollment_verification"], ["filepath", "/public/dummy/json/enrollment_verification.json"], ["created_at", "2019-04-14 18:47:25.737964"], ["updated_at", "2019-04-14 18:47:25.737964"]]
+  [1m[35m (8.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/exam_results"], ["filepath", "/public/dummy/json/exam_results.json"], ["created_at", "2019-04-14 18:47:25.748640"], ["updated_at", "2019-04-14 18:47:25.748640"]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/has_exam_results"], ["filepath", "/public/dummy/json/has_exam_results.json"], ["created_at", "2019-04-14 18:47:25.760225"], ["updated_at", "2019-04-14 18:47:25.760225"]]
+  [1m[35m (8.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/pnp_calculator/ratio_message"], ["filepath", "/public/dummy/json/pnp_ratio_message.json"], ["created_at", "2019-04-14 18:47:25.770873"], ["updated_at", "2019-04-14 18:47:25.770873"]]
+  [1m[36m (7.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/rosters/campus/:campus_course_id"], ["filepath", "campus_rosters.json"], ["created_at", "2019-04-14 18:47:25.780462"], ["updated_at", "2019-04-14 18:47:25.780462"]]
+  [1m[35m (8.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/transfer_credits"], ["filepath", "/public/dummy/json/transfer_credit.json"], ["created_at", "2019-04-14 18:47:25.790919"], ["updated_at", "2019-04-14 18:47:25.790919"]]
+  [1m[36m (22.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/advising/my_advising"], ["filepath", "/public/dummy/json/my_advising.json"], ["created_at", "2019-04-14 18:47:25.815238"], ["updated_at", "2019-04-14 18:47:25.815238"]]
+  [1m[35m (7.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/academic_records"], ["filepath", "/public/dummy/json/my_academic_records.json"], ["created_at", "2019-04-14 18:47:25.824572"], ["updated_at", "2019-04-14 18:47:25.824572"]]
+  [1m[36m (7.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/activities"], ["filepath", "/public/dummy/json/activities.json"], ["created_at", "2019-04-14 18:47:25.835790"], ["updated_at", "2019-04-14 18:47:25.835790"]]
+  [1m[35m (7.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/badges"], ["filepath", "/public/dummy/json/badges.json"], ["created_at", "2019-04-14 18:47:25.845082"], ["updated_at", "2019-04-14 18:47:25.845082"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/financial_aid_summary"], ["filepath", "/public/dummy/json/finaid_summary.json"], ["created_at", "2019-04-14 18:47:25.855465"], ["updated_at", "2019-04-14 18:47:25.855465"]]
+  [1m[35m (10.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/classes"], ["filepath", "/public/dummy/json/classes.json"], ["created_at", "2019-04-14 18:47:25.868055"], ["updated_at", "2019-04-14 18:47:25.868055"]]
+  [1m[36m (14.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/committees"], ["filepath", "/public/dummy/json/committees.json"], ["created_at", "2019-04-14 18:47:25.885080"], ["updated_at", "2019-04-14 18:47:25.885080"]]
+  [1m[35m (9.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/financials"], ["filepath", "/public/dummy/json/financials.json"], ["created_at", "2019-04-14 18:47:25.897244"], ["updated_at", "2019-04-14 18:47:25.897244"]]
+  [1m[36m (10.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/groups"], ["filepath", "/public/dummy/json/groups.json"], ["created_at", "2019-04-14 18:47:25.910154"], ["updated_at", "2019-04-14 18:47:25.910154"]]
+  [1m[35m (8.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/holds"], ["filepath", "/public/dummy/json/holds_present.json"], ["created_at", "2019-04-14 18:47:25.920153"], ["updated_at", "2019-04-14 18:47:25.920153"]]
+  [1m[36m (10.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/new_admit_resources"], ["filepath", "/public/dummy/json/new_admit_resources.json"], ["created_at", "2019-04-14 18:47:25.933351"], ["updated_at", "2019-04-14 18:47:25.933351"]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/registrations"], ["filepath", "my_registrations.json"], ["created_at", "2019-04-14 18:47:25.943479"], ["updated_at", "2019-04-14 18:47:25.943479"]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/residency"], ["filepath", "residency.json"], ["created_at", "2019-04-14 18:47:25.954222"], ["updated_at", "2019-04-14 18:47:25.954222"]]
+  [1m[35m (10.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/sir_statuses"], ["filepath", "/public/dummy/json/sir_statuses_completed.json"], ["created_at", "2019-04-14 18:47:25.966727"], ["updated_at", "2019-04-14 18:47:25.966727"]]
+  [1m[36m (9.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/standings"], ["filepath", "/public/dummy/json/standings_present.json"], ["created_at", "2019-04-14 18:47:25.978534"], ["updated_at", "2019-04-14 18:47:25.978534"]]
+  [1m[35m (8.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/tasks"], ["filepath", "/public/dummy/json/tasks.json"], ["created_at", "2019-04-14 18:47:25.989259"], ["updated_at", "2019-04-14 18:47:25.989259"]]
+  [1m[36m (9.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/textbooks_details"], ["filepath", "/public/dummy/json/textbooks_details.json"], ["created_at", "2019-04-14 18:47:26.000342"], ["updated_at", "2019-04-14 18:47:26.000342"]]
+  [1m[35m (13.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/up_next"], ["filepath", "/public/dummy/json/up_next.json"], ["created_at", "2019-04-14 18:47:26.016547"], ["updated_at", "2019-04-14 18:47:26.016547"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/api/my/badges" for 127.0.0.1 at 2019-04-14 14:47:41 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (7.6ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/my/badges"]]
+  Rendered public/dummy/json/badges.json (7.4ms)
+Completed 200 OK in 189ms (Views: 71.7ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/api/my/activities" for 127.0.0.1 at 2019-04-14 14:47:50 -0400
+Processing by MasterController#master as JSON
+  [1m[36mPathmap Load (0.1ms)[0m  [1mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1[0m  [["uripath", "/api/my/activities"]]
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.1ms)
+
+ActionView::MissingTemplate (Missing template public/dummy/json/activites.json with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/osboxes/cs169/project/it2/calcentral-front-end-master/app/views"
+  * "/home/osboxes/cs169/project/it2/calcentral-front-end-master"
+  * "/"
+):
+  app/controllers/master_controller.rb:9:in `master'
+
+
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.5ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (141.6ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (120.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (9.7ms)
+  Rendered /home/osboxes/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (237.4ms)
+  [1m[36m (18.5ms)[0m  [1mCREATE TABLE "pathmaps" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uripath" varchar, "filepath" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (11.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (11.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (9.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20190413220909')
+  [1m[36m (10.9ms)[0m  [1mCREATE TABLE "pathmaps" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uripath" varchar, "filepath" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (22.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (10.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (10.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20190413220909')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/degree_progress/grad"], ["filepath", "/public/dummy/json/degree_progress_grad.json"], ["created_at", "2019-04-14 18:49:33.282070"], ["updated_at", "2019-04-14 18:49:33.282070"]]
+  [1m[35m (8.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/degree_progress/ugrd"], ["filepath", "/public/dummy/json/degree_progress_ugrd.json"], ["created_at", "2019-04-14 18:49:33.292989"], ["updated_at", "2019-04-14 18:49:33.292989"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/enrollment_verification"], ["filepath", "/public/dummy/json/enrollment_verification.json"], ["created_at", "2019-04-14 18:49:33.303991"], ["updated_at", "2019-04-14 18:49:33.303991"]]
+  [1m[35m (7.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/exam_results"], ["filepath", "/public/dummy/json/exam_results.json"], ["created_at", "2019-04-14 18:49:33.315199"], ["updated_at", "2019-04-14 18:49:33.315199"]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/has_exam_results"], ["filepath", "/public/dummy/json/has_exam_results.json"], ["created_at", "2019-04-14 18:49:33.326054"], ["updated_at", "2019-04-14 18:49:33.326054"]]
+  [1m[35m (8.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/pnp_calculator/ratio_message"], ["filepath", "/public/dummy/json/pnp_ratio_message.json"], ["created_at", "2019-04-14 18:49:33.337149"], ["updated_at", "2019-04-14 18:49:33.337149"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/rosters/campus/:campus_course_id"], ["filepath", "campus_rosters.json"], ["created_at", "2019-04-14 18:49:33.347319"], ["updated_at", "2019-04-14 18:49:33.347319"]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/transfer_credits"], ["filepath", "/public/dummy/json/transfer_credit.json"], ["created_at", "2019-04-14 18:49:33.357668"], ["updated_at", "2019-04-14 18:49:33.357668"]]
+  [1m[36m (11.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/advising/my_advising"], ["filepath", "/public/dummy/json/my_advising.json"], ["created_at", "2019-04-14 18:49:33.371751"], ["updated_at", "2019-04-14 18:49:33.371751"]]
+  [1m[35m (7.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/academic_records"], ["filepath", "/public/dummy/json/my_academic_records.json"], ["created_at", "2019-04-14 18:49:33.380998"], ["updated_at", "2019-04-14 18:49:33.380998"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/activities"], ["filepath", "/public/dummy/json/activities.json"], ["created_at", "2019-04-14 18:49:33.390853"], ["updated_at", "2019-04-14 18:49:33.390853"]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/badges"], ["filepath", "/public/dummy/json/badges.json"], ["created_at", "2019-04-14 18:49:33.400920"], ["updated_at", "2019-04-14 18:49:33.400920"]]
+  [1m[36m (9.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/financial_aid_summary"], ["filepath", "/public/dummy/json/finaid_summary.json"], ["created_at", "2019-04-14 18:49:33.412724"], ["updated_at", "2019-04-14 18:49:33.412724"]]
+  [1m[35m (7.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/classes"], ["filepath", "/public/dummy/json/classes.json"], ["created_at", "2019-04-14 18:49:33.422444"], ["updated_at", "2019-04-14 18:49:33.422444"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/committees"], ["filepath", "/public/dummy/json/committees.json"], ["created_at", "2019-04-14 18:49:33.433656"], ["updated_at", "2019-04-14 18:49:33.433656"]]
+  [1m[35m (9.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/financials"], ["filepath", "/public/dummy/json/financials.json"], ["created_at", "2019-04-14 18:49:33.446529"], ["updated_at", "2019-04-14 18:49:33.446529"]]
+  [1m[36m (10.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/groups"], ["filepath", "/public/dummy/json/groups.json"], ["created_at", "2019-04-14 18:49:33.458651"], ["updated_at", "2019-04-14 18:49:33.458651"]]
+  [1m[35m (8.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/holds"], ["filepath", "/public/dummy/json/holds_present.json"], ["created_at", "2019-04-14 18:49:33.471240"], ["updated_at", "2019-04-14 18:49:33.471240"]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/new_admit_resources"], ["filepath", "/public/dummy/json/new_admit_resources.json"], ["created_at", "2019-04-14 18:49:33.480681"], ["updated_at", "2019-04-14 18:49:33.480681"]]
+  [1m[35m (8.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/registrations"], ["filepath", "my_registrations.json"], ["created_at", "2019-04-14 18:49:33.490934"], ["updated_at", "2019-04-14 18:49:33.490934"]]
+  [1m[36m (7.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/residency"], ["filepath", "residency.json"], ["created_at", "2019-04-14 18:49:33.500635"], ["updated_at", "2019-04-14 18:49:33.500635"]]
+  [1m[35m (8.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/sir_statuses"], ["filepath", "/public/dummy/json/sir_statuses_completed.json"], ["created_at", "2019-04-14 18:49:33.511157"], ["updated_at", "2019-04-14 18:49:33.511157"]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/standings"], ["filepath", "/public/dummy/json/standings_present.json"], ["created_at", "2019-04-14 18:49:33.520503"], ["updated_at", "2019-04-14 18:49:33.520503"]]
+  [1m[35m (7.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/tasks"], ["filepath", "/public/dummy/json/tasks.json"], ["created_at", "2019-04-14 18:49:33.530260"], ["updated_at", "2019-04-14 18:49:33.530260"]]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/textbooks_details"], ["filepath", "/public/dummy/json/textbooks_details.json"], ["created_at", "2019-04-14 18:49:33.540872"], ["updated_at", "2019-04-14 18:49:33.540872"]]
+  [1m[35m (28.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/up_next"], ["filepath", "/public/dummy/json/up_next.json"], ["created_at", "2019-04-14 18:49:33.571135"], ["updated_at", "2019-04-14 18:49:33.571135"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/degree_progress/grad"], ["filepath", "/public/dummy/json/degree_progress_grad.json"], ["created_at", "2019-04-14 18:49:44.403143"], ["updated_at", "2019-04-14 18:49:44.403143"]]
+  [1m[35m (8.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/degree_progress/ugrd"], ["filepath", "/public/dummy/json/degree_progress_ugrd.json"], ["created_at", "2019-04-14 18:49:44.414160"], ["updated_at", "2019-04-14 18:49:44.414160"]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/enrollment_verification"], ["filepath", "/public/dummy/json/enrollment_verification.json"], ["created_at", "2019-04-14 18:49:44.423285"], ["updated_at", "2019-04-14 18:49:44.423285"]]
+  [1m[35m (7.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/exam_results"], ["filepath", "/public/dummy/json/exam_results.json"], ["created_at", "2019-04-14 18:49:44.432489"], ["updated_at", "2019-04-14 18:49:44.432489"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/has_exam_results"], ["filepath", "/public/dummy/json/has_exam_results.json"], ["created_at", "2019-04-14 18:49:44.443571"], ["updated_at", "2019-04-14 18:49:44.443571"]]
+  [1m[35m (7.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/pnp_calculator/ratio_message"], ["filepath", "/public/dummy/json/pnp_ratio_message.json"], ["created_at", "2019-04-14 18:49:44.457504"], ["updated_at", "2019-04-14 18:49:44.457504"]]
+  [1m[36m (11.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/rosters/campus/:campus_course_id"], ["filepath", "campus_rosters.json"], ["created_at", "2019-04-14 18:49:44.471413"], ["updated_at", "2019-04-14 18:49:44.471413"]]
+  [1m[35m (7.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/academics/transfer_credits"], ["filepath", "/public/dummy/json/transfer_credit.json"], ["created_at", "2019-04-14 18:49:44.481262"], ["updated_at", "2019-04-14 18:49:44.481262"]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/advising/my_advising"], ["filepath", "/public/dummy/json/my_advising.json"], ["created_at", "2019-04-14 18:49:44.491478"], ["updated_at", "2019-04-14 18:49:44.491478"]]
+  [1m[35m (13.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/academic_records"], ["filepath", "/public/dummy/json/my_academic_records.json"], ["created_at", "2019-04-14 18:49:44.506443"], ["updated_at", "2019-04-14 18:49:44.506443"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/activities"], ["filepath", "/public/dummy/json/activities.json"], ["created_at", "2019-04-14 18:49:44.516767"], ["updated_at", "2019-04-14 18:49:44.516767"]]
+  [1m[35m (8.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/badges"], ["filepath", "/public/dummy/json/badges.json"], ["created_at", "2019-04-14 18:49:44.527153"], ["updated_at", "2019-04-14 18:49:44.527153"]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/financial_aid_summary"], ["filepath", "/public/dummy/json/finaid_summary.json"], ["created_at", "2019-04-14 18:49:44.537693"], ["updated_at", "2019-04-14 18:49:44.537693"]]
+  [1m[35m (8.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/classes"], ["filepath", "/public/dummy/json/classes.json"], ["created_at", "2019-04-14 18:49:44.548009"], ["updated_at", "2019-04-14 18:49:44.548009"]]
+  [1m[36m (9.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/committees"], ["filepath", "/public/dummy/json/committees.json"], ["created_at", "2019-04-14 18:49:44.560188"], ["updated_at", "2019-04-14 18:49:44.560188"]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/financials"], ["filepath", "/public/dummy/json/financials.json"], ["created_at", "2019-04-14 18:49:44.570396"], ["updated_at", "2019-04-14 18:49:44.570396"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/groups"], ["filepath", "/public/dummy/json/groups.json"], ["created_at", "2019-04-14 18:49:44.579853"], ["updated_at", "2019-04-14 18:49:44.579853"]]
+  [1m[35m (8.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/holds"], ["filepath", "/public/dummy/json/holds_present.json"], ["created_at", "2019-04-14 18:49:44.590307"], ["updated_at", "2019-04-14 18:49:44.590307"]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/new_admit_resources"], ["filepath", "/public/dummy/json/new_admit_resources.json"], ["created_at", "2019-04-14 18:49:44.600829"], ["updated_at", "2019-04-14 18:49:44.600829"]]
+  [1m[35m (7.1ms)[0m  commit transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/registrations"], ["filepath", "my_registrations.json"], ["created_at", "2019-04-14 18:49:44.610489"], ["updated_at", "2019-04-14 18:49:44.610489"]]
+  [1m[36m (7.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/residency"], ["filepath", "residency.json"], ["created_at", "2019-04-14 18:49:44.620073"], ["updated_at", "2019-04-14 18:49:44.620073"]]
+  [1m[35m (8.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/sir_statuses"], ["filepath", "/public/dummy/json/sir_statuses_completed.json"], ["created_at", "2019-04-14 18:49:44.630369"], ["updated_at", "2019-04-14 18:49:44.630369"]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/standings"], ["filepath", "/public/dummy/json/standings_present.json"], ["created_at", "2019-04-14 18:49:44.640590"], ["updated_at", "2019-04-14 18:49:44.640590"]]
+  [1m[35m (10.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/tasks"], ["filepath", "/public/dummy/json/tasks.json"], ["created_at", "2019-04-14 18:49:44.653501"], ["updated_at", "2019-04-14 18:49:44.653501"]]
+  [1m[36m (7.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/textbooks_details"], ["filepath", "/public/dummy/json/textbooks_details.json"], ["created_at", "2019-04-14 18:49:44.663258"], ["updated_at", "2019-04-14 18:49:44.663258"]]
+  [1m[35m (8.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uripath", "/api/my/up_next"], ["filepath", "/public/dummy/json/up_next.json"], ["created_at", "2019-04-14 18:49:44.674866"], ["updated_at", "2019-04-14 18:49:44.674866"]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/api/my/activities" for 127.0.0.1 at 2019-04-14 14:49:57 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.5ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/my/activities"]]
+  Rendered public/dummy/json/activities.json (5.7ms)
+Completed 200 OK in 138ms (Views: 37.2ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/api/my/badges" for 127.0.0.1 at 2019-04-14 14:51:06 -0400
+Processing by MasterController#master as JSON
+  [1m[36mPathmap Load (0.1ms)[0m  [1mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1[0m  [["uripath", "/api/my/badges"]]
+  Rendered public/dummy/json/badges.json (0.8ms)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/academics/degree_progress/grad" for 127.0.0.1 at 2019-04-15 02:02:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MasterController#master as JSON
+  [1m[35mPathmap Load (0.2ms)[0m  SELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ?  ORDER BY "pathmaps"."id" ASC LIMIT 1  [["uripath", "/api/academics/degree_progress/grad"]]
+  Rendered public/dummy/json/degree_progress_grad.json (10.2ms)
+Completed 200 OK in 108ms (Views: 55.5ms | ActiveRecord: 0.6ms)
