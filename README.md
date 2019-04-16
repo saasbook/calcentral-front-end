@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.com/XiaochenH/calcentral-front-end.svg?branch=master)](https://travis-ci.com/XiaochenH/calcentral-front-end)
 
+<a href="https://codeclimate.com/github/XiaochenH/calcentral-front-end/test_coverage"><img src="https://api.codeclimate.com/v1/badges/520d16475274ca32c622/test_coverage" /></a>
+
+<a href="https://codeclimate.com/github/XiaochenH/calcentral-front-end/maintainability"><img src="https://api.codeclimate.com/v1/badges/520d16475274ca32c622/maintainability" /></a>
+
 To run the app locally:
 ```
 bundle install
