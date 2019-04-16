@@ -11,7 +11,7 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             {:uripath => '/api/academics/enrollment_verification', :filepath => '/public/dummy/json/enrollment_verification.json'},
 
             {:uripath => '/api/academics/exam_results', :filepath => '/public/dummy/json/exam_results.json'},
-            {:uripath => '/api/academics/has_exam_results', :filepath => '/public/dummy/json/has_exam_results.json'},      
+            {:uripath => '/api/academics/has_exam_results', :filepath => '/public/dummy/json/has_exam_results.json'},
             #{:uripath => '/api/academics/pnp_calculator/calculator_values', :filepath => '?.json'},
             {:uripath => '/api/academics/pnp_calculator/ratio_message', :filepath => '/public/dummy/json/pnp_ratio_message.json'},
             {:uripath => '/api/academics/rosters/campus/:campus_course_id', :filepath => 'campus_rosters.json'},
@@ -63,7 +63,6 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             #{:uripath => '/api/service_alerts', :filepath => '?.json'},
             #{:uripath => '/api/my/calgrant_acknowledgements', :filepath => '?.json'},
             #{:uripath => '/campus/:campus_course_id/photo/:person_id', :filepath => '?.jpg'},
-
   	   ]
 
 pathmaps.each do |pathmap|
