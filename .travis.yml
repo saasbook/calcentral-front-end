@@ -1,11 +1,20 @@
+env:
+  global:
+    - CC_TEST_REPORTER_ID=b57d537c5bd52ce26360ba39bc4d40f57a3ee7865fc1f249f1de75b985200181
 language: ruby
 rvm:
   - 2.4.0
+
 before_install:
   - rvm rubygems 2.6.8
   - gem update --system 2.6.8
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
 script:
-  - bundle install
-  - bundle exec rspec
-  - bundle exec cucumber
+  - bundle exec rake test
+  - ./cc-test-reporter format-coverage --output coverage/codeclimate.json
+after_script:
+  - ./cc-test-reporter upload-coverage
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 
