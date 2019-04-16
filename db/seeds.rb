@@ -49,8 +49,8 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             #{:uripath => '/api/my/photo', :filepath => '/public/dummy/images/sample_student_72x96.jpg'}, not sure if this is the intended photo
             #{:uripath => '/api/my/profile', :filepath => '?.json'},
             #{:uripath => '/api/my/profile/link', :filepath => '?.json'},
-            {:uripath => '/api/my/registrations', :filepath => 'my_registrations.json'},
-            {:uripath => '/api/my/residency', :filepath => 'residency.json'},
+            {:uripath => '/api/my/registrations', :filepath => '/public/dummy/json/my_registrations.json'},
+            {:uripath => '/api/my/residency', :filepath => '/public/dummy/json/residency.json'},
             {:uripath => '/api/my/sir_statuses', :filepath => '/public/dummy/json/sir_statuses_completed.json'},
             #above has 3 possible files that may depend on logic, may not be necessary for us to worry about though since that logic would probably not affect front end
             {:uripath => '/api/my/standings', :filepath => '/public/dummy/json/standings_present.json'},
