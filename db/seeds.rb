@@ -11,10 +11,10 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             {:uripath => '/api/academics/enrollment_verification', :filepath => '/public/dummy/json/enrollment_verification.json'},
 
             {:uripath => '/api/academics/exam_results', :filepath => '/public/dummy/json/exam_results.json'},
-            {:uripath => '/api/academics/has_exam_results', :filepath => '/public/dummy/json/has_exam_results.json'},      
+            {:uripath => '/api/academics/has_exam_results', :filepath => '/public/dummy/json/has_exam_results.json'},
             #{:uripath => '/api/academics/pnp_calculator/calculator_values', :filepath => '?.json'},
             {:uripath => '/api/academics/pnp_calculator/ratio_message', :filepath => '/public/dummy/json/pnp_ratio_message.json'},
-            {:uripath => '/api/academics/rosters/campus/:campus_course_id', :filepath => 'campus_rosters.json'},
+            {:uripath => '/api/academics/rosters/campus/:campus_course_id', :filepath => '/public/dummy/json/campus_rosters.json'},
             #{:uripath => '/api/academics/rosters/campus/csv/:campus_course_id', :filepath => '?.csv'},
             {:uripath => '/api/academics/transfer_credits', :filepath => '/public/dummy/json/transfer_credit.json'},
             {:uripath => '/api/advising/my_advising', :filepath => '/public/dummy/json/my_advising.json'},
