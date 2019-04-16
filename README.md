@@ -1,5 +1,6 @@
 # calcentral-front-end
 
+[![Build Status](https://travis-ci.com/XiaochenH/calcentral-front-end.svg?branch=master)](https://travis-ci.com/XiaochenH/calcentral-front-end)
 
 To run the app locally:
 ```
