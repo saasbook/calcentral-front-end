@@ -2,7 +2,8 @@ language: ruby
 rvm:
   - 2.4.0
 before_install:
-  - rvm rubygems 3.0.0
+  - rvm rubygems 2.6.8
+  - gem update --system 2.6.8
 script:
   - bundle install
   - bundle exec rspec
