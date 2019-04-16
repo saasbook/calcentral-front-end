@@ -1,5 +1,5 @@
 Command line:
-"travis open"
+"travis lint"
 
 
    ________                                 __
@@ -26,7 +26,7 @@ Command line:
 
      There is absolutely no warranty on any results obtained from TRAVIS.
 
-  #  Running on eric-XPS-15-9560 at Mon Apr 15 22:00:29 2019 (PID 18195).
+  #  Running on eric-XPS-15-9560 at Mon Apr 15 22:08:41 2019 (PID 18518).
   #  Running in /home/eric/Academics/cs169/calcentral-front-end
   #  Source code version: Nov 07 2015.
   #  Compiled at Nov 17 2015 23:12:21.
@@ -42,7 +42,7 @@ Command line:
 
     Loading configuration from /home/eric/.travis.conf ...
 
-Unknown parameter: "open".
+Unknown parameter: "lint".
 
     List of supported command line options:
 
