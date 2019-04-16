@@ -28,9 +28,10 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             #{:uripath => '/api/my/campuslinks/expire', :filepath => '???/public/dummy/json/campus_solutions_link.json'},
             #{:uripath => '/api/my/campuslinks/refresh', :filepath => '???/public/dummy/json/campus_solutions_link.json'},
             {:uripath => '/api/my/financial_aid_summary', :filepath => '/public/dummy/json/finaid_summary.json'},
-            #{:uripath => '/api/my/finaid_profile/:aid_year', :filepath => '?.json'},
+            {:uripath => '/api/my/finaid_profile/:aid_year', :filepath => '/public/dummy/json/finaid.json'},
             #{:uripath => '/api/my/class_enrollments', :filepath => '?.json'},
             {:uripath => '/api/my/classes', :filepath => '/public/dummy/json/classes.json'},
+            #*****************************************************************************************************************************************************************88
             {:uripath => '/api/my/committees', :filepath => '/public/dummy/json/committees.json'},
             #{:uripath => '/api/my/committees/photo/member/:member_id', :filepath => '?.jpg'},
             #{:uripath => '/api/my/committees/photo/student/:student_id', :filepath => '?.jpg'},
