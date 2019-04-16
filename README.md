@@ -5,7 +5,7 @@ To run the app locally:
 ```
 bundle install
 ```
-The start the server:
+Then start the server:
 ```
 rails s
 ```
@@ -13,3 +13,5 @@ rails s
 After starting the app, the static data are available at the following links:
 http://localhost:3000/api/academics/degree_progress/ugrd
 http://localhost:3000/api/academics/degree_progress/grad
+
+heroku URL: https://calcentral-frontend-cs169.herokuapp.com/

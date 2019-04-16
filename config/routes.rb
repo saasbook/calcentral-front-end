@@ -56,59 +56,60 @@ Rails.application.routes.draw do
  get '/api/stats' => 'stats#get_stats', :defaults => { :format => 'json' }
 
     # Feeds of read-only content
-    get '/api/academics/degree_progress/grad' => 'my_degree_progress#get_graduate_milestones', :defaults => { :format => 'json' }
-    get '/api/academics/degree_progress/ugrd' => 'my_degree_progress#get_undergraduate_requirements', :defaults => { :format => 'json' }
-    get '/api/academics/enrollment_verification' => 'enrollment_verification#get_feed', :defaults => { :format => 'json' }
-    get '/api/academics/exam_results' => 'exam_results#get_exam_results', :defaults => { :format => 'json' }
-    get '/api/academics/has_exam_results' => 'exam_results#has_exam_results', :defaults => { :format => 'json' }
-    get '/api/academics/pnp_calculator/calculator_values' => 'campus_solutions/pnp_calculator#get_calculator_values', :defaults => { :format => 'json' }
-    get '/api/academics/pnp_calculator/ratio_message' => 'campus_solutions/pnp_calculator#get_ratio_message', :defaults => { :format => 'json' }
-    get '/api/academics/rosters/campus/:campus_course_id' => 'campus_rosters#get_feed', :as => :campus_roster, :defaults => { :format => 'json' }
-    get '/api/academics/rosters/campus/csv/:campus_course_id' => 'campus_rosters#get_csv', :as => :campus_roster_csv, :defaults => { :format => 'csv' }
-    get '/api/academics/transfer_credits' =>'transfer_credit#get_feed', :defaults => { :format => 'json' }
-    get '/api/advising/my_advising' => 'my_advising#get_feed', :as => :advising, :defaults => {:format => 'json'}
-    get '/api/media/:term_yr/:term_cd/:dept_name/:catalog_id' => 'mediacasts#get_media', :defaults => { :format => 'json' }
-    get '/api/my/academics' => 'my_academics#get_feed', :as => :my_academics, :defaults => { :format => 'json' }
-    get '/api/my/academic_records' => 'my_academic_records#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/activities' => 'my_activities#get_feed', :as => :my_activities, :defaults => { :format => 'json' }
-    get '/api/my/aid_years' => 'my_aid_years#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/badges' => 'my_badges#get_feed', :as => :my_badges, :defaults => { :format => 'json' }
-    get '/api/my/campuslinks' => 'my_campus_links#get_feed', :as => :my_campus_links, :defaults => { :format => 'json' }
-    get '/api/my/campuslinks/expire' => 'my_campus_links#expire'
-    get '/api/my/campuslinks/refresh' => 'my_campus_links#refresh', :defaults => { :format => 'json' }
-    get '/api/my/financial_aid_summary' => 'my_financial_aid_summary#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/finaid_profile/:aid_year' => 'my_finaid_profile#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/class_enrollments' => 'my_class_enrollments#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/classes' => 'my_classes#get_feed', :as => :my_classes, :defaults => { :format => 'json' }
-    get '/api/my/committees' => 'my_committees#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/committees/photo/member/:member_id' => 'my_committees#member_photo', :defaults => { :format => 'jpeg' }
-    get '/api/my/committees/photo/student/:student_id' => 'my_committees#student_photo', :defaults => { :format => 'jpeg' }
-    get '/api/my/eft_enrollment' => 'my_eft_enrollment#get_feed', :as => :my_eft_enrollment, :defaults => { :format => 'json' }
-    get '/api/my/financials' => 'my_financials#get_feed', :as => :my_financials, :defaults => {:format => 'json'}
-    get '/api/my/groups' => 'my_groups#get_feed', :as => :my_groups, :defaults => { :format => 'json' }
-    get '/api/my/holds' => 'my_holds#get_feed', :as => :my_holds, :defaults => { :format => 'json' }
-    get '/api/my/housing/:aid_year' => 'my_housing#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/loan_history_aid_years' => 'loan_history#get_aid_years_feed', :defaults => { :format => 'json' }
-    get '/api/my/loan_history_cumulative' => 'loan_history#get_cumulative_feed', :defaults => { :format => 'json' }
-    get '/api/my/loan_history_inactive' => 'loan_history#get_inactive_feed', :defaults => { :format => 'json' }
-    get '/api/my/loan_history_summary' => 'loan_history#get_summary_feed', :defaults => { :format => 'json' }
-    get '/api/my/new_admit_resources' =>'new_admit_resources#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/photo' => 'photo#my_photo', :as => :my_photo, :defaults => {:format => 'jpeg' }
-    get '/api/my/profile' => 'my_profile#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/profile/link' => 'my_profile#get_edit_link', :defaults => { :format => 'json' }
-    get '/api/my/registrations' => 'my_registrations#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/residency' => 'my_academics#residency', :defaults => { :format => 'json' }
-    get '/api/my/sir_statuses' => 'sir_statuses#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/standings' => 'my_standings#get_feed', :as => :my_standings, :defaults => { :format => 'json' }
-    get '/api/my/tasks' => 'my_tasks#get_feed', :as => :my_tasks, :defaults => { :format => 'json' }
-    get '/api/my/terms_and_conditions/:aid_year' => 'my_terms_and_conditions#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/textbooks_details' => 'my_textbooks#get_feed', :as => :my_textbooks, :defaults => { :format => 'json' }
-    get '/api/my/title4' => 'my_title4#get_feed', :defaults => { :format => 'json' }
-    get '/api/my/up_next' => 'my_up_next#get_feed', :as => :my_up_next, :defaults => { :format => 'json' }
-    get '/api/photo/:uid' => 'photo#photo', :as => :photo, :defaults => {:format => 'jpeg' }
-    get '/api/service_alerts' => 'service_alerts#get_feed', :as => :service_alerts, :defaults => { :format => 'json' }
-    get '/api/my/calgrant_acknowledgements' => 'cal_grant_acknowledgements#index', as: :calgrant_acknowledgements, :defaults => { :format => 'json' }
-    get '/campus/:campus_course_id/photo/:person_id' => 'campus_rosters#photo', :defaults => { :format => 'jpeg' }, :action => 'show'
+    # TODO: replace all routes to 'master#master'
+    get '/api/academics/degree_progress/grad' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/degree_progress/ugrd' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/enrollment_verification' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/exam_results' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/has_exam_results' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/pnp_calculator/calculator_values' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/pnp_calculator/ratio_message' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/rosters/campus/:campus_course_id' => 'master#master', :as => :campus_roster, :defaults => { :format => 'json' }
+    get '/api/academics/rosters/campus/csv/:campus_course_id' => 'master#master', :as => :campus_roster_csv, :defaults => { :format => 'csv' }
+    get '/api/academics/transfer_credits' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/advising/my_advising' => 'master#master', :as => :advising, :defaults => {:format => 'json'}
+    get '/api/media/:term_yr/:term_cd/:dept_name/:catalog_id' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/academics' => 'master#master', :as => :my_academics, :defaults => { :format => 'json' }
+    get '/api/my/academic_records' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/activities' => 'master#master', :as => :my_activities, :defaults => { :format => 'json' }
+    get '/api/my/aid_years' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/badges' => 'master#master', :as => :my_badges, :defaults => { :format => 'json' }
+    get '/api/my/campuslinks' => 'master#master', :as => :my_campus_links, :defaults => { :format => 'json' }
+    get '/api/my/campuslinks/expire' => 'master#master'
+    get '/api/my/campuslinks/refresh' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/financial_aid_summary' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/finaid_profile/:aid_year' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/class_enrollments' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/classes' => 'master#master', :as => :my_classes, :defaults => { :format => 'json' }
+    get '/api/my/committees' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/committees/photo/member/:member_id' => 'master#master', :defaults => { :format => 'jpeg' }
+    get '/api/my/committees/photo/student/:student_id' => 'master#master', :defaults => { :format => 'jpeg' }
+    get '/api/my/eft_enrollment' => 'master#master', :as => :my_eft_enrollment, :defaults => { :format => 'json' }
+    get '/api/my/financials' => 'master#master', :as => :my_financials, :defaults => {:format => 'json'}
+    get '/api/my/groups' => 'master#master', :as => :my_groups, :defaults => { :format => 'json' }
+    get '/api/my/holds' => 'master#master', :as => :my_holds, :defaults => { :format => 'json' }
+    get '/api/my/housing/:aid_year' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/loan_history_aid_years' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/loan_history_cumulative' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/loan_history_inactive' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/loan_history_summary' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/new_admit_resources' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/photo' => 'master#master', :as => :my_photo, :defaults => {:format => 'jpeg' }
+    get '/api/my/profile' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/profile/link' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/registrations' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/residency' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/sir_statuses' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/standings' => 'master#master', :as => :my_standings, :defaults => { :format => 'json' }
+    get '/api/my/tasks' => 'master#master', :as => :my_tasks, :defaults => { :format => 'json' }
+    get '/api/my/terms_and_conditions/:aid_year' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/textbooks_details' => 'master#master', :as => :my_textbooks, :defaults => { :format => 'json' }
+    get '/api/my/title4' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/up_next' => 'master#master', :as => :my_up_next, :defaults => { :format => 'json' }
+    get '/api/photo/:uid' => 'master#master', :as => :photo, :defaults => {:format => 'jpeg' }
+    get '/api/service_alerts' => 'master#master', :as => :service_alerts, :defaults => { :format => 'json' }
+    get '/api/my/calgrant_acknowledgements' => 'master#master', as: :calgrant_acknowledgements, :defaults => { :format => 'json' }
+    get '/campus/:campus_course_id/photo/:person_id' => 'master#master', :defaults => { :format => 'jpeg' }, :action => 'show'
 
 
 end
