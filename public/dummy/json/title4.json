@@ -1,0 +1,13 @@
+{
+  "title4": {
+    "hasFinaid": true,
+    "approved": false,
+    "responseDescr": "Not Authorized",
+    "longTitle": "By agreeing to the Title IV Release, I grant the University permission to use my Federal Title IV awards to pay all outstanding charges on my Cal Central billing account, in addition to registration fees, housing, and phone charges. These additional charges may include late fees, University Health Services charges, child care, etc.",
+    "longMessage": "Federal Title IV awards include, but are not limited to, Federal Pell Grants, Supplemental Educational Opportunity Grants (SEOG), Perkins Loans, and Federal Direct Loans.\n\nIf I choose not to grant the University permission the use of my Federal Title IV awards to pay all outstanding charges, I assume responsibility for paying for all charges in excess of registration, housing and phone bills on my Cal Central billing account by their due date. I understand that payments made after the due date may result in late fees and registration holds.\n\nI can change my response at any time via Cal Central.   A change in response will apply to all future financial aid disbursements.",
+    "dynamicHeader": "I have not authorized the University to apply my Title IV awards to pay all outstanding charges on my UCB student account, beyond registration fees, housing and phone bills.",
+    "dynamicBody": "Not authorizing the use of my Title IV aid to pay all outstanding charges means I assume responsibility to pay for all non-registration, housing and phone bill charges on my UCB student account by their due date. I understand that payments made after the due date may result in late fees and registration holds.\n\nTo authorize the use of my Title IV awards to pay all outstanding charges, I can check the box below.",
+    "dynamicLabel": "I authorize the use of my Title IV awards to pay all outstanding charges.",
+    "contactText": "If you have any questions, please contact Cal Student Central at <a href=\"tel:15106649181\">(510) 664-9181</a> or <a href=\"http://studentcentral.berkeley.edu/\">submit an inquiry online.</a>"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "housing": {
+    "terms": [
+      {
+        "termId": "2188",
+        "termDescr": "Fall 2018",
+        "housingOption": "Housing - Living Off Campus",
+        "housingStatus": null,
+        "housingEndDate": "2018-12-14T00:00:00.000Z",
+        "acadCareer": "UGRD"
+      },
+      {
+        "termId": "2192",
+        "termDescr": "Spring 2019",
+        "housingOption": "Housing - Living Off Campus",
+        "housingStatus": null,
+        "housingEndDate": "2019-05-17T00:00:00.000Z",
+        "acadCareer": "UGRD"
+      }
+    ],
+    "instruction": null,
+    "pathwayMessage": null,
+    "links": {
+      "updateHousing": {
+        "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/UC_PERSON_PROFILE.UC_STD_HOUSOPT_FLU.GBL?ucInstitution=UCB01&ucAidYear=2019",
+        "urlId": "UC_CX_FA_STDNT_HOUSING_TYPE",
+        "ucFrom": "CalCentral",
+        "ucFromLink": "https://calcentral-sis-dev-01.ist.berkeley.edu/",
+        "ucFromText": "CalCentral",
+        "name": "Update Housing",
+        "title": "Update Housing",
+        "isCsLink": true
+      },
+      "pathwayFinaid": null
+    },
+    "isFallPathway": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "releaseNote": {
+    "title": "CalCentral v101.3 Release is complete",
+    "timestamp": {
+      "epoch": 1554905700,
+      "dateTime": "2019-04-10T07:15:00-07:00",
+      "dateString": "Apr 10"
+    },
+    "body": "<p>CalCentral and Student Information Systems (SIS) teams deployed CalCentral v101.3</p>"
+  }
+}
