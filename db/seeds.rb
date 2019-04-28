@@ -65,6 +65,17 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             #{:uripath => '/api/my/calgrant_acknowledgements', :filepath => '?.json'},
             #{:uripath => '/campus/:campus_course_id/photo/:person_id', :filepath => '?.jpg'},
 
+
+            #******************************************User management APIs****************************************
+            {:uripath => '/api/my/am_i_logged_in', :filepath => '/public/dummy/json/am_i_logged_in.json'},
+            {:uripath => '/api/my/status', :filepath => '/public/dummy/json/status.json'},
+            {:uripath => '/api/cache/clear', :filepath => '/public/dummy/json/cache_clear.json'},
+            {:uripath => '/api/cache/delete', :filepath => '/public/dummy/json/cache_delete.json'},
+            {:uripath => '/api/cache/delete/:key', :filepath => '/public/dummy/json/cache_delete.json'},
+            {:uripath => '/api/config', :filepath => '/public/dummy/json/api_config.json'},
+            {:uripath => '/api/ping', :filepath => '/public/dummy/json/ping.json'},
+            {:uripath => '/api/server_info', :filepath => '/public/dummy/json/server_info.json'},
+            {:uripath => '/api/google/current_scope', :filepath => '/public/dummy/json/google_current_scope.json'}
   	   ]
 
 pathmaps.each do |pathmap|
