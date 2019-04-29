@@ -142,7 +142,7 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             {:uripath => '/api/campus_solutions/state', :filepath => '/public/dummy/json/state.json'},
             {:uripath => '/api/campus_solutions/student_resources', :filepath => '/public/dummy/json/student_resources.json'},
             {:uripath => '/api/campus_solutions/translate', :filepath => '/public/dummy/json/translate.json'},
-            {:uripath => '/api/edos/work_experience', :filepath => '/public/dummy/json/work_experience.json'}
+            {:uripath => '/api/edos/work_experience', :filepath => '/public/dummy/json/work_experience.json'},
 
             {:uripath =>  '/canvas/lti_roster_photos', :filepath => '/public/dummy/xml/lti_roster_photo.xml'},
             {:uripath =>  '/canvas/lti_site_creation', :filepath => '/public/dummy/xml/lti_site_creation.xml'},
