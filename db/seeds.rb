@@ -14,7 +14,7 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             {:uripath => '/api/academics/has_exam_results', :filepath => '/public/dummy/json/has_exam_results.json'},
             #{:uripath => '/api/academics/pnp_calculator/calculator_values', :filepath => '?.json'},
             {:uripath => '/api/academics/pnp_calculator/ratio_message', :filepath => '/public/dummy/json/pnp_ratio_message.json'},
-            {:uripath => '/api/academics/rosters/campus/:campus_course_id', :filepath => '/public/dummy/json/campus_rosters.json'},
+            {:uripath => '/api/academics/rosters/campus/', :filepath => '/public/dummy/json/campus_rosters.json'},
             #{:uripath => '/api/academics/rosters/campus/csv/:campus_course_id', :filepath => '?.csv'},
             {:uripath => '/api/academics/transfer_credits', :filepath => '/public/dummy/json/transfer_credit.json'},
             {:uripath => '/api/advising/my_advising', :filepath => '/public/dummy/json/my_advising.json'},
@@ -28,10 +28,9 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             #{:uripath => '/api/my/campuslinks/expire', :filepath => '???/public/dummy/json/campus_solutions_link.json'},
             #{:uripath => '/api/my/campuslinks/refresh', :filepath => '???/public/dummy/json/campus_solutions_link.json'},
             {:uripath => '/api/my/financial_aid_summary', :filepath => '/public/dummy/json/finaid_summary.json'},
-            {:uripath => '/api/my/finaid_profile/:aid_year', :filepath => '/public/dummy/json/finaid.json'},
+            {:uripath => '/api/my/finaid_profile/', :filepath => '/public/dummy/json/finaid.json'},
             #{:uripath => '/api/my/class_enrollments', :filepath => '?.json'},
             {:uripath => '/api/my/classes', :filepath => '/public/dummy/json/classes.json'},
-            #*****************************************************************************************************************************************************************88
             {:uripath => '/api/my/committees', :filepath => '/public/dummy/json/committees.json'},
             #{:uripath => '/api/my/committees/photo/member/:member_id', :filepath => '?.jpg'},
             #{:uripath => '/api/my/committees/photo/student/:student_id', :filepath => '?.jpg'},
@@ -64,6 +63,54 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             #{:uripath => '/api/service_alerts', :filepath => '?.json'},
             #{:uripath => '/api/my/calgrant_acknowledgements', :filepath => '?.json'},
             #{:uripath => '/campus/:campus_course_id/photo/:person_id', :filepath => '?.jpg'},
+
+
+
+            # Google API writing endpoints
+            
+            #{:uripath => '/api/my/event', :filepath => '?.json'},
+            #{:uripath => '/api/my/tasks', :filepath => '/public/dummy/json/tasks.json'},
+            #It seems all of these just return augmented task lists
+            {:uripath => '/api/my/tasks/create', :filepath => '/public/dummy/json/tasks.json'},
+            {:uripath => '/api/my/tasks/clear_completed', :filepath => '/public/dummy/json/tasks.json'},
+            {:uripath => '/api/my/tasks/delete/:wildcard', :filepath => '/public/dummy/json/tasks.json'},
+
+            # Advisor endpoints
+
+            {:uripath => '/api/advising/academics/', :filepath => '/public/dummy/json/advising_student_academics.json'},
+            #{:uripath => '/api/advising/advising/', :filepath => '/public/dummy/json/?.json'},
+            #{:uripath => '/api/advising/cache_expiry/academics/', :filepath => '?.json'},
+            #{:uripath => '/api/advising/class_enrollments/', :filepath => '?.json'},
+            {:uripath => '/api/advising/student_committees/', :filepath => '/public/dummy/json/advising_committees.json'},
+            #{:uripath => '/api/advising/degree_progress/grad/', :filepath => '?.json'},
+
+            #{:uripath => '/api/advising/degree_progress/ugrd/', :filepath => '?.json'},
+            #{:uripath => '/api/advising/holds/', :filepath => '?.json'},
+            #{:uripath => '/api/advising/standings/d', :filepath => '?.json'},
+            {:uripath => '/api/advising/registrations/', :filepath => '/public/dummy/json/advising_registrations.json'},
+            {:uripath => '/api/advising/resources/', :filepath => '/public/dummy/json/advising_resources.json'},
+            #{:uripath => '/api/advising/student/', :filepath => '?.json'},
+            {:uripath => '/api/advising/student_success/', :filepath => '/public/dummy/json/advising_student_success.json'},
+            #{:uripath => '/api/advising/transfer_credit/', :filepath => '?.json'},
+            #{:uripath => '/api/advising/employment_appointments/', :filepath => '?.json'},
+            #{:uripath => '/api/search_users/id_or_name//', :filepath => '?.json'},
+            #Two route mappings omitted that didn't return content
+
+            # Delegated Access endpoints
+
+            #{:uripath => '/api/campus_solutions/delegate_terms_and_conditions', :filepath => '?.json'},
+            #{:uripath => '/api/campus_solutions/delegate_management_url', :filepath => '?.json'},
+            #{:uripath => '/api/campus_solutions/delegate_access/students', :filepath => '?.json'},
+            #Two route mappings omitted that didn't return content
+            #{:uripath => '/api/campus_solutions/delegate_access', :filepath => '?.json'},
+
+
+
+  	   
+
+
+
+
 
 
 
@@ -169,6 +216,7 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             {:uripath => '/api/google/current_scope', :filepath => '/public/dummy/json/google_current_scope.json'}
 
   	   ]
+
 
 
 pathmaps.each do |pathmap|

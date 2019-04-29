@@ -9,4 +9,5 @@ I want to receive corresponding test data from an independent application
 Scenario: Access /api/academics/degree_progress/grad
 
 Given the pathmap from /api/academics/degree_progress/grad to /public/dummy/json/degree_progress_grad.json exists
-When I access /api/academics/degree_progress/grad I should get a response corresponding to /public/dummy/json/degree_progress_grad.json
+When I access the /api/academics/degree_progress/grad page
+Then I should get a response corresponding to /public/dummy/json/degree_progress_grad.json
