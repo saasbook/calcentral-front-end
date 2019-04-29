@@ -160,7 +160,7 @@ Rails.application.routes.draw do
     get '/api/cache/clear' => 'master#master', :defaults => { :format => 'json' }
     get '/api/cache/delete' => 'master#master', :defaults => { :format => 'json' }
     get '/api/cache/delete/:key' => 'master#master', :defaults => { :format => 'json' }
-    get '/api/api/config' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/config' => 'master#master', :defaults => { :format => 'json' }
     get '/api/ping' => 'master#master', :defaults => { :format => 'json' }
     get '/api/google/current_scope' => 'master#master', :defaults => { :format => 'json' }
     
