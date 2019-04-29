@@ -65,6 +65,7 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             #{:uripath => '/api/my/calgrant_acknowledgements', :filepath => '?.json'},
             #{:uripath => '/campus/:campus_course_id/photo/:person_id', :filepath => '?.jpg'},
 
+
             {:uripath => '/api/campus_solutions/address_label', :filepath => '/public/dummy/json/cs_address.json'},
             {:uripath => '/api/campus_solutions/advising_resources', :filepath => '/public/dummy/json/advising_resources.json'},
             {:uripath => '/api/campus_solutions/billing', :filepath => '/public/dummy/json/billing.json'},
@@ -94,6 +95,19 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             {:uripath => '/api/campus_solutions/student_resources', :filepath => '/public/dummy/json/student_resources.json'},
             {:uripath => '/api/campus_solutions/translate', :filepath => '/public/dummy/json/translate.json'},
             {:uripath => '/api/edos/work_experience', :filepath => '/public/dummy/json/work_experience.json'}
+
+
+
+            #******************************************User management APIs****************************************
+            {:uripath => '/api/my/am_i_logged_in', :filepath => '/public/dummy/json/am_i_logged_in.json'},
+            {:uripath => '/api/my/status', :filepath => '/public/dummy/json/status.json'},
+            {:uripath => '/api/cache/clear', :filepath => '/public/dummy/json/cache_clear.json'},
+            {:uripath => '/api/cache/delete', :filepath => '/public/dummy/json/cache_delete.json'},
+            {:uripath => '/api/cache/delete/:key', :filepath => '/public/dummy/json/cache_delete.json'},
+            {:uripath => '/api/config', :filepath => '/public/dummy/json/api_config.json'},
+            {:uripath => '/api/ping', :filepath => '/public/dummy/json/ping.json'},
+            {:uripath => '/api/server_info', :filepath => '/public/dummy/json/server_info.json'},
+            {:uripath => '/api/google/current_scope', :filepath => '/public/dummy/json/google_current_scope.json'}
 
   	   ]
 
