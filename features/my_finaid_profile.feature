@@ -8,5 +8,5 @@ I want to receive corresponding test data from an independent application
 
 Scenario: Access /api/my/finaid_profile/2018
 
-Given the pathmap from /api/my/finaid_profile/2018 to /public/dummy/json/finaid.json exists
+Given the pathmap from /api/my/finaid_profile/ to /public/dummy/json/finaid.json exists
 When I access /api/my/finaid_profile/2018 I should get a response corresponding to /public/dummy/json/finaid.json
