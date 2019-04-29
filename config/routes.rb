@@ -153,6 +153,17 @@ Rails.application.routes.draw do
     post '/api/campus_solutions/delegate_access' => 'master#master', :defaults => { :format => 'json' }
 
 
+    #******************************************User management APIs****************************************
+
+    get '/api/my/am_i_logged_in' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/my/status' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/cache/clear' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/cache/delete' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/cache/delete/:key' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/api/config' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/ping' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/google/current_scope' => 'master#master', :defaults => { :format => 'json' }
+    
 
 
 
