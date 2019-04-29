@@ -66,6 +66,37 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             #{:uripath => '/campus/:campus_course_id/photo/:person_id', :filepath => '?.jpg'},
 
 
+
+            {:uripath => '/api/campus_solutions/address_label', :filepath => '/public/dummy/json/cs_address.json'},
+            {:uripath => '/api/campus_solutions/advising_resources', :filepath => '/public/dummy/json/advising_resources.json'},
+            {:uripath => '/api/campus_solutions/billing', :filepath => '/public/dummy/json/billing.json'},
+            {:uripath => '/api/campus_solutions/confidential_student_message', :filepath => '/public/dummy/json/confidential_student_message.json'},
+            {:uripath => '/api/campus_solutions/country', :filepath => '/public/dummy/json/cs_country.json'},
+            {:uripath => '/api/campus_solutions/currency_code', :filepath => '/public/dummy/json/currency_code.json'},
+            {:uripath => '/api/campus_solutions/emergency_contacts', :filepath => '//public/dummy/json/emergency_contacts.json'},
+            {:uripath => '/api/campus_solutions/ethnicity_setup', :filepath => '/public/dummy/json/ethnicity_setup.json'},
+
+            {:uripath => '/api/campus_solutions/faculty_resources', :filepath => '/public/dummy/json/faculty_resources.json'},
+            {:uripath => '/api/campus_solutions/financial_aid_compare_awards_current', :filepath => '/public/dummy/json/financial_aid.data.json'},
+            {:uripath => '/api/campus_solutions/financial_aid_compare_awards_list', :filepath => '/public/dummy/json/financial_aid.data.json'},
+            {:uripath => '/api/campus_solutions/financial_aid_compare_awards_prior', :filepath => '/public/dummy/json/financial_aid.data.json'},
+            {:uripath => '/api/campus_solutions/financial_aid_data', :filepath => '/public/dummy/json/financial_aid.data.json'},
+            {:uripath => '/api/campus_solutions/financial_aid_funding_sources', :filepath => '/public/dummy/json/financial_aid_funding_sources.json'},
+            {:uripath => '/api/campus_solutions/financial_aid_funding_sources_term', :filepath => '/public/dummy/json/financial_aid_funding_sources.json'},
+            {:uripath => '/api/campus_solutions/financial_resources/emergency_loan', :filepath => '/public/dummy/json/emergency_loan.json'},
+            {:uripath => '/api/campus_solutions/financial_resources/summer_estimator', :filepath => '/public/dummy/json/financial_aid_data_summer_only.json'},
+            {:uripath => '/api/campus_solutions/fpp_enrollment', :filepath => '/public/dummy/json/fpp_enrollment.json'},
+
+            {:uripath => '/api/campus_solutions/higher_one_url', :filepath => '/public/dummy/json/higher_one_url.json'},
+            {:uripath => '/api/campus_solutions/holds', :filepath => '/public/dummy/json/holds_present.json'},
+            {:uripath => '/api/campus_solutions/language_code', :filepath => '/public/dummy/json/language_code.json'},
+            {:uripath => '/api/campus_solutions/link', :filepath => '/public/dummy/json/campus_solutions.link.json'},
+            {:uripath => '/api/campus_solutions/slr_deeplink', :filepath => '/public/dummy/json/slr_deeplink.json'},
+            {:uripath => '/api/campus_solutions/state', :filepath => '/public/dummy/json/state.json'},
+            {:uripath => '/api/campus_solutions/student_resources', :filepath => '/public/dummy/json/student_resources.json'},
+            {:uripath => '/api/campus_solutions/translate', :filepath => '/public/dummy/json/translate.json'},
+            {:uripath => '/api/edos/work_experience', :filepath => '/public/dummy/json/work_experience.json'}
+
             {:uripath =>  '/canvas/lti_roster_photos', :filepath => '/public/dummy/xml/lti_roster_photo.xml'},
             {:uripath =>  '/canvas/lti_site_creation', :filepath => '/public/dummy/xml/lti_site_creation.xml'},
             {:uripath =>  '/canvas/lti_site_mailing_list', :filepath => '/public/dummy/xml/lti_site_mailing_list.xml'},
@@ -125,6 +156,7 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
 
 
 
+
             #******************************************User management APIs****************************************
             {:uripath => '/api/my/am_i_logged_in', :filepath => '/public/dummy/json/am_i_logged_in.json'},
             {:uripath => '/api/my/status', :filepath => '/public/dummy/json/status.json'},
@@ -135,6 +167,7 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             {:uripath => '/api/ping', :filepath => '/public/dummy/json/ping.json'},
             {:uripath => '/api/server_info', :filepath => '/public/dummy/json/server_info.json'},
             {:uripath => '/api/google/current_scope', :filepath => '/public/dummy/json/google_current_scope.json'}
+
   	   ]
 
 
