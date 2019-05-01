@@ -1,0 +1,16 @@
+{
+  "feed": {
+    "editProfile": {
+      "url": "https://bcsweb.is.berkeley.edu/psc/bcsprd/EMPLOYEE/SA/c/SCC_PROFILE_FL.SCC_PROFILE_MD_FL.GBL?Action=U&MD=Y&GMenu=SCC_PROFILE_FL&GComp=SCC_PROFILE_SP_FL&GPage=SCC_START_PAGE_FL&scname=CS_PERSON_PROFILE&scnamem=CS_PERSON_PROFILEMF",
+      "urlId": "UC_CX_PROFILE",
+      "linkDescriptionDisplay": false,
+      "ucFrom": "CalCentral",
+      "ucFromLink": "https://calcentral-dev.berkeley.edu/profile",
+      "ucFromText": "Profile",
+      "name": "Edit Profile",
+      "title": "Edit your profile.",
+      "isCsLink": true
+    }
+  },
+  "statusCode": 200
+}

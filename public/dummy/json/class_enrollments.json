@@ -1,0 +1,960 @@
+{
+  "enrollmentTermInstructionTypeDecks": [
+    {
+      "cards": [
+        {
+          "role": "default",
+          "careerCode": "UGRD",
+          "termId": "2198",
+          "academicPlans": [
+            {
+              "role": "default",
+              "plan": {
+                "code": "25201U"
+              }
+            },
+            {
+              "role": "default",
+              "plan": {
+                "code": "25072U"
+              }
+            }
+          ],
+          "term": {
+            "termId": "2198",
+            "termDescr": "2019 Fall",
+            "termName": "Fall 2019",
+            "termIsSummer": false
+          }
+        },
+        {
+          "role": "default",
+          "careerCode": "UGRD",
+          "termId": "2195",
+          "academicPlans": [
+            {
+              "role": "default",
+              "plan": {
+                "code": "25201U"
+              }
+            },
+            {
+              "role": "default",
+              "plan": {
+                "code": "25072U"
+              }
+            }
+          ],
+          "term": {
+            "termId": "2195",
+            "termDescr": "2019 Summer",
+            "termName": "Summer 2019",
+            "termIsSummer": true
+          }
+        },
+        {
+          "role": "default",
+          "careerCode": "UGRD",
+          "termId": "2192",
+          "academicPlans": [
+            {
+              "role": "default",
+              "plan": {
+                "code": "25072U"
+              }
+            },
+            {
+              "role": "default",
+              "plan": {
+                "code": "25201U"
+              }
+            }
+          ],
+          "term": {
+            "termId": "2192",
+            "termDescr": "2019 Spring",
+            "termName": "Spring 2019",
+            "termIsSummer": false
+          }
+        }
+      ]
+    }
+  ],
+  "enrollmentTermInstructions": {
+    "2192": {
+      "studentId": "3033054702",
+      "term": "2192",
+      "termDescr": "Spring 2019",
+      "advisors": [
+        {
+          "id": "136",
+          "name": "Jesus Arciniega",
+          "emailAddress": "jesus@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": null,
+          "title": "Advisor Only"
+        },
+        {
+          "id": "136",
+          "name": "Jesus Arciniega",
+          "emailAddress": "jesus@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Letters & Sci Undeclared UG",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "172829",
+          "name": "Thomas Brown",
+          "emailAddress": "thomasbrown@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Applied Mathematics BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "234832",
+          "name": "Antoine Davis",
+          "emailAddress": "verdelldavis@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "873385",
+          "name": "Nicole Mcintyre",
+          "emailAddress": "nicolemcintyre@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "946692",
+          "name": "Andrea Mejia Valencia",
+          "emailAddress": "mejiavalencia@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "954042",
+          "name": "Mayra Rivera",
+          "emailAddress": "m.rivera@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "1104056",
+          "name": "Charlene Hughes",
+          "emailAddress": "cdhughes@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "80750",
+          "name": "Carol Marshall",
+          "emailAddress": "carolmarshall@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Instructor Proxy"
+        },
+        {
+          "id": "1051248",
+          "name": "Lydia Raya De Schweinitz",
+          "emailAddress": "lraya@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "1586595",
+          "name": "Leslie Mach",
+          "emailAddress": "leslie.mach@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        }
+      ],
+      "isClassScheduleAvailable": true,
+      "isEndOfDropAddTimePeriod": true,
+      "links": {
+        "scheduleClasses": {
+          "name": "Schedule of Classes - SIS",
+          "isCsLink": true,
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.CLASS_SEARCH.GBL?Page=SSR_CLSRCH_ENTRY&Action=U"
+        },
+        "courseCatalog": {
+          "name": "Course Catalog",
+          "isCsLink": true,
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_BROWSE_CATLG.GBL?"
+        },
+        "chooseClasses": {
+          "name": "Choose classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES_2.SSR_SSENRL_CART.GBL?",
+          "isCsLink": true
+        },
+        "updateEnrolledClasses": {
+          "name": "Update enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_EDIT.GBL?",
+          "isCsLink": true
+        },
+        "addEnrolledClasses": {
+          "name": "Add enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES_2.SSR_SSENRL_CART.GBL?",
+          "isCsLink": true
+        },
+        "swapEnrolledClasses": {
+          "name": "Swap enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_SWAP.GBL?",
+          "isCsLink": true
+        },
+        "dropEnrolledClasses": {
+          "name": "Drop enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_DROP.GBL?",
+          "isCsLink": true
+        },
+        "withdrawFromSemester": {
+          "name": "Withdraw from semester",
+          "url": "http://studentcentral.berkeley.edu/withdraw",
+          "isCsLink": false
+        },
+        "gradeBase": {
+          "name": "Grade Base URL",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_EDIT.GBL?",
+          "isCsLink": true
+        }
+      },
+      "enrollmentPeriod": [
+        {
+          "id": "R4P1",
+          "name": "Phase 1 Begins",
+          "date": {
+            "epoch": 1540402200,
+            "datetime": "2018-10-24T10:30:00-07:00",
+            "datestring": "10/24",
+            "offset": "-0700"
+          }
+        },
+        {
+          "id": "R4P2",
+          "name": "Phase 2 Begins",
+          "date": {
+            "epoch": 1543269600,
+            "datetime": "2018-11-26T14:00:00-08:00",
+            "datestring": "11/26",
+            "offset": "-0800"
+          }
+        },
+        {
+          "id": "ADJ",
+          "name": "Adjustment Begins",
+          "date": {
+            "epoch": 1546880400,
+            "datetime": "2019-01-07T09:00:00-08:00",
+            "datestring": "1/07",
+            "offset": "-0800"
+          }
+        }
+      ],
+      "scheduleOfClassesPeriod": {
+        "date": {
+          "epoch": 1538290800,
+          "datetime": "2018-09-30T00:00:00-07:00",
+          "datestring": "9/30",
+          "offset": "-0700"
+        }
+      },
+      "enrolledClasses": [
+        {
+          "id": "31011",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "COMPSCI 169",
+          "title": "SOFTWARE ENGINEER",
+          "ssrComponent": "DIS",
+          "ssrComponentDescr": "Discussion",
+          "when": [],
+          "units": 0,
+          "edd": "N"
+        },
+        {
+          "id": "31005",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "COMPSCI 169",
+          "title": "SOFTWARE ENGINEER",
+          "ssrComponent": "LEC",
+          "ssrComponentDescr": "Lecture",
+          "when": [
+            "TuTh 2:00P-3:29P"
+          ],
+          "units": 4,
+          "edd": "Y"
+        },
+        {
+          "id": "28029",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "COMPSCI 170",
+          "title": "INTRO CS THEORY",
+          "ssrComponent": "LEC",
+          "ssrComponentDescr": "Lecture",
+          "when": [
+            "TuTh 3:30P-4:59P"
+          ],
+          "units": 4,
+          "edd": "N"
+        },
+        {
+          "id": "28896",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "COMPSCI 170",
+          "title": "INTRO CS THEORY",
+          "ssrComponent": "DIS",
+          "ssrComponentDescr": "Discussion",
+          "when": [],
+          "units": 0,
+          "edd": "N"
+        },
+        {
+          "id": "25588",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "EALANG R1B",
+          "title": "READING AND COMP",
+          "ssrComponent": "LEC",
+          "ssrComponentDescr": "Lecture",
+          "when": [
+            "MWF 1:00P-1:59P"
+          ],
+          "units": 4,
+          "edd": "N"
+        },
+        {
+          "id": "23136",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "MATH 110",
+          "title": "LINEAR ALGEBRA",
+          "ssrComponent": "LEC",
+          "ssrComponentDescr": "Lecture",
+          "when": [
+            "MW 5:00P-6:29P"
+          ],
+          "units": 4,
+          "edd": "N"
+        },
+        {
+          "id": "26932",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "MATH 110",
+          "title": "LINEAR ALGEBRA",
+          "ssrComponent": "DIS",
+          "ssrComponentDescr": "Discussion",
+          "when": [
+            "F 2:00P-2:59P"
+          ],
+          "units": 0,
+          "edd": "N"
+        },
+        {
+          "id": "31820",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "PHYSED 1",
+          "title": "PE ACTIVITIES",
+          "ssrComponent": "LAB",
+          "ssrComponentDescr": "Laboratory",
+          "when": [
+            "MW 9:00A-9:59A"
+          ],
+          "units": 0.5,
+          "edd": "N"
+        }
+      ],
+      "enrolledClassesTotalUnits": 16.5,
+      "waitlistedClasses": [],
+      "waitlistedClassesTotalUnits": 0,
+      "termIsSummer": false,
+      "earlyDropDeadlineClasses": "COMPSCI 169"
+    },
+    "2195": {
+      "studentId": "3033054702",
+      "term": "2195",
+      "termDescr": "Summer 2019",
+      "advisors": [
+        {
+          "id": "136",
+          "name": "Jesus Arciniega",
+          "emailAddress": "jesus@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": null,
+          "title": "Advisor Only"
+        },
+        {
+          "id": "136",
+          "name": "Jesus Arciniega",
+          "emailAddress": "jesus@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Letters & Sci Undeclared UG",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "172829",
+          "name": "Thomas Brown",
+          "emailAddress": "thomasbrown@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Applied Mathematics BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "234832",
+          "name": "Antoine Davis",
+          "emailAddress": "verdelldavis@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "873385",
+          "name": "Nicole Mcintyre",
+          "emailAddress": "nicolemcintyre@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "946692",
+          "name": "Andrea Mejia Valencia",
+          "emailAddress": "mejiavalencia@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "954042",
+          "name": "Mayra Rivera",
+          "emailAddress": "m.rivera@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "1104056",
+          "name": "Charlene Hughes",
+          "emailAddress": "cdhughes@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "80750",
+          "name": "Carol Marshall",
+          "emailAddress": "carolmarshall@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Instructor Proxy"
+        },
+        {
+          "id": "1051248",
+          "name": "Lydia Raya De Schweinitz",
+          "emailAddress": "lraya@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "1586595",
+          "name": "Leslie Mach",
+          "emailAddress": "leslie.mach@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        }
+      ],
+      "isClassScheduleAvailable": true,
+      "isEndOfDropAddTimePeriod": false,
+      "links": {
+        "scheduleClasses": {
+          "name": "Schedule of Classes - SIS",
+          "isCsLink": true,
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.CLASS_SEARCH.GBL?Page=SSR_CLSRCH_ENTRY&Action=U"
+        },
+        "courseCatalog": {
+          "name": "Course Catalog",
+          "isCsLink": true,
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_BROWSE_CATLG.GBL?"
+        },
+        "chooseClasses": {
+          "name": "Choose classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES_2.SSR_SSENRL_CART.GBL?",
+          "isCsLink": true
+        },
+        "updateEnrolledClasses": {
+          "name": "Update enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_EDIT.GBL?",
+          "isCsLink": true
+        },
+        "addEnrolledClasses": {
+          "name": "Add enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES_2.SSR_SSENRL_CART.GBL?",
+          "isCsLink": true
+        },
+        "swapEnrolledClasses": {
+          "name": "Swap enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_SWAP.GBL?",
+          "isCsLink": true
+        },
+        "dropEnrolledClasses": {
+          "name": "Drop enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_DROP.GBL?",
+          "isCsLink": true
+        },
+        "withdrawFromSemester": {
+          "name": "Withdraw from semester",
+          "url": "http://studentcentral.berkeley.edu/withdraw",
+          "isCsLink": false
+        },
+        "gradeBase": {
+          "name": "Grade Base URL",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_EDIT.GBL?",
+          "isCsLink": true
+        }
+      },
+      "enrollmentPeriod": [
+        {
+          "id": "SPRI B",
+          "name": "Session B Begins",
+          "date": {
+            "epoch": 1549299600,
+            "datetime": "2019-02-04T09:00:00-08:00",
+            "datestring": "2/04",
+            "offset": "-0800"
+          }
+        },
+        {
+          "id": "SPRI E",
+          "name": "Session E Begins",
+          "date": {
+            "epoch": 1549299600,
+            "datetime": "2019-02-04T09:00:00-08:00",
+            "datestring": "2/04",
+            "offset": "-0800"
+          }
+        },
+        {
+          "id": "SPRI C",
+          "name": "Session C Begins",
+          "date": {
+            "epoch": 1549299600,
+            "datetime": "2019-02-04T09:00:00-08:00",
+            "datestring": "2/04",
+            "offset": "-0800"
+          }
+        },
+        {
+          "id": "SPRI D",
+          "name": "Session D Begins",
+          "date": {
+            "epoch": 1549299600,
+            "datetime": "2019-02-04T09:00:00-08:00",
+            "datestring": "2/04",
+            "offset": "-0800"
+          }
+        },
+        {
+          "id": "SPRI A",
+          "name": "Session A Begins",
+          "date": {
+            "epoch": 1549299600,
+            "datetime": "2019-02-04T09:00:00-08:00",
+            "datestring": "2/04",
+            "offset": "-0800"
+          }
+        }
+      ],
+      "scheduleOfClassesPeriod": {
+        "date": {
+          "epoch": 1544428800,
+          "datetime": "2018-12-10T00:00:00-08:00",
+          "datestring": "12/10",
+          "offset": "-0800"
+        }
+      },
+      "enrolledClasses": [
+        {
+          "id": "11701",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "COMPSCI 197",
+          "title": "FIELD STUDY",
+          "ssrComponent": "FLD",
+          "ssrComponentDescr": "Field Work",
+          "when": [
+            "TBA"
+          ],
+          "units": 1,
+          "edd": "N"
+        }
+      ],
+      "enrolledClassesTotalUnits": 1,
+      "waitlistedClasses": [],
+      "waitlistedClassesTotalUnits": 0,
+      "termIsSummer": true,
+      "earlyDropDeadlineClasses": null
+    },
+    "2198": {
+      "studentId": "3033054702",
+      "term": "2198",
+      "termDescr": "Fall 2019",
+      "advisors": [
+        {
+          "id": "136",
+          "name": "Jesus Arciniega",
+          "emailAddress": "jesus@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": null,
+          "title": "Advisor Only"
+        },
+        {
+          "id": "136",
+          "name": "Jesus Arciniega",
+          "emailAddress": "jesus@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Letters & Sci Undeclared UG",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "172829",
+          "name": "Thomas Brown",
+          "emailAddress": "thomasbrown@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Applied Mathematics BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "234832",
+          "name": "Antoine Davis",
+          "emailAddress": "verdelldavis@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "873385",
+          "name": "Nicole Mcintyre",
+          "emailAddress": "nicolemcintyre@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "946692",
+          "name": "Andrea Mejia Valencia",
+          "emailAddress": "mejiavalencia@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "954042",
+          "name": "Mayra Rivera",
+          "emailAddress": "m.rivera@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "1104056",
+          "name": "Charlene Hughes",
+          "emailAddress": "cdhughes@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "80750",
+          "name": "Carol Marshall",
+          "emailAddress": "carolmarshall@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Instructor Proxy"
+        },
+        {
+          "id": "1051248",
+          "name": "Lydia Raya De Schweinitz",
+          "emailAddress": "lraya@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        },
+        {
+          "id": "1586595",
+          "name": "Leslie Mach",
+          "emailAddress": "leslie.mach@berkeley.edu",
+          "program": "Undergrad Letters & Science",
+          "plan": "Computer Science BA",
+          "title": "Advisor Only"
+        }
+      ],
+      "isClassScheduleAvailable": true,
+      "isEndOfDropAddTimePeriod": false,
+      "links": {
+        "scheduleClasses": {
+          "name": "Schedule of Classes - SIS",
+          "isCsLink": true,
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.CLASS_SEARCH.GBL?Page=SSR_CLSRCH_ENTRY&Action=U"
+        },
+        "courseCatalog": {
+          "name": "Course Catalog",
+          "isCsLink": true,
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_BROWSE_CATLG.GBL?"
+        },
+        "chooseClasses": {
+          "name": "Choose classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES_2.SSR_SSENRL_CART.GBL?",
+          "isCsLink": true
+        },
+        "updateEnrolledClasses": {
+          "name": "Update enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_EDIT.GBL?",
+          "isCsLink": true
+        },
+        "addEnrolledClasses": {
+          "name": "Add enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES_2.SSR_SSENRL_CART.GBL?",
+          "isCsLink": true
+        },
+        "swapEnrolledClasses": {
+          "name": "Swap enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_SWAP.GBL?",
+          "isCsLink": true
+        },
+        "dropEnrolledClasses": {
+          "name": "Drop enrolled classes",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_DROP.GBL?",
+          "isCsLink": true
+        },
+        "withdrawFromSemester": {
+          "name": "Withdraw from semester",
+          "url": "http://studentcentral.berkeley.edu/withdraw",
+          "isCsLink": false
+        },
+        "gradeBase": {
+          "name": "Grade Base URL",
+          "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_EDIT.GBL?",
+          "isCsLink": true
+        }
+      },
+      "enrollmentPeriod": [
+        {
+          "id": "R5P1",
+          "name": "Phase 1 Begins",
+          "date": {
+            "epoch": 1556294400,
+            "datetime": "2019-04-26T09:00:00-07:00",
+            "datestring": "4/26",
+            "offset": "-0700"
+          }
+        },
+        {
+          "id": "R5P2",
+          "name": "Phase 2 Begins",
+          "date": {
+            "epoch": 1565020800,
+            "datetime": "2019-08-05T09:00:00-07:00",
+            "datestring": "8/05",
+            "offset": "-0700"
+          }
+        },
+        {
+          "id": "ADJ",
+          "name": "Adjustment Begins",
+          "date": {
+            "epoch": 1566230400,
+            "datetime": "2019-08-19T09:00:00-07:00",
+            "datestring": "8/19",
+            "offset": "-0700"
+          }
+        }
+      ],
+      "scheduleOfClassesPeriod": {
+        "date": {
+          "epoch": 1554015600,
+          "datetime": "2019-03-31T00:00:00-07:00",
+          "datestring": "3/31",
+          "offset": "-0700"
+        }
+      },
+      "enrolledClasses": [
+        {
+          "id": "31219",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "COMPSCI W186",
+          "title": "INTRO TO DATABASE",
+          "ssrComponent": "DIS",
+          "ssrComponentDescr": "Discussion",
+          "when": [],
+          "units": 0,
+          "edd": "N"
+        },
+        {
+          "id": "31206",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "COMPSCI W186",
+          "title": "INTRO TO DATABASE",
+          "ssrComponent": "WBL",
+          "ssrComponentDescr": "Web-Based Lecture",
+          "when": [
+            "TBA"
+          ],
+          "units": 4,
+          "edd": "N"
+        },
+        {
+          "id": "27464",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "COMPSCI 161",
+          "title": "COMPUTER SECURITY",
+          "ssrComponent": "LEC",
+          "ssrComponentDescr": "Lecture",
+          "when": [
+            "MWF 2:00P-2:59P"
+          ],
+          "units": 4,
+          "edd": "N"
+        },
+        {
+          "id": "28324",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "COMPSCI 161",
+          "title": "COMPUTER SECURITY",
+          "ssrComponent": "DIS",
+          "ssrComponentDescr": "Discussion",
+          "when": [],
+          "units": 0,
+          "edd": "N"
+        },
+        {
+          "id": "24748",
+          "acadCareer": "UGRD",
+          "acadCareerDescr": "Undergrad",
+          "subjectCatalog": "HISTART 100",
+          "title": "THEORIES & METHODS",
+          "ssrComponent": "LEC",
+          "ssrComponentDescr": "Lecture",
+          "when": [
+            "TuTh 12:30P-1:59P"
+          ],
+          "units": 4,
+          "edd": "N"
+        }
+      ],
+      "enrolledClassesTotalUnits": 12,
+      "waitlistedClasses": [],
+      "waitlistedClassesTotalUnits": 0,
+      "termIsSummer": false,
+      "earlyDropDeadlineClasses": null
+    }
+  },
+  "enrollmentTermAcademicPlanner": {
+    "2192": {
+      "studentId": "3033054702",
+      "updateAcademicPlanner": {
+        "name": "Update",
+        "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SCI_PLNR_FL.SCI_PLNR_FL.GBL?ucInstitution=UCB01",
+        "isCsLink": true
+      },
+      "academicplanner": [
+        {
+          "term": "2192",
+          "termDescr": "2019 Spring"
+        }
+      ]
+    },
+    "2195": {
+      "studentId": "3033054702",
+      "updateAcademicPlanner": {
+        "name": "Update",
+        "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SCI_PLNR_FL.SCI_PLNR_FL.GBL?ucInstitution=UCB01",
+        "isCsLink": true
+      },
+      "academicplanner": [
+        {
+          "term": "2195",
+          "termDescr": "2019 Summer"
+        }
+      ]
+    },
+    "2198": {
+      "studentId": "3033054702",
+      "updateAcademicPlanner": {
+        "name": "Update",
+        "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SCI_PLNR_FL.SCI_PLNR_FL.GBL?ucInstitution=UCB01",
+        "isCsLink": true
+      },
+      "academicplanner": [
+        {
+          "term": "2198",
+          "termDescr": "2019 Fall"
+        }
+      ]
+    }
+  },
+  "hasHolds": false,
+  "links": {
+    "ucAddClassEnrollment": {
+      "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/G3FRAME.G3SEARCH.GBL?&G3FORM_FAMILY=STUDENT&G3FORM_TYPE=SSCNTENRL&G3FORM_CONDITION=Default&G3FORM_TASK=ADD",
+      "urlId": "UC_CX_GT_SSCNTENRL_ADD",
+      "ucFrom": "CalCentral",
+      "ucFromLink": "https://calcentral-sis-dev-01.ist.berkeley.edu/",
+      "ucFromText": "CalCentral",
+      "name": "Apply to a Class",
+      "title": "Complete your class enrollment application.",
+      "isCsLink": true
+    },
+    "ucEditClassEnrollment": {
+      "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/G3FRAME.G3SEARCH.GBL?&G3FORM_FAMILY=STUDENT&G3FORM_TYPE=SSCNTENRL&G3FORM_CONDITION=Default&G3FORM_TASK=UPD",
+      "urlId": "UC_CX_GT_SSCNTENRL_UPD",
+      "ucFrom": "CalCentral",
+      "ucFromLink": "https://calcentral-sis-dev-01.ist.berkeley.edu/",
+      "ucFromText": "CalCentral",
+      "name": "Edit Class Applications",
+      "title": "Edit your submited class enrollment application.",
+      "isCsLink": true
+    },
+    "ucViewClassEnrollment": {
+      "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/G3FRAME.G3SEARCH.GBL?&G3FORM_FAMILY=STUDENT&G3FORM_TYPE=SSCNTENRL&G3FORM_CONDITION=Default&G3FORM_TASK=VWS",
+      "urlId": "UC_CX_GT_SSCNTENRL_VIEW",
+      "ucFrom": "CalCentral",
+      "ucFromLink": "https://calcentral-sis-dev-01.ist.berkeley.edu/",
+      "ucFromText": "CalCentral",
+      "name": "Submitted Class Applications",
+      "title": "View your submitted class enrollment application.",
+      "isCsLink": true
+    },
+    "requestLateClassChanges": {
+      "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/G3FRAME.G3SEARCH.GBL?&G3FORM_FAMILY=STUDENT&G3FORM_TYPE=GRADEOPT&G3FORM_CONDITION=Default&G3FORM_TASK=ADD",
+      "urlId": "UC_CX_GT_GRADEOPT_ADD",
+      "ucFrom": "CalCentral",
+      "ucFromLink": "https://calcentral-sis-dev-01.ist.berkeley.edu/",
+      "ucFromText": "CalCentral",
+      "name": "Petition for Late Change of Class Schedule",
+      "title": "Request late add, drop, grading basis, or unit value changes to class schedule",
+      "isCsLink": true
+    },
+    "crossCampusEnroll": {
+      "url": "https://crossenroll.universityofcalifornia.edu/",
+      "urlId": "UC_CX_STDNT_CRSCAMPENR",
+      "showNewWindow": true,
+      "name": "UC Online Courses: Cross-Campus Enrollment",
+      "title": "UC Online Courses for Cross-Campus Enrollment"
+    }
+  }
+}

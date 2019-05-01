@@ -1,0 +1,8 @@
+{
+  "threads": 48,
+  "jms_worker": {
+    "server": "ets-calcentral-prod-06",
+    "received_messages": "409671",
+    "last_received_message_time": "2019-04-27 13:30:27 -0700"
+  }
+}
