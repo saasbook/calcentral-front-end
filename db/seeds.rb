@@ -67,7 +67,7 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
 
             {:uripath => '/api/campus_solutions/address_label', :filepath => '/public/dummy/json/cs_address.json'},
             {:uripath => '/api/campus_solutions/advising_resources', :filepath => '/public/dummy/json/advising_resources.json'},
-            {:uripath => '/api/campus_solutions/billing', :filepath => '/public/dummy/json/billing.json'},
+            {:uripath => '/api/campus_solutions/billing', :filepath => '/public/dummy/json/cs_billing.json'},
             {:uripath => '/api/campus_solutions/confidential_student_message', :filepath => '/public/dummy/json/confidential_student_message.json'},
             {:uripath => '/api/campus_solutions/country', :filepath => '/public/dummy/json/cs_country.json'},
             {:uripath => '/api/campus_solutions/currency_code', :filepath => '/public/dummy/json/currency_code.json'},
