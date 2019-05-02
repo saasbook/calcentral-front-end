@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 pathmaps = [{:uripath => 'api/stats', :filepath => '/public/dummy/json/stats.json'},
-			{:uripath => '/api/academics/degree_progress/grad', :filepath => '/public/dummy/json/degree_progress_grad.json'},
+		{:uripath => '/api/academics/degree_progress/grad', :filepath => '/public/dummy/json/degree_progress_grad.json'},
             {:uripath => '/api/academics/degree_progress/ugrd', :filepath => '/public/dummy/json/degree_progress_ugrd.json'},
             {:uripath => '/api/academics/enrollment_verification', :filepath => '/public/dummy/json/enrollment_verification.json'},
 
@@ -64,8 +64,6 @@ pathmaps = [{:uripath => 'api/stats', :filepath => '/public/dummy/json/stats.jso
             {:uripath => '/api/my/calgrant_acknowledgements', :filepath => '/public/dummy/json/acknowledgements.json'},
             {:uripath => '/campus/:campus_course_id/photo/:person_id', :filepath => '/public/dummy/images/sample_student_72x96.jpg'},
 
-
-
             # Google API writing endpoints
             
             #{:uripath => '/api/my/event', :filepath => '?.json'},
@@ -103,16 +101,6 @@ pathmaps = [{:uripath => 'api/stats', :filepath => '/public/dummy/json/stats.jso
             #{:uripath => '/api/campus_solutions/delegate_access/students', :filepath => '?.json'},
             #Two route mappings omitted that didn't return content
             #{:uripath => '/api/campus_solutions/delegate_access', :filepath => '?.json'},
-
-
-
-  	   
-
-
-
-
-
-
 
             {:uripath => '/api/campus_solutions/address_label', :filepath => '/public/dummy/json/cs_address.json'},
             {:uripath => '/api/campus_solutions/advising_resources', :filepath => '/public/dummy/json/advising_resources.json'},
@@ -200,11 +188,8 @@ pathmaps = [{:uripath => 'api/stats', :filepath => '/public/dummy/json/stats.jso
             #post '/api/oec/tasks/:task_name', :filepath => '/public/dummy/json/textbooks_details.json'},
             #{:uripath =>  '/api/oec/tasks/status/:task_id', :filepath => '/public/dummy/json/textbooks_details.json'}
           
-
-
-
-
             #******************************************User management APIs****************************************
+
             {:uripath => '/api/my/am_i_logged_in', :filepath => '/public/dummy/json/am_i_logged_in.json'},
             {:uripath => '/api/my/status', :filepath => '/public/dummy/json/status.json'},
             {:uripath => '/api/cache/clear', :filepath => '/public/dummy/json/cache_clear.json'},

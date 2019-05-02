@@ -111,10 +111,6 @@ Rails.application.routes.draw do
     get '/api/my/calgrant_acknowledgements' => 'master#master', as: :calgrant_acknowledgements, :defaults => { :format => 'json' }
     get '/campus/:wildcard/photo/:wildcard2' => 'master#master', :defaults => { :format => 'jpeg' }, :action => 'show'
 
-
-    
-
-
     # Google API writing endpoints
     post '/api/my/event' => 'master#master', defaults: { format: 'json' }
     post '/api/my/tasks' => 'master#master', :as => :update_task, :defaults => { :format => 'json' }
@@ -152,6 +148,63 @@ Rails.application.routes.draw do
     post '/stop_delegate_act_as' => 'master#no_content'
     post '/api/campus_solutions/delegate_access' => 'master#master', :defaults => { :format => 'json' }
 
+    get '/api/campus_solutions/address_label' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/advising_resources' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/billing' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/confidential_student_message' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/country' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/currency_code' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/emergency_contacts' =>  'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/ethnicity_setup' => 'master#master', :defaults => { :format => 'json' }
+
+    get '/api/campus_solutions/faculty_resources' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/financial_aid_compare_awards_current' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/financial_aid_compare_awards_list' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/financial_aid_compare_awards_prior' =>  'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/financial_aid_data' => 'master#master', :defaults => { :format => 'json' }
+
+    get '/api/campus_solutions/financial_aid_funding_sources' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/financial_aid_funding_sources_term' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/financial_resources/emergency_loan' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/financial_resources/summer_estimator' =>  'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/fpp_enrollment' => 'master#master', :defaults => { :format => 'json' }
+
+    get '/api/campus_solutions/higher_one_url' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/holds' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/language_code' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/link' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/slr_deeplink' => 'master#master', :defaults => { :format => 'json' }
+    
+    get '/api/campus_solutions/state' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/student_resources' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/campus_solutions/translate' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/edos/work_experience' => 'master#master', :defaults => { :format => 'json' }
+    get '/canvas/lti_roster_photos' => 'master#master', :defaults => { :format => 'json' }
+            
+    get '/canvas/lti_site_creation' => 'master#master', :defaults => { :format => 'json' }
+    get '/canvas/lti_site_mailing_list' => 'master#master', :defaults => { :format => 'json' }
+    get '/canvas/lti_site_mailing_lists' => 'master#master', :defaults => { :format => 'json' }
+    get '/canvas/lti_user_provision' => 'master#master', :defaults => { :format => 'json' }
+    get '/canvas/lti_course_add_user' => 'master#master', :defaults => { :format => 'json' }
+            
+    get '/canvas/lti_course_grade_export' => 'master#master', :defaults => { :format => 'json' }
+    get '/canvas/lti_course_manage_official_sections' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/canvas/egrade_export/options/:canvas_course_id' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/canvas/egrade_export/status/:canvas_course_id' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/rosters/canvas/:canvas_course_id' => 'master#master', :defaults => { :format => 'json' }
+
+    get '/canvas/:canvas_course_id/photo/:person_id' => 'master#master', :defaults => { :format => 'json' }
+    get '/canvas/:canvas_course_id/profile/:person_id' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/canvas/course_provision' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/canvas/course_provision_as/:admin_acting_as' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/canvas/course_provision/sections_feed/:canvas_course_id' => 'master#master', :defaults => { :format => 'json' }
+
+    get '/api/academics/canvas/course_provision/status' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/canvas/site_creation/authorizations' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/canvas/course_add_user/:canvas_course_id/search_users' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/canvas/course_add_user/:canvas_course_id/course_sections' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/canvas/mailing_list/:canvas_course_id' => 'master#master', :defaults => { :format => 'json' }
+    get '/api/academics/canvas/mailing_lists/:canvas_course_id' => 'master#master', :defaults => { :format => 'json' }
 
     #******************************************User management APIs****************************************
 
@@ -163,11 +216,4 @@ Rails.application.routes.draw do
     get '/api/config' => 'master#master', :defaults => { :format => 'json' }
     get '/api/ping' => 'master#master', :defaults => { :format => 'json' }
     get '/api/google/current_scope' => 'master#master', :defaults => { :format => 'json' }
-    
-
-
-
-
-
-
 end
