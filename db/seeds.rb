@@ -65,6 +65,8 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             #{:uripath => '/api/my/calgrant_acknowledgements', :filepath => '?.json'},
             #{:uripath => '/campus/:campus_course_id/photo/:person_id', :filepath => '?.jpg'},
 
+
+
             {:uripath => '/api/campus_solutions/address_label', :filepath => '/public/dummy/json/cs_address.json'},
             {:uripath => '/api/campus_solutions/advising_resources', :filepath => '/public/dummy/json/advising_resources.json'},
             {:uripath => '/api/campus_solutions/billing', :filepath => '/public/dummy/json/cs_billing.json'},
@@ -95,7 +97,79 @@ pathmaps = [{:uripath => '/api/academics/degree_progress/grad', :filepath => '/p
             {:uripath => '/api/campus_solutions/translate', :filepath => '/public/dummy/json/translate.json'},
             {:uripath => '/api/edos/work_experience', :filepath => '/public/dummy/json/work_experience.json'}
 
+            {:uripath =>  '/canvas/lti_roster_photos', :filepath => '/public/dummy/xml/lti_roster_photo.xml'},
+            {:uripath =>  '/canvas/lti_site_creation', :filepath => '/public/dummy/xml/lti_site_creation.xml'},
+            {:uripath =>  '/canvas/lti_site_mailing_list', :filepath => '/public/dummy/xml/lti_site_mailing_list.xml'},
+            {:uripath =>  '/canvas/lti_site_mailing_lists', :filepath => '/public/dummy/xml/lti_site_mailing_lists.xml'},
+            {:uripath =>  '/canvas/lti_user_provision', :filepath => '/public/dummy/xml/lti_user_provision.xml'},
+            {:uripath =>  '/canvas/lti_course_add_user', :filepath => '/public/dummy/xml/lti_course_mediacasts.xml'},
+            #{:uripath =>  '/canvas/lti_course_mediacasts', :filepath => '/public/dummy/??'},
+            {:uripath =>  '/canvas/lti_course_grade_export', :filepath => '/public/dummy/xml/lti_course_grade_export.xml'},
+            {:uripath =>  '/canvas/lti_course_manage_official_sections', :filepath => '/public/dummy/xml/lti_course_manage_official_sections.xml'},
+            # A Canvas course ID of "embedded" means to retrieve from session properties.
+            #{:uripath =>  '/api/academics/canvas/course_user_roles/:canvas_course_id', :filepath => '/public/dummy/json/??.json'},
+            #{:uripath =>  '/api/academics/canvas/external_tools', :filepath => '/public/dummy/json/??.json'},
+            #{:uripath =>  '/api/academics/canvas/user_can_create_site', :filepath => '/public/dummy/json/??.json'},
+            #{:uripath =>  '/api/academics/canvas/egrade_export/download/:canvas_course_id', :filepath => '/public/dummy/json/??.csv'},
+            {:uripath =>  '/api/academics/canvas/egrade_export/options/:canvas_course_id', :filepath => '/public/dummy/json/canvas_course_grade_export_prepare_egrades_cache.json'},
+            #{:uripath =>  '/api/academics/canvas/egrade_export/is_official_course', :filepath => '/public/dummy/json/textbooks_details.json'},
+            {:uripath =>  '/api/academics/canvas/egrade_export/status/:canvas_course_id', :filepath => '/public/dummy/json/canvas_course_grade_export_job_status_completed.json'},
+            #post '/api/academics/canvas/egrade_export/prepare/:canvas_course_id', :filepath => '/public/dummy/json/textbooks_details.json'},
+            #post '/api/academics/canvas/egrade_export/resolve/:canvas_course_id', :filepath => '/public/dummy/json/textbooks_details.json'},
+            {:uripath =>  '/api/academics/rosters/canvas/:canvas_course_id', :filepath => '/public/dummy/json/canvas_rosters.json'},
+            #{:uripath =>  '/api/academics/rosters/canvas/csv/:canvas_course_id', :filepath => '/public/dummy/json/textbooks_details.json'},
+            {:uripath =>  '/canvas/:canvas_course_id/photo/:person_id', :filepath => '/public/dummy/json/canvas_rosters.json'},
+            {:uripath =>  '/canvas/:canvas_course_id/profile/:person_id', :filepath => '/public/dummy/json/canvas_rosters.json'},
+            {:uripath =>  '/api/academics/canvas/course_provision', :filepath => '/public/dummy/json/canvas_course_provision_feed_by_ccns_response.json'},
+            {:uripath =>  '/api/academics/canvas/course_provision_as/:admin_acting_as', :filepath => '/public/dummy/json/canvas_course_provision_feed_response.json'},
+            #post '/api/academics/canvas/course_provision/create', :filepath => '/public/dummy/json/textbooks_details.json'},
+            {:uripath =>  '/api/academics/canvas/course_provision/sections_feed/:canvas_course_id', :filepath => '/public/dummy/json/canvas_course_provision_feed_by_ccns_response.json'},
+            #post '/api/academics/canvas/course_provision/edit_sections/:canvas_course_id', :filepath => '/public/dummy/json/textbooks_details.json'},
+            {:uripath =>  '/api/academics/canvas/course_provision/status', :filepath => '/public/dummy/json/canvas_course_provision_status_completed.json'},
+            #post '/api/academics/canvas/project_provision/create', :filepath => '/public/dummy/json/textbooks_details.json'},
+            #post '/api/academics/canvas/user_provision/user_import', :filepath => '/public/dummy/json/textbooks_details.json'},
+            {:uripath =>  '/api/academics/canvas/site_creation/authorizations', :filepath => '/public/dummy/json/canvas_rosters.json'},
+            {:uripath =>  '/api/academics/canvas/course_add_user/:canvas_course_id/search_users', :filepath => '/public/dummy/json/canvas_rosters.json'},
+            {:uripath =>  '/api/academics/canvas/course_add_user/:canvas_course_id/course_sections', :filepath => '/public/dummy/json/canvas_rosters.json'},
+            #post '/api/academics/canvas/course_add_user/:canvas_course_id/add_user', :filepath => '/public/dummy/json/textbooks_details.json'},
+            #{:uripath =>  '/api/canvas/media/:canvas_course_id', :filepath => '/public/dummy/json/??.json'},
+            # Administer Canvas mailing list for a single course site
+            {:uripath =>  '/api/academics/canvas/mailing_list/:canvas_course_id', :filepath => '/public/dummy/json/canvas_site_mailing_list_new.json'},
+            #post '/api/academics/canvas/mailing_list/:canvas_course_id/create', :filepath => '/public/dummy/json/textbooks_details.json'},
+            # Administer Canvas mailing lists for any course site
+            {:uripath =>  '/api/academics/canvas/mailing_lists/:canvas_course_id', :filepath => '/public/dummy/json/canvas_site_mailing_list_new.json'},
+            #post '/api/academics/canvas/mailing_lists/:canvas_course_id/create', :filepath => '/public/dummy/json/textbooks_details.json'},
+            #post '/api/academics/canvas/mailing_lists/:canvas_course_id/populate', :filepath => '/public/dummy/json/textbooks_details.json'},
+            #post '/api/academics/canvas/mailing_lists/:canvas_course_id/delete', :filepath => '/public/dummy/json/textbooks_details.json'},
+            # Incoming email messages
+            #post '/api/mailing_lists/message', :filepath => '/public/dummy/json/textbooks_details.json'},
+
+            # All require auth from google
+            #{:uripath =>  '/api/oec/google/request_authorization'=> 'oec_google_auth#refresh_tokens', :defaults => { :format => 'json' }
+            #{:uripath =>  '/api/oec/google/handle_callback', :filepath => '/public/dummy/json/textbooks_details.json'},
+            #{:uripath =>  '/api/oec/google/current_scope', :filepath => '/public/dummy/json/textbooks_details.json'},
+            #{:uripath =>  '/api/oec/google/remove_authorization', :filepath => '/public/dummy/json/textbooks_details.json'},
+            #{:uripath =>  '/api/oec/tasks', :filepath => '/public/dummy/json/textbooks_details.json'},
+            #post '/api/oec/tasks/:task_name', :filepath => '/public/dummy/json/textbooks_details.json'},
+            #{:uripath =>  '/api/oec/tasks/status/:task_id', :filepath => '/public/dummy/json/textbooks_details.json'}
+          
+
+
+
+
+            #******************************************User management APIs****************************************
+            {:uripath => '/api/my/am_i_logged_in', :filepath => '/public/dummy/json/am_i_logged_in.json'},
+            {:uripath => '/api/my/status', :filepath => '/public/dummy/json/status.json'},
+            {:uripath => '/api/cache/clear', :filepath => '/public/dummy/json/cache_clear.json'},
+            {:uripath => '/api/cache/delete', :filepath => '/public/dummy/json/cache_delete.json'},
+            {:uripath => '/api/cache/delete/:key', :filepath => '/public/dummy/json/cache_delete.json'},
+            {:uripath => '/api/config', :filepath => '/public/dummy/json/api_config.json'},
+            {:uripath => '/api/ping', :filepath => '/public/dummy/json/ping.json'},
+            {:uripath => '/api/server_info', :filepath => '/public/dummy/json/server_info.json'},
+            {:uripath => '/api/google/current_scope', :filepath => '/public/dummy/json/google_current_scope.json'}
+
   	   ]
+
 
 pathmaps.each do |pathmap|
   Pathmap.create!(pathmap)
