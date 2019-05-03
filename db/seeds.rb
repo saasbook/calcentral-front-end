@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-pathmaps = [{:uripath => 'api/stats', :filepath => '/public/dummy/json/stats.json'},
+apis = [{:uripath => 'api/stats', :filepath => '/public/dummy/json/stats.json'},
 		{:uripath => '/api/academics/degree_progress/grad', :filepath => '/public/dummy/json/degree_progress_grad.json'},
             {:uripath => '/api/academics/degree_progress/ugrd', :filepath => '/public/dummy/json/degree_progress_ugrd.json'},
             {:uripath => '/api/academics/enrollment_verification', :filepath => '/public/dummy/json/enrollment_verification.json'},
@@ -202,6 +202,6 @@ pathmaps = [{:uripath => 'api/stats', :filepath => '/public/dummy/json/stats.jso
 
 
 
-pathmaps.each do |pathmap|
-  Pathmap.create!(pathmap)
+apis.each do |api|
+  Dev::Api.create!(api)
 end
