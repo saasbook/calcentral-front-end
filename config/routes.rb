@@ -58,7 +58,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-    get '/' => 'dev::apis#index', :defaults => { :format => 'json' }
+    get '/api/stats' => 'stats#get_stats', :defaults => { :format => 'json' }
 
     # Feeds of read-only content
     # TODO: replace all routes to 'master#master'
