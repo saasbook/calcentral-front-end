@@ -58,7 +58,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
- get '/api/stats' => 'stats#get_stats', :defaults => { :format => 'json' }
+    get '/' => 'dev::apis#index', :defaults => { :format => 'json' }
 
     # Feeds of read-only content
     # TODO: replace all routes to 'master#master'
@@ -179,19 +179,19 @@ Rails.application.routes.draw do
     get '/api/campus_solutions/language_code' => 'master#master', :defaults => { :format => 'json' }
     get '/api/campus_solutions/link' => 'master#master', :defaults => { :format => 'json' }
     get '/api/campus_solutions/slr_deeplink' => 'master#master', :defaults => { :format => 'json' }
-    
+
     get '/api/campus_solutions/state' => 'master#master', :defaults => { :format => 'json' }
     get '/api/campus_solutions/student_resources' => 'master#master', :defaults => { :format => 'json' }
     get '/api/campus_solutions/translate' => 'master#master', :defaults => { :format => 'json' }
     get '/api/edos/work_experience' => 'master#master', :defaults => { :format => 'json' }
     get '/canvas/lti_roster_photos' => 'master#master', :defaults => { :format => 'json' }
-            
+
     get '/canvas/lti_site_creation' => 'master#master', :defaults => { :format => 'json' }
     get '/canvas/lti_site_mailing_list' => 'master#master', :defaults => { :format => 'json' }
     get '/canvas/lti_site_mailing_lists' => 'master#master', :defaults => { :format => 'json' }
     get '/canvas/lti_user_provision' => 'master#master', :defaults => { :format => 'json' }
     get '/canvas/lti_course_add_user' => 'master#master', :defaults => { :format => 'json' }
-            
+
     get '/canvas/lti_course_grade_export' => 'master#master', :defaults => { :format => 'json' }
     get '/canvas/lti_course_manage_official_sections' => 'master#master', :defaults => { :format => 'json' }
     get '/api/academics/canvas/egrade_export/options/:canvas_course_id' => 'master#master', :defaults => { :format => 'json' }
