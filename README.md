@@ -13,7 +13,7 @@ Then start the server:
 rails s
 ```
 ## Features
-After starting the app, the static data are available at the same path as most of Calcentral's apis. The full list of apis are documented [here](https://docs.google.com/spreadsheets/d/1RVehxhPnhdH8qHjYJXty8w1Q66qEGADZwVhIRpM63x0) (You would need a Berkeley email to access the spread sheet). You can also try a few sample endpoints with the following links:
+After starting the app, the static data are available at the same path as most of Calcentral's apis. The full list of apis is documented [here](https://docs.google.com/spreadsheets/d/1RVehxhPnhdH8qHjYJXty8w1Q66qEGADZwVhIRpM63x0) (You would need a Berkeley email to access the spread sheet). You can also try a few sample endpoints with the following links:
 
 * http://localhost:3000/api/academics/degree_progress/ugrd
 * http://localhost:3000/api/academics/degree_progress/grad
