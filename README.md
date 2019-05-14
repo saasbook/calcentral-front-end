@@ -19,7 +19,7 @@ After starting the app, the static data are available at the same path as most o
 * http://localhost:3000/api/academics/degree_progress/grad
 
 ## Usage
-**Using Provided Endpoints:** To use the provided endpoints, list `[\'api']` as one of Calcentral front-end's proxy options and set the proxy to `http://localhost:3000` (local) or `https://calcentral-frontend-cs169.herokuapp.com` (remote). [Some](https://github.com/developish/calcentral/commits/dev-server) specific implementations may allow the hostname to be configured as an environment variable when launching the front end. For example:
+**Using Provided Endpoints:** To use the provided endpoints, list `[/'api']` as one of Calcentral front-end's proxy options and set the proxy to `http://localhost:3000` (local) or `https://calcentral-frontend-cs169.herokuapp.com` (remote). [Some](https://github.com/developish/calcentral/commits/dev-server) specific implementations may allow the hostname to be configured as an environment variable when launching the front end. For example:
 `API_HOSTNAME="https://calcentral-frontend-cs169.herokuapp.com npm run start"`
 
 **Adding/Changing Endpoints:** We provide a minimal CRUD interface for adding/changing api paths mappings to static data at `/dev/apis`, where the static data can be found at `/public/dummy/json/`. You can also change the mappings manually at `db/seeds.rb`.
