@@ -23,7 +23,7 @@ require 'rails_helper'
 # removed from Rails core in Rails 5, but can be added back in via the
 # `rails-controller-testing` gem.
 
-RSpec.describe ApisController, type: :controller do
+RSpec.describe Dev::ApisController, type: :controller do
 
   # This should return the minimal set of attributes required to create a valid
   # Api. As you add validations to Api, be sure to
@@ -43,7 +43,7 @@ RSpec.describe ApisController, type: :controller do
 
   describe "GET #index" do
     it "returns a success response" do
-      api = Api.create! valid_attributes
+      api = Dev::Api.create! valid_attributes
       get :index, {}, valid_session
       expect(response).to be_success
     end
@@ -51,7 +51,7 @@ RSpec.describe ApisController, type: :controller do
 
   describe "GET #show" do
     it "returns a success response" do
-      api = Api.create! valid_attributes
+      api = Dev::Api.create! valid_attributes
       get :show, {:id => api.to_param}, valid_session
       expect(response).to be_success
     end
@@ -66,7 +66,7 @@ RSpec.describe ApisController, type: :controller do
 
   describe "GET #edit" do
     it "returns a success response" do
-      api = Api.create! valid_attributes
+      api = Dev::Api.create! valid_attributes
       get :edit, {:id => api.to_param}, valid_session
       expect(response).to be_success
     end
@@ -77,12 +77,12 @@ RSpec.describe ApisController, type: :controller do
       it "creates a new Api" do
         expect {
           post :create, {:api => valid_attributes}, valid_session
-        }.to change(Api, :count).by(1)
+        }.to change(Dev::Api, :count).by(1)
       end
 
       it "redirects to the created api" do
         post :create, {:api => valid_attributes}, valid_session
-        expect(response).to redirect_to(Api.last)
+        expect(response).to redirect_to(Dev::Api.last)
       end
     end
 
@@ -101,14 +101,14 @@ RSpec.describe ApisController, type: :controller do
       }
 
       it "updates the requested api" do
-        api = Api.create! valid_attributes
+        api = Dev::Api.create! valid_attributes
         put :update, {:id => api.to_param, :api => new_attributes}, valid_session
         api.reload
         skip("Add assertions for updated state")
       end
 
       it "redirects to the api" do
-        api = Api.create! valid_attributes
+        api = Dev::Api.create! valid_attributes
         put :update, {:id => api.to_param, :api => valid_attributes}, valid_session
         expect(response).to redirect_to(api)
       end
@@ -116,7 +116,7 @@ RSpec.describe ApisController, type: :controller do
 
     context "with invalid params" do
       it "returns a success response (i.e. to display the 'edit' template)" do
-        api = Api.create! valid_attributes
+        api = Dev::Api.create! valid_attributes
         put :update, {:id => api.to_param, :api => invalid_attributes}, valid_session
         expect(response).to be_success
       end
@@ -125,14 +125,14 @@ RSpec.describe ApisController, type: :controller do
 
   describe "DELETE #destroy" do
     it "destroys the requested api" do
-      api = Api.create! valid_attributes
+      api = Dev::Api.create! valid_attributes
       expect {
         delete :destroy, {:id => api.to_param}, valid_session
-      }.to change(Api, :count).by(-1)
+      }.to change(Dev::Api, :count).by(-1)
     end
 
     it "redirects to the apis list" do
-      api = Api.create! valid_attributes
+      api = Dev::Api.create! valid_attributes
       delete :destroy, {:id => api.to_param}, valid_session
       expect(response).to redirect_to(apis_url)
     end

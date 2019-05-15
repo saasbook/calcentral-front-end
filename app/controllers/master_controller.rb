@@ -1,7 +1,7 @@
 class MasterController < ApplicationController
     def master
         requestPath = request.path
-        #remove parameter strings
+        # remove parameter strings
         requestPath.slice!(params[:wildcard].to_s()).slice!(params[:wildcard2].to_s())
       	@path = Pathmap.where(uripath: requestPath).first
       	if @path.nil?
@@ -14,5 +14,4 @@ class MasterController < ApplicationController
     def no_content
         render :nothing => true, :status => 204
     end
-
 end

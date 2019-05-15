@@ -1,13 +1,13 @@
 require 'rails_helper'
 
-RSpec.describe "apis/index", type: :view do
+RSpec.describe "dev/apis/index", type: :view do
   before(:each) do
     assign(:apis, [
-      Api.create!(
+      Dev::Api.create!(
         :uripath => "Uripath",
         :filepath => "Filepath"
       ),
-      Api.create!(
+      Dev::Api.create!(
         :uripath => "Uripath",
         :filepath => "Filepath"
       )
