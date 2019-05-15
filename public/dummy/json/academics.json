@@ -1,0 +1,3205 @@
+{
+  "collegeAndLevel": {
+    "holds": {
+      "hasHolds": false
+    },
+    "awardHonors": {
+      "2178": [
+        {
+          "awardDate": "Dec 15, 2017",
+          "code": "HONRDT",
+          "description": "Honors to Date"
+        }
+      ],
+      "2182": [
+        {
+          "awardDate": "May 11, 2018",
+          "code": "HONRDT",
+          "description": "Honors to Date"
+        }
+      ],
+      "2188": [
+        {
+          "awardDate": "Jan 07, 2019",
+          "code": "HONRDT",
+          "description": "Honors to Date"
+        }
+      ]
+    },
+    "roles": null,
+    "statusCode": 200,
+    "errored": null,
+    "body": null,
+    "careers": [
+      "Undergrad"
+    ],
+    "level": "Junior",
+    "termName": "Spring 2019",
+    "termId": "2192",
+    "termsInAttendance": "4",
+    "majors": [
+      {
+        "college": "Undergrad Letters & Science",
+        "major": "Applied Mathematics BA",
+        "description": null,
+        "subPlan": "Operations Research",
+        "type": "MAJ"
+      },
+      {
+        "college": "Undergrad Letters & Science",
+        "major": "Computer Science BA",
+        "description": null,
+        "subPlan": null,
+        "type": "MAJ"
+      }
+    ],
+    "minors": [],
+    "designatedEmphases": [],
+    "plans": [
+      {
+        "career": {
+          "code": "UGRD",
+          "description": "Undergrad"
+        },
+        "program": {
+          "code": "UCLS",
+          "description": "Undergrad Letters & Science"
+        },
+        "plan": {
+          "code": "25072U",
+          "description": "Applied Mathematics BA",
+          "formalDescription": null
+        },
+        "subPlan": {
+          "code": "25072SA12U",
+          "description": "Operations Research"
+        },
+        "type": {
+          "code": "MAJ",
+          "description": "Major - Regular Acad/Prfnl",
+          "category": "Major"
+        },
+        "expectedGraduationTerm": {
+          "code": "2212",
+          "name": "Spring 2021"
+        },
+        "college": "Undergrad Letters & Science",
+        "role": [],
+        "primary": true
+      },
+      {
+        "career": {
+          "code": "UGRD",
+          "description": "Undergrad"
+        },
+        "program": {
+          "code": "UCLS",
+          "description": "Undergrad Letters & Science"
+        },
+        "plan": {
+          "code": "25201U",
+          "description": "Computer Science BA",
+          "formalDescription": null
+        },
+        "subPlan": {},
+        "type": {
+          "code": "MAJ",
+          "description": "Major - Regular Acad/Prfnl",
+          "category": "Major"
+        },
+        "expectedGraduationTerm": {
+          "code": "2212",
+          "name": "Spring 2021"
+        },
+        "college": "Undergrad Letters & Science",
+        "role": [],
+        "primary": false
+      }
+    ],
+    "degrees": null,
+    "isCurrent": true
+  },
+  "gpaUnits": {
+    "errored": null,
+    "gpa": [
+      {
+        "role": "ugrd",
+        "roleDescr": "Undergraduate",
+        "cumulativeGpa": "3.915"
+      }
+    ],
+    "totalUnitsTakenNotForGpa": 16,
+    "totalUnitsPassedNotForGpa": 16,
+    "totalTransferAndTestingUnits": 23,
+    "totalUnits": 78,
+    "totalLawUnits": 0,
+    "transferUnitsAccepted": 3,
+    "testingUnits": 20,
+    "totalUnitsAttempted": 39,
+    "totalUnitsForGpa": 39
+  },
+  "semesters": [
+    {
+      "name": "Fall 2019",
+      "slug": "fall-2019",
+      "termId": "2198",
+      "termCode": "D",
+      "termYear": "2019",
+      "timeBucket": "future",
+      "campusSolutionsTerm": true,
+      "gradingInProgress": null,
+      "classes": [
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "27464",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Nicholas Weaver",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "30654",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Dwinelle",
+                    "roomNumber": "155",
+                    "schedule": "MWF 2:00P-2:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null,
+              "finalExams": [
+                {
+                  "exam_date": "Thu, Dec 19",
+                  "exam_time": "3:00P - 6:00P",
+                  "exam_location": "Exam Location TBD"
+                }
+              ]
+            },
+            {
+              "ccn": "28324",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 999",
+              "section_number": "999",
+              "topic_description": null,
+              "associated_primary_id": "27464",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-161",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Computer Security",
+          "url": "/academics/semester/fall-2019/class/compsci-161-2019-D",
+          "course_code": "COMPSCI 161",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "161",
+          "course_id": "compsci-161-2019-D"
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "31206",
+              "instruction_format": "WBL",
+              "is_primary_section": true,
+              "section_label": "WBL 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Joshua Hug",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "242580",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null,
+              "finalExams": [
+                {
+                  "exam_date": null,
+                  "exam_time": null,
+                  "exam_location": "Exam Information not available at this time."
+                }
+              ]
+            },
+            {
+              "ccn": "31219",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 999",
+              "section_number": "999",
+              "topic_description": null,
+              "associated_primary_id": "31206",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-w186",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Introduction to Database Systems",
+          "url": "/academics/semester/fall-2019/class/compsci-w186-2019-D",
+          "course_code": "COMPSCI W186",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "W186",
+          "course_id": "compsci-w186-2019-D"
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "24748",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Whitney DAVIS",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "18410",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Kroeber",
+                    "roomNumber": "160",
+                    "schedule": "TuTh 12:30P-1:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null,
+              "finalExams": [
+                {
+                  "exam_date": "Fri, Dec 20",
+                  "exam_time": "8:00A - 11:00A",
+                  "exam_location": "Exam Location TBD"
+                }
+              ]
+            }
+          ],
+          "slug": "histart-100",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Theories and Methods of Art History",
+          "url": "/academics/semester/fall-2019/class/histart-100-2019-D",
+          "course_code": "HISTART 100",
+          "dept": "HISTART",
+          "dept_code": "HISTART",
+          "courseCatalog": "100",
+          "course_id": "histart-100-2019-D"
+        }
+      ],
+      "filteredForDelegate": false,
+      "hasEnrollmentData": true,
+      "hasEnrolledClasses": true,
+      "totalUnits": "12.0",
+      "totalLawUnits": null,
+      "isGradingComplete": false,
+      "exams": {
+        "schedule": [
+          {
+            "examDate": "Thu, Dec 19",
+            "examDateInstructor": "Thu, Dec 19",
+            "examTime": "3:00P - 6:00P",
+            "examSlot": "2019-12-19T23:00:00.000Z",
+            "examType": "Y",
+            "exception": "N",
+            "finalized": "N",
+            "name": "COMPSCI 161",
+            "courseRole": "Student",
+            "courseCareerCode": "UGRD",
+            "sectionLabel": "LEC 001",
+            "crossListedCourseNames": null,
+            "waitlisted": null,
+            "examLocations": [
+              "Exam Location TBD"
+            ],
+            "displaySectionLabel": false,
+            "timeConflict": false
+          },
+          {
+            "examDate": "Fri, Dec 20",
+            "examDateInstructor": "Fri, Dec 20",
+            "examTime": "8:00A - 11:00A",
+            "examSlot": "2019-12-20T16:00:00.000Z",
+            "examType": "Y",
+            "exception": "N",
+            "finalized": "N",
+            "name": "HISTART 100",
+            "courseRole": "Student",
+            "courseCareerCode": "UGRD",
+            "sectionLabel": "LEC 001",
+            "crossListedCourseNames": null,
+            "waitlisted": null,
+            "examLocations": [
+              "Exam Location TBD"
+            ],
+            "displaySectionLabel": false,
+            "timeConflict": false
+          },
+          {
+            "examDate": null,
+            "examDateInstructor": null,
+            "examTime": null,
+            "examSlot": "none",
+            "examType": "Y",
+            "exception": null,
+            "finalized": null,
+            "name": "COMPSCI W186",
+            "courseRole": "Student",
+            "courseCareerCode": "UGRD",
+            "sectionLabel": "WBL 001",
+            "crossListedCourseNames": null,
+            "waitlisted": null,
+            "examLocations": [
+              "Exam Information not available at this time."
+            ],
+            "displaySectionLabel": false,
+            "timeConflict": false
+          }
+        ],
+        "courseCareerCodes": [
+          "UGRD"
+        ]
+      }
+    },
+    {
+      "name": "Summer 2019",
+      "slug": "summer-2019",
+      "termId": "2195",
+      "termCode": "C",
+      "termYear": "2019",
+      "timeBucket": "future",
+      "campusSolutionsTerm": true,
+      "gradingInProgress": null,
+      "classes": [
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "11701",
+              "instruction_format": "FLD",
+              "is_primary_section": true,
+              "section_label": "FLD 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "1.0",
+              "session_id": "8W",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": "PNP"
+              },
+              "instructors": [
+                {
+                  "name": "Paul HILFINGER",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "2050",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-197",
+          "session_code": "C",
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Field Study",
+          "url": "/academics/semester/summer-2019/class/compsci-197-2019-C-C",
+          "course_code": "COMPSCI 197",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "197",
+          "course_id": "compsci-197-2019-C-C"
+        }
+      ],
+      "filteredForDelegate": false,
+      "hasEnrollmentData": true,
+      "hasEnrolledClasses": true,
+      "totalUnits": "1.0",
+      "totalLawUnits": null,
+      "isGradingComplete": false
+    },
+    {
+      "name": "Spring 2019",
+      "slug": "spring-2019",
+      "termId": "2192",
+      "termCode": "B",
+      "termYear": "2019",
+      "timeBucket": "current",
+      "campusSolutionsTerm": true,
+      "gradingInProgress": null,
+      "classes": [
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "31005",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Armando Fox",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "49538",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Valley Life Sciences",
+                    "roomNumber": "2060",
+                    "schedule": "TuTh 2:00P-3:29P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null,
+              "finalExams": [
+                {
+                  "exam_date": null,
+                  "exam_time": null,
+                  "exam_location": "Exam Information not available at this time."
+                }
+              ]
+            },
+            {
+              "ccn": "31011",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 999",
+              "section_number": "999",
+              "topic_description": null,
+              "associated_primary_id": "31005",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-169",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Software Engineering",
+          "url": "/academics/semester/spring-2019/class/compsci-169-2019-B",
+          "course_code": "COMPSCI 169",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "169",
+          "course_id": "compsci-169-2019-B",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1477171",
+              "name": "COMPSCI 169 - LEC 001",
+              "shortDescription": "Software Engineering (Spring 2019)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1477171",
+              "siteType": "course"
+            },
+            {
+              "emitter": "bCourses",
+              "id": "269757",
+              "name": "Team 2",
+              "siteType": "group",
+              "site_url": "https://bcourses.berkeley.edu/groups/269757",
+              "source": "COMPSCI 169 - LEC 001"
+            }
+          ]
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "28029",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Luca TREVISAN",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "173884",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "Prasad Raghavendra",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "1009224",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Pimentel",
+                    "roomNumber": "1",
+                    "schedule": "TuTh 3:30P-4:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null,
+              "finalExams": [
+                {
+                  "exam_date": "Fri, May 17",
+                  "exam_time": "7:00P - 10:00P",
+                  "exam_location": "Evans 10"
+                },
+                {
+                  "exam_date": "Fri, May 17",
+                  "exam_time": "7:00P - 10:00P",
+                  "exam_location": "Haas Faculty Wing F295"
+                },
+                {
+                  "exam_date": "Fri, May 17",
+                  "exam_time": "7:00P - 10:00P",
+                  "exam_location": "Wheeler 150"
+                },
+                {
+                  "exam_date": "Fri, May 17",
+                  "exam_time": "7:00P - 10:00P",
+                  "exam_location": "McCone 141"
+                },
+                {
+                  "exam_date": "Fri, May 17",
+                  "exam_time": "7:00P - 10:00P",
+                  "exam_location": "Lewis 100"
+                }
+              ]
+            },
+            {
+              "ccn": "28896",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 999",
+              "section_number": "999",
+              "topic_description": null,
+              "associated_primary_id": "28029",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-170",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Efficient Algorithms and Intractable Problems",
+          "url": "/academics/semester/spring-2019/class/compsci-170-2019-B",
+          "course_code": "COMPSCI 170",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "170",
+          "course_id": "compsci-170-2019-B",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1481069",
+              "name": "COMPSCI 170 - LEC 001",
+              "shortDescription": "Efficient Algorithms and Intractable Problems (Spring 2019)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1481069",
+              "siteType": "course"
+            }
+          ]
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "25588",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 002",
+              "section_number": "002",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Mark Csikszentmihalyi",
+                  "role": "ICNT",
+                  "gradeRosterAccess": "A",
+                  "uid": "741831",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "ICNT",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "Matthew Wild",
+                  "role": "PI",
+                  "gradeRosterAccess": "G",
+                  "uid": "1073758",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Dwinelle",
+                    "roomNumber": "106",
+                    "schedule": "MWF 1:00P-1:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null,
+              "finalExams": [
+                {
+                  "exam_date": null,
+                  "exam_time": null,
+                  "exam_location": "Exam Information not available at this time."
+                }
+              ]
+            }
+          ],
+          "slug": "ealang-r1b",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Reading and Composition on topics in East Asian Humanities",
+          "url": "/academics/semester/spring-2019/class/ealang-r1b-2019-B",
+          "course_code": "EALANG R1B",
+          "dept": "EA LANG",
+          "dept_code": "EALANG",
+          "courseCatalog": "R1B",
+          "course_id": "ealang-r1b-2019-B",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1480000",
+              "name": "EA LANG R1B - LEC 002",
+              "shortDescription": "Reading and Composition on topics in East Asian Humanities (Spring 2019)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1480000",
+              "siteType": "course"
+            }
+          ]
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "23136",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Olga V. HOLTZ",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "232966",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Dwinelle",
+                    "roomNumber": "155",
+                    "schedule": "MW 5:00P-6:29P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null,
+              "finalExams": [
+                {
+                  "exam_date": "Fri, May 17",
+                  "exam_time": "3:00P - 6:00P",
+                  "exam_location": "Dwinelle 155"
+                }
+              ]
+            },
+            {
+              "ccn": "26932",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 116",
+              "section_number": "116",
+              "topic_description": null,
+              "associated_primary_id": "23136",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Alexander Youcis",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1039007",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "GSI",
+                  "ccDelegateRoleOrder": 4
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Evans",
+                    "roomNumber": "4",
+                    "schedule": "F 2:00P-2:59P"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "math-110",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Linear Algebra",
+          "url": "/academics/semester/spring-2019/class/math-110-2019-B",
+          "course_code": "MATH 110",
+          "dept": "MATH",
+          "dept_code": "MATH",
+          "courseCatalog": "110",
+          "course_id": "math-110-2019-B"
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "31820",
+              "instruction_format": "LAB",
+              "is_primary_section": true,
+              "section_label": "LAB 090",
+              "section_number": "090",
+              "topic_description": "Beginning Basketball",
+              "units": "0.5",
+              "session_id": "1",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": "EPN"
+              },
+              "instructors": [
+                {
+                  "name": "Lon Rork",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "269644",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "RSF Fieldhouse",
+                    "roomNumber": null,
+                    "schedule": "MW 9:00A-9:59A"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null,
+              "finalExams": [
+                {
+                  "exam_date": null,
+                  "exam_time": null,
+                  "exam_location": "Exam Information not available at this time."
+                }
+              ]
+            }
+          ],
+          "slug": "physed-1",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Physical Education Activities",
+          "url": "/academics/semester/spring-2019/class/physed-1-2019-B",
+          "course_code": "PHYSED 1",
+          "dept": "PHYS ED",
+          "dept_code": "PHYSED",
+          "courseCatalog": "1",
+          "course_id": "physed-1-2019-B",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1480536",
+              "name": "Basketball  (Spring 2019)",
+              "shortDescription": "Basketball  (Spring 2019)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1480536",
+              "siteType": "course"
+            }
+          ]
+        }
+      ],
+      "filteredForDelegate": false,
+      "hasEnrollmentData": true,
+      "hasEnrolledClasses": true,
+      "totalUnits": "16.5",
+      "totalLawUnits": null,
+      "isGradingComplete": false,
+      "exams": {
+        "schedule": [
+          {
+            "examDate": "Fri, May 17",
+            "examDateInstructor": "Fri, May 17",
+            "examTime": "3:00P - 6:00P",
+            "examSlot": "2019-05-17T22:00:00.000Z",
+            "examType": "Y",
+            "exception": "N",
+            "finalized": "Y",
+            "name": "MATH 110",
+            "courseRole": "Student",
+            "courseCareerCode": "UGRD",
+            "sectionLabel": "LEC 001",
+            "crossListedCourseNames": null,
+            "waitlisted": null,
+            "examLocations": [
+              "Dwinelle 155"
+            ],
+            "displaySectionLabel": false,
+            "timeConflict": false
+          },
+          {
+            "examDate": "Fri, May 17",
+            "examDateInstructor": "Fri, May 17",
+            "examTime": "7:00P - 10:00P",
+            "examSlot": "2019-05-18T02:00:00.000Z",
+            "examType": "Y",
+            "exception": "N",
+            "finalized": "Y",
+            "name": "COMPSCI 170",
+            "courseRole": "Student",
+            "courseCareerCode": "UGRD",
+            "sectionLabel": "LEC 001",
+            "crossListedCourseNames": null,
+            "waitlisted": null,
+            "examLocations": [
+              "Evans 10",
+              "Haas Faculty Wing F295",
+              "Wheeler 150",
+              "McCone 141",
+              "Lewis 100"
+            ],
+            "displaySectionLabel": false,
+            "timeConflict": false
+          },
+          {
+            "examDate": null,
+            "examDateInstructor": null,
+            "examTime": null,
+            "examSlot": "none",
+            "examType": "Y",
+            "exception": null,
+            "finalized": null,
+            "name": "COMPSCI 169",
+            "courseRole": "Student",
+            "courseCareerCode": "UGRD",
+            "sectionLabel": "LEC 001",
+            "crossListedCourseNames": null,
+            "waitlisted": null,
+            "examLocations": [
+              "Exam Information not available at this time."
+            ],
+            "displaySectionLabel": false,
+            "timeConflict": false
+          },
+          {
+            "examDate": null,
+            "examDateInstructor": null,
+            "examTime": null,
+            "examSlot": "none",
+            "examType": "N",
+            "exception": null,
+            "finalized": null,
+            "name": "EALANG R1B",
+            "courseRole": "Student",
+            "courseCareerCode": "UGRD",
+            "sectionLabel": "LEC 002",
+            "crossListedCourseNames": null,
+            "waitlisted": null,
+            "examLocations": [
+              "Exam Information not available at this time."
+            ],
+            "displaySectionLabel": false,
+            "timeConflict": false
+          },
+          {
+            "examDate": null,
+            "examDateInstructor": null,
+            "examTime": null,
+            "examSlot": "none",
+            "examType": "N",
+            "exception": null,
+            "finalized": null,
+            "name": "PHYSED 1",
+            "courseRole": "Student",
+            "courseCareerCode": "UGRD",
+            "sectionLabel": "LAB 090",
+            "crossListedCourseNames": null,
+            "waitlisted": null,
+            "examLocations": [
+              "Exam Information not available at this time."
+            ],
+            "displaySectionLabel": false,
+            "timeConflict": false
+          }
+        ],
+        "courseCareerCodes": [
+          "UGRD"
+        ]
+      }
+    },
+    {
+      "name": "Fall 2018",
+      "slug": "fall-2018",
+      "termId": "2188",
+      "termCode": "D",
+      "termYear": "2018",
+      "timeBucket": "past",
+      "campusSolutionsTerm": true,
+      "gradingInProgress": null,
+      "classes": [
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "27066",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "A",
+                "gradePoints": "16.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Borivoje NIKOLIC",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "123159",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "Dan Garcia",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "19099",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Dwinelle",
+                    "roomNumber": "155",
+                    "schedule": "MWF 4:00P-4:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "32351",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 999",
+              "section_number": "999",
+              "topic_description": null,
+              "associated_primary_id": "27066",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "32352",
+              "instruction_format": "LAB",
+              "is_primary_section": false,
+              "section_label": "LAB 999A",
+              "section_number": "999A",
+              "topic_description": null,
+              "associated_primary_id": "27066",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-61c",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Great Ideas of Computer Architecture (Machine Structures)",
+          "url": "/academics/semester/fall-2018/class/compsci-61c-2018-D",
+          "course_code": "COMPSCI 61C",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "61C",
+          "course_id": "compsci-61c-2018-D"
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "27270",
+              "instruction_format": "GRP",
+              "is_primary_section": true,
+              "section_label": "GRP 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "2.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "P",
+                "gradePoints": "0.0",
+                "gradingBasis": "PNP"
+              },
+              "instructors": [
+                {
+                  "name": "Dan Garcia",
+                  "role": "ICNT",
+                  "gradeRosterAccess": "A",
+                  "uid": "19099",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "ICNT",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Moffitt Library",
+                    "roomNumber": "145",
+                    "schedule": "MW 6:30P-7:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-198",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Directed Group Studies for Advanced Undergraduates",
+          "url": "/academics/semester/fall-2018/class/compsci-198-2018-D",
+          "course_code": "COMPSCI 198",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "198",
+          "course_id": "compsci-198-2018-D",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1474587",
+              "name": "iOS DeCal Fa18",
+              "shortDescription": "iOS DeCal Fa18",
+              "site_url": "https://bcourses.berkeley.edu/courses/1474587",
+              "siteType": "course"
+            }
+          ]
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "27315",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "A-",
+                "gradePoints": "14.8",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Elad Alon",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "301204",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "Michael (Miki) Lustig",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "858286",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "Edward Doyle",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1113581",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Teaching",
+                  "ccDelegateRoleOrder": 2
+                },
+                {
+                  "name": "Karina Chang",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1512768",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Teaching",
+                  "ccDelegateRoleOrder": 2
+                },
+                {
+                  "name": "Titan Yuan",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1502995",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Teaching",
+                  "ccDelegateRoleOrder": 2
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Wheeler",
+                    "roomNumber": "150",
+                    "schedule": "TuTh 5:00P-6:29P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "32738",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 999",
+              "section_number": "999",
+              "topic_description": null,
+              "associated_primary_id": "27315",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Karina Chang",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1512768",
+                  "printInSchedule": "N",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "GSI",
+                  "ccDelegateRoleOrder": 4
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "31126",
+              "instruction_format": "LAB",
+              "is_primary_section": false,
+              "section_label": "LAB 113",
+              "section_number": "113",
+              "topic_description": null,
+              "associated_primary_id": "27315",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Thomas Asmar",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1101486",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "GSI",
+                  "ccDelegateRoleOrder": 4
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Cory",
+                    "roomNumber": "125",
+                    "schedule": "Th 2:00P-4:59P"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "eleng-16b",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Designing Information Devices and Systems II",
+          "url": "/academics/semester/fall-2018/class/eleng-16b-2018-D",
+          "course_code": "ELENG 16B",
+          "dept": "EL ENG",
+          "dept_code": "ELENG",
+          "courseCatalog": "16B",
+          "course_id": "eleng-16b-2018-D"
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "21471",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 002",
+              "section_number": "002",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "A",
+                "gradePoints": "16.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Mary Ann Doane",
+                  "role": "ICNT",
+                  "gradeRosterAccess": "A",
+                  "uid": "972084",
+                  "printInSchedule": "N",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "ICNT",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "Chi Li",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1037126",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Teaching",
+                  "ccDelegateRoleOrder": 2
+                },
+                {
+                  "name": "Beth Bird",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1505078",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Teaching",
+                  "ccDelegateRoleOrder": 2
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Dwinelle",
+                    "roomNumber": "209",
+                    "schedule": "TuTh 9:30A-10:59A"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "21473",
+              "instruction_format": "LAB",
+              "is_primary_section": false,
+              "section_label": "LAB 201",
+              "section_number": "201",
+              "topic_description": null,
+              "associated_primary_id": "21471",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Mary Ann Doane",
+                  "role": "ICNT",
+                  "gradeRosterAccess": "A",
+                  "uid": "972084",
+                  "printInSchedule": "N",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "ICNT",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "Chi Li",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1037126",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "GSI",
+                  "ccDelegateRoleOrder": 4
+                },
+                {
+                  "name": "Beth Bird",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1505078",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "GSI",
+                  "ccDelegateRoleOrder": 4
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Dwinelle",
+                    "roomNumber": "182",
+                    "schedule": "Th 6:00P-8:59P"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "film-r1a",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "The Craft of Writing - Film Focus",
+          "url": "/academics/semester/fall-2018/class/film-r1a-2018-D",
+          "course_code": "FILM R1A",
+          "dept": "FILM",
+          "dept_code": "FILM",
+          "courseCatalog": "R1A",
+          "course_id": "film-r1a-2018-D",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1474895",
+              "name": "FILM R1A - LEC 002",
+              "shortDescription": "Perception, Prosthetics and Media",
+              "site_url": "https://bcourses.berkeley.edu/courses/1474895",
+              "siteType": "course"
+            }
+          ]
+        }
+      ],
+      "filteredForDelegate": false,
+      "hasEnrollmentData": true,
+      "hasEnrolledClasses": true,
+      "totalUnits": "14.0",
+      "totalLawUnits": null,
+      "isGradingComplete": false,
+      "hasStandingData": true,
+      "standing": {
+        "acadStandingStatus": "GST",
+        "acadStandingStatusDescr": "Good Standing",
+        "acadStandingActionDescr": "Good Standing",
+        "termId": "2188",
+        "actionDate": "Jan 07, 2019",
+        "termName": "Fall 2018"
+      }
+    },
+    {
+      "name": "Summer 2018",
+      "slug": "summer-2018",
+      "termId": "2185",
+      "termCode": "C",
+      "termYear": "2018",
+      "timeBucket": "past",
+      "campusSolutionsTerm": true,
+      "gradingInProgress": null,
+      "classes": [
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "13665",
+              "instruction_format": "WBL",
+              "is_primary_section": true,
+              "section_label": "WBL 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "8W",
+              "grading": {
+                "grade": "A",
+                "gradePoints": "16.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Michael HUTCHINGS",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "188228",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "13666",
+              "instruction_format": "WBD",
+              "is_primary_section": false,
+              "section_label": "WBD 101",
+              "section_number": "101",
+              "topic_description": null,
+              "associated_primary_id": "13665",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "math-w53",
+          "session_code": "C",
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Multivariable Calculus",
+          "url": "/academics/semester/summer-2018/class/math-w53-2018-C-C",
+          "course_code": "MATH W53",
+          "dept": "MATH",
+          "dept_code": "MATH",
+          "courseCatalog": "W53",
+          "course_id": "math-w53-2018-C-C",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1468454",
+              "name": "MATH W53 - WBL 001",
+              "shortDescription": "Multivariable Calculus (Summer 2018)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1468454",
+              "siteType": "course"
+            }
+          ]
+        }
+      ],
+      "filteredForDelegate": false,
+      "hasEnrollmentData": true,
+      "hasEnrolledClasses": true,
+      "totalUnits": "4.0",
+      "totalLawUnits": null,
+      "isGradingComplete": false
+    },
+    {
+      "name": "Spring 2018",
+      "slug": "spring-2018",
+      "termId": "2182",
+      "termCode": "B",
+      "termYear": "2018",
+      "timeBucket": "past",
+      "campusSolutionsTerm": true,
+      "gradingInProgress": null,
+      "classes": [
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "35432",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "A",
+                "gradePoints": "16.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Joshua Hug",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "242580",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Wheeler",
+                    "roomNumber": "150",
+                    "schedule": "MWF 3:00P-3:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "42425",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 146",
+              "section_number": "146",
+              "topic_description": null,
+              "associated_primary_id": "35432",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Jackson Leisure",
+                  "role": "PI",
+                  "gradeRosterAccess": "G",
+                  "uid": "1094988",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Soda",
+                    "roomNumber": "320",
+                    "schedule": "Tu 5:00P-5:59P"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "42429",
+              "instruction_format": "LAB",
+              "is_primary_section": false,
+              "section_label": "LAB 046",
+              "section_number": "046",
+              "topic_description": null,
+              "associated_primary_id": "35432",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Jackson Leisure",
+                  "role": "PI",
+                  "gradeRosterAccess": "G",
+                  "uid": "1094988",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Soda",
+                    "roomNumber": "277",
+                    "schedule": "Th 5:00P-6:59P"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-61b",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Data Structures",
+          "url": "/academics/semester/spring-2018/class/compsci-61b-2018-B",
+          "course_code": "COMPSCI 61B",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "61B",
+          "course_id": "compsci-61b-2018-B"
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "16947",
+              "instruction_format": "FLD",
+              "is_primary_section": true,
+              "section_label": "FLD 205",
+              "section_number": "205",
+              "topic_description": null,
+              "units": "1.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "P",
+                "gradePoints": "0.0",
+                "gradingBasis": "PNP"
+              },
+              "instructors": [
+                {
+                  "name": "John DeNero",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "260296",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-97",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Field Study",
+          "url": "/academics/semester/spring-2018/class/compsci-97-2018-B",
+          "course_code": "COMPSCI 97",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "97",
+          "course_id": "compsci-97-2018-B"
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "42386",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 002",
+              "section_number": "002",
+              "topic_description": null,
+              "units": "3.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "P",
+                "gradePoints": "0.0",
+                "gradingBasis": "PNP"
+              },
+              "instructors": [
+                {
+                  "name": "Christopher Hunn",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "975241",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Soda",
+                    "roomNumber": "380",
+                    "schedule": "Th 2:00P-3:29P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "42499",
+              "instruction_format": "REC",
+              "is_primary_section": false,
+              "section_label": "REC 012",
+              "section_number": "012",
+              "topic_description": null,
+              "associated_primary_id": "42386",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "42501",
+              "instruction_format": "TUT",
+              "is_primary_section": false,
+              "section_label": "TUT 102",
+              "section_number": "102",
+              "topic_description": null,
+              "associated_primary_id": "42386",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [],
+              "schedules": {
+                "oneTime": [],
+                "recurring": []
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-370",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "GRAD",
+          "title": "Introduction to Teaching Computer Science",
+          "url": "/academics/semester/spring-2018/class/compsci-370-2018-B",
+          "course_code": "COMPSCI 370",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "370",
+          "course_id": "compsci-370-2018-B"
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "26394",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 002",
+              "section_number": "002",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "A",
+                "gradePoints": "16.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Mark D HAIMAN",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "189308",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Pimentel",
+                    "roomNumber": "1",
+                    "schedule": "MWF 11:00A-11:59A"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "26426",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 215",
+              "section_number": "215",
+              "topic_description": null,
+              "associated_primary_id": "26394",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Yanhe Huang",
+                  "role": "TNIC",
+                  "gradeRosterAccess": " ",
+                  "uid": "1517920",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": " ",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "noGradeAccess",
+                  "ccDelegateRole": "GSI",
+                  "ccDelegateRoleOrder": 4
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Latimer",
+                    "roomNumber": "122",
+                    "schedule": "TuTh 3:30P-4:59P"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "math-1b",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Calculus",
+          "url": "/academics/semester/spring-2018/class/math-1b-2018-B",
+          "course_code": "MATH 1B",
+          "dept": "MATH",
+          "dept_code": "MATH",
+          "courseCatalog": "1B",
+          "course_id": "math-1b-2018-B",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1468539",
+              "name": "MATH 1B - LEC 002",
+              "shortDescription": "Calculus (Spring 2018)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1468539",
+              "siteType": "course"
+            }
+          ]
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "28261",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "P",
+                "gradePoints": "0.0",
+                "gradingBasis": "EPN"
+              },
+              "instructors": [
+                {
+                  "name": "Kristin Primus",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "1127069",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Lewis",
+                    "roomNumber": "100",
+                    "schedule": "MWF 10:00A-10:59A"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "31708",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 110",
+              "section_number": "110",
+              "topic_description": null,
+              "associated_primary_id": "28261",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Omar Fakhri",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1037487",
+                  "printInSchedule": "N",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "GSI",
+                  "ccDelegateRoleOrder": 4
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Barrows",
+                    "roomNumber": "50",
+                    "schedule": "Th 11:00A-11:59A"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "philos-25b",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Modern Philosophy",
+          "url": "/academics/semester/spring-2018/class/philos-25b-2018-B",
+          "course_code": "PHILOS 25B",
+          "dept": "PHILOS",
+          "dept_code": "PHILOS",
+          "courseCatalog": "25B",
+          "course_id": "philos-25b-2018-B",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1468153",
+              "name": "Philosophy 25B",
+              "shortDescription": "Modern Philosophy (Spring 2018)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1468153",
+              "siteType": "course"
+            }
+          ]
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "20244",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "3.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "A-",
+                "gradePoints": "11.1",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Cristina G. BANKS",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "230",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "John Briginshaw",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "92860",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "Judy Hopelain",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "858434",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "Omar Romero-Hernandez",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "857128",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Wheeler",
+                    "roomNumber": "150",
+                    "schedule": "MWF 8:00A-8:59A"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "20252",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 110",
+              "section_number": "110",
+              "topic_description": null,
+              "associated_primary_id": "20244",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Rohan Kapuria",
+                  "role": "TNIC",
+                  "gradeRosterAccess": " ",
+                  "uid": "1555415",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": " ",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "noGradeAccess",
+                  "ccDelegateRole": "GSI",
+                  "ccDelegateRoleOrder": 4
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Cheit",
+                    "roomNumber": "C335",
+                    "schedule": "W 9:00A-9:59A"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "ugba-10",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Principles of Business",
+          "url": "/academics/semester/spring-2018/class/ugba-10-2018-B",
+          "course_code": "UGBA 10",
+          "dept": "UGBA",
+          "dept_code": "UGBA",
+          "courseCatalog": "10",
+          "course_id": "ugba-10-2018-B",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1467113",
+              "name": "UGBA 10 - LEC 001",
+              "shortDescription": "UGBA 10 - LEC 001 - Principles of Business (Spring 2018)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1467113",
+              "siteType": "course"
+            }
+          ]
+        }
+      ],
+      "filteredForDelegate": false,
+      "hasEnrollmentData": true,
+      "hasEnrolledClasses": true,
+      "totalUnits": "19.0",
+      "totalLawUnits": null,
+      "isGradingComplete": false,
+      "hasStandingData": true,
+      "standing": {
+        "acadStandingStatus": "GST",
+        "acadStandingStatusDescr": "Good Standing",
+        "acadStandingActionDescr": "Good Standing",
+        "termId": "2182",
+        "actionDate": "May 25, 2018",
+        "termName": "Spring 2018"
+      }
+    },
+    {
+      "name": "Fall 2017",
+      "slug": "fall-2017",
+      "termId": "2178",
+      "termCode": "D",
+      "termYear": "2017",
+      "timeBucket": "past",
+      "campusSolutionsTerm": true,
+      "gradingInProgress": null,
+      "classes": [
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "38652",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "A",
+                "gradePoints": "16.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "John DeNero",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "260296",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                },
+                {
+                  "name": "Paul HILFINGER",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "2050",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Wheeler",
+                    "roomNumber": "150",
+                    "schedule": "MWF 12:00P-12:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "38711",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 120B",
+              "section_number": "120B",
+              "topic_description": null,
+              "associated_primary_id": "38652",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Anusha Syed",
+                  "role": "PI",
+                  "gradeRosterAccess": "G",
+                  "uid": "1062622",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Soda",
+                    "roomNumber": "320",
+                    "schedule": "Th 6:30P-7:59P"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "41670",
+              "instruction_format": "LAB",
+              "is_primary_section": false,
+              "section_label": "LAB 139C",
+              "section_number": "139C",
+              "topic_description": null,
+              "associated_primary_id": "38652",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Kevin Lin",
+                  "role": "PI",
+                  "gradeRosterAccess": "G",
+                  "uid": "1068561",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Soda",
+                    "roomNumber": "277",
+                    "schedule": "W 10:30A-11:59A"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "compsci-61a",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "The Structure and Interpretation of Computer Programs",
+          "url": "/academics/semester/fall-2017/class/compsci-61a-2017-D",
+          "course_code": "COMPSCI 61A",
+          "dept": "COMPSCI",
+          "dept_code": "COMPSCI",
+          "courseCatalog": "61A",
+          "course_id": "compsci-61a-2017-D",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1466060",
+              "name": "COMPSCI 61A - LEC 001",
+              "shortDescription": "The Structure and Interpretation of Computer Programs",
+              "site_url": "https://bcourses.berkeley.edu/courses/1466060",
+              "siteType": "course"
+            }
+          ]
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "15107",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "P",
+                "gradePoints": "0.0",
+                "gradingBasis": "EPN"
+              },
+              "instructors": [
+                {
+                  "name": "Emily Mackil",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "265103",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Mulford",
+                    "roomNumber": "159",
+                    "schedule": "TuTh 9:30A-10:59A"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "15109",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 102",
+              "section_number": "102",
+              "topic_description": null,
+              "associated_primary_id": "15107",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "John Daukas",
+                  "role": "TNIC",
+                  "gradeRosterAccess": "G",
+                  "uid": "1106755",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "TNIC",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "GSI",
+                  "ccDelegateRoleOrder": 4
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Evans",
+                    "roomNumber": "7",
+                    "schedule": "Tu 4:00P-5:59P"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "history-4a",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Origins of Western Civilization: The Ancient Mediterranean World",
+          "url": "/academics/semester/fall-2017/class/history-4a-2017-D",
+          "course_code": "HISTORY 4A",
+          "dept": "HISTORY",
+          "dept_code": "HISTORY",
+          "courseCatalog": "4A",
+          "course_id": "history-4a-2017-D",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1466153",
+              "name": "HISTORY 4A - DIS 102",
+              "shortDescription": "HISTORY 4A - DIS 102 (2017)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1466153",
+              "siteType": "course"
+            },
+            {
+              "emitter": "bCourses",
+              "id": "1463158",
+              "name": "HISTORY 4A - LEC 001",
+              "shortDescription": "Origins of Western Civilization: The Ancient Mediterranean World (Fall 2017)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1463158",
+              "siteType": "course"
+            }
+          ]
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "16586",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 002",
+              "section_number": "002",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "A-",
+                "gradePoints": "14.8",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Lin Lin",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "1080232",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Valley Life Sciences",
+                    "roomNumber": "2050",
+                    "schedule": "MWF 3:00P-3:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "31431",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 212",
+              "section_number": "212",
+              "topic_description": null,
+              "associated_primary_id": "16586",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Angxiu Ni",
+                  "role": "PI",
+                  "gradeRosterAccess": " ",
+                  "uid": "1578653",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": " ",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "noGradeAccess",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Evans",
+                    "roomNumber": "71",
+                    "schedule": "MWF 1:00P-1:59P"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "math-54",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Linear Algebra and Differential Equations",
+          "url": "/academics/semester/fall-2017/class/math-54-2017-D",
+          "course_code": "MATH 54",
+          "dept": "MATH",
+          "dept_code": "MATH",
+          "courseCatalog": "54",
+          "course_id": "math-54-2017-D",
+          "class_sites": [
+            {
+              "emitter": "bCourses",
+              "id": "1466698",
+              "name": "MATH 54 - DIS 212",
+              "shortDescription": "Linear Algebra and Differential Equations (Fall 2017)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1466698",
+              "siteType": "course"
+            },
+            {
+              "emitter": "bCourses",
+              "id": "1463766",
+              "name": "MATH 54 - LEC 002",
+              "shortDescription": "Linear Algebra and Differential Equations (Fall 2017)",
+              "site_url": "https://bcourses.berkeley.edu/courses/1463766",
+              "siteType": "course"
+            }
+          ]
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "16421",
+              "instruction_format": "LEC",
+              "is_primary_section": true,
+              "section_label": "LEC 001",
+              "section_number": "001",
+              "topic_description": null,
+              "units": "4.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "A",
+                "gradePoints": "16.0",
+                "gradingBasis": "GRD"
+              },
+              "instructors": [
+                {
+                  "name": "Alexander Bertoloni Meli",
+                  "role": "APRX",
+                  "gradeRosterAccess": "G",
+                  "uid": "1060187",
+                  "printInSchedule": "N",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "APRX",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Proxy",
+                  "ccDelegateRoleOrder": 3
+                },
+                {
+                  "name": "Brandon Williams",
+                  "role": "APRX",
+                  "gradeRosterAccess": "G",
+                  "uid": "1022766",
+                  "printInSchedule": "N",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "APRX",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Proxy",
+                  "ccDelegateRoleOrder": 3
+                },
+                {
+                  "name": "Calvin Mcphail-Snyder",
+                  "role": "APRX",
+                  "gradeRosterAccess": "G",
+                  "uid": "1106486",
+                  "printInSchedule": "N",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "APRX",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Proxy",
+                  "ccDelegateRoleOrder": 3
+                },
+                {
+                  "name": "Qiaochu Yuan",
+                  "role": "APRX",
+                  "gradeRosterAccess": "G",
+                  "uid": "1002158",
+                  "printInSchedule": "N",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "APRX",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Proxy",
+                  "ccDelegateRoleOrder": 3
+                },
+                {
+                  "name": "Shiyu Li",
+                  "role": "APRX",
+                  "gradeRosterAccess": "G",
+                  "uid": "874290",
+                  "printInSchedule": "N",
+                  "csGradeAccessCode": "G",
+                  "csDelegateRole": "APRX",
+                  "ccGradingAccess": "enterGrades",
+                  "ccDelegateRole": "Proxy",
+                  "ccDelegateRoleOrder": 3
+                },
+                {
+                  "name": "Olga V. HOLTZ",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "232966",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Stanley",
+                    "roomNumber": "105",
+                    "schedule": "TuTh 12:30P-1:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            },
+            {
+              "ccn": "16422",
+              "instruction_format": "DIS",
+              "is_primary_section": false,
+              "section_label": "DIS 101",
+              "section_number": "101",
+              "topic_description": null,
+              "associated_primary_id": "16421",
+              "grading": {
+                "grade": null,
+                "gradePoints": "0.0",
+                "gradingBasis": null
+              },
+              "instructors": [
+                {
+                  "name": "Calvin Mcphail-Snyder",
+                  "role": "PI",
+                  "gradeRosterAccess": " ",
+                  "uid": "1106486",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": " ",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "noGradeAccess",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Dwinelle",
+                    "roomNumber": "205",
+                    "schedule": "MW 8:00A-8:59A"
+                  }
+                ]
+              },
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "math-55",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Discrete Mathematics",
+          "url": "/academics/semester/fall-2017/class/math-55-2017-D",
+          "course_code": "MATH 55",
+          "dept": "MATH",
+          "dept_code": "MATH",
+          "courseCatalog": "55",
+          "course_id": "math-55-2017-D"
+        },
+        {
+          "role": "Student",
+          "sections": [
+            {
+              "ccn": "23964",
+              "instruction_format": "GRP",
+              "is_primary_section": true,
+              "section_label": "GRP 004",
+              "section_number": "004",
+              "topic_description": null,
+              "units": "2.0",
+              "session_id": "1",
+              "grading": {
+                "grade": "P",
+                "gradePoints": "0.0",
+                "gradingBasis": "PNP"
+              },
+              "instructors": [
+                {
+                  "name": "Mikelle McCoin",
+                  "role": "PI",
+                  "gradeRosterAccess": "A",
+                  "uid": "246383",
+                  "printInSchedule": "Y",
+                  "csGradeAccessCode": "A",
+                  "csDelegateRole": "PI",
+                  "ccGradingAccess": "approveGrades",
+                  "ccDelegateRole": "Instr. of Record",
+                  "ccDelegateRoleOrder": 1
+                }
+              ],
+              "schedules": {
+                "oneTime": [],
+                "recurring": [
+                  {
+                    "buildingName": "Barrows",
+                    "roomNumber": "136",
+                    "schedule": "W 6:30P-7:59P"
+                  }
+                ]
+              },
+              "gradeOption": "Letter",
+              "isLaw": false,
+              "lawUnits": null,
+              "requirementsDesignation": null
+            }
+          ],
+          "slug": "nusctx-198",
+          "session_code": null,
+          "academicCareer": "UGRD",
+          "courseCareerCode": "UGRD",
+          "title": "Directed Group Study",
+          "url": "/academics/semester/fall-2017/class/nusctx-198-2017-D",
+          "course_code": "NUSCTX 198",
+          "dept": "NUSCTX",
+          "dept_code": "NUSCTX",
+          "courseCatalog": "198",
+          "course_id": "nusctx-198-2017-D"
+        }
+      ],
+      "filteredForDelegate": false,
+      "hasEnrollmentData": true,
+      "hasEnrolledClasses": true,
+      "totalUnits": "18.0",
+      "totalLawUnits": null,
+      "isGradingComplete": false,
+      "hasStandingData": true,
+      "standing": {
+        "acadStandingStatus": "GST",
+        "acadStandingStatusDescr": "Good Standing",
+        "acadStandingActionDescr": "Good Standing",
+        "termId": "2178",
+        "actionDate": "Jan 05, 2018",
+        "termName": "Fall 2017"
+      }
+    }
+  ],
+  "pastSemestersLimit": 4,
+  "pastSemestersCount": 4,
+  "examMessage": "Final exams are based on the day and time a course is offered. Therefore, if the course schedule changes, then the exam group may also change.<br><br>Please note: this calendar is only a guideline for faculty and students to get a sense of when their final exam may take place. The official Schedule of Final Examinations is available the 11th week of instruction.",
+  "graduation": {
+    "undergraduate": {
+      "expectedGraduationTerm": {
+        "termId": "2212",
+        "termName": "Spring 2021"
+      },
+      "activeTermsWithEnrollmentAppointments": [
+        "2192",
+        "2195",
+        "2198"
+      ],
+      "appointmentsInGraduatingTerm": false,
+      "messages": {
+        "required": "<!DOCTYPE html>\n<html>\n   <body>\n      <ul>\n      <li><a href=\"https://calcentral.berkeley.edu/profile\" target=\"_blank\">Update diploma mailing</a> address and <a href=\"https://calcentral.berkeley.edu/profile\" target=\"_blank\">preferred email address</a> on CalCentral</li>\n      <li>Verify your <a href=\"https://calcentral.berkeley.edu/profile\" target=\"_blank\">primary name</a> on CalCentral</li>\n      <li>Complete degree requirements: University, Campus, College, Major, and Minor (if applicable)</li>\n      <li>Complete all Incomplete grades required for your degree requirements by the last day of finals for your graduation term</li>\n      <li>Pay outstanding bills (diploma and transcript will be held until paid)</li>\n      <li>Submit final transcripts for any non-UCB work; check <a href=\"https://admissions.berkeley.edu/submitting-transcripts-uc-berkeley\" target=\"_blank\">instructions</a> for submitting</li>\n      <li>Complete <a href=\"https://career.berkeley.edu/Survey/Survey\" target=\"_blank\"> Career Center Destination Survey</a></li>\n      </ul/\n   </body>\n</html>",
+        "studentsWithLoans": "<!DOCTYPE html>\n<html>\n<body>\n<ul>\n<li>Complete financial exit interviews (if applicable) \n<ul>\n<li>Heartland ECSI for students with Perkins/HPSL/Institutional Loan </li>\n<li>Studentloans.gov for students with Direct Loan</li>\n</ul>\n</li>\n<li>Perkins/HPSL/Institutional Loan borrowers should create a Heartland ECSI profile</li>\n<li>Log into <a href=\"https://nslds.ed.gov/nslds/nslds_SA/\" target=\"_blank\">NSLDS</a> to review all of your student loans</li>\n</ul>\n</body>\n</html>",
+        "recommended": "<!DOCTYPE html>\n<html>\n   <body>\n      <ul>\n      <li>Register for <a href=\"https://commencement.berkeley.edu/\" target=\"_blank\">Commencement</a></li>\n      <li>Register for your home college/department graduation ceremony</li>\n      <li>Purchase tickets for graduation ceremony</li>\n      <li>Rent cap and gown</li>\n      <li>Buy announcements</li>\n      <li>Participate in career fairs</li>\n      <li>Join <a href=\"https://alumni.berkeley.edu/\" target=\"_blank\">Alumni Association</a></li>\n      <li>Register to <a href=\"https://cal.berkeley.edu\" target=\"_blank\">continue using your berkeley.edu</a> email address</li>\n      </ul/\n   </body>\n</html>"
+      }
+    },
+    "gradLaw": {
+      "expectedGraduationTerms": null
+    }
+  },
+  "studentLinks": {
+    "tcReportLink": {
+      "url": "https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/CSU_DA_TRN_CDT_STD.CSU_DA_TRN_CDT_STD.GBL",
+      "urlId": "UC_CX_XFER_CREDIT_REPORT_STDNT",
+      "ucFrom": "CalCentral",
+      "ucFromLink": "https://calcentral-sis-dev-01.ist.berkeley.edu/",
+      "ucFromText": "CalCentral",
+      "name": "Transfer Credit Report",
+      "title": "Detailed Transfer Credit Report",
+      "isCsLink": true
+    },
+    "waitlistsAndStudentOptions": {
+      "url": "https://registrar.berkeley.edu/registration/enrollment/",
+      "urlId": "UC_CX_WAITLIST_STDNT_OPTS",
+      "showNewWindow": true,
+      "name": "Waitlists",
+      "title": "Learn more about your options when waitlisted."
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "feed": {
+    "student": {
+      "identifiers": [
+        {
+          "type": "student-id",
+          "id": "1111111111",
+          "disclose": true
+        },
+        {
+          "type": "campus-uid",
+          "id": "1111111",
+          "disclose": true
+        },
+        {
+          "type": "Social Security Number",
+          "id": "***-**-****",
+          "disclose": false
+        },
+        {
+          "type": "HCM Legacy",
+          "id": "111111111",
+          "disclose": false,
+          "fromDate": "2019-03-21"
+        },
+        {
+          "type": "HCM System",
+          "id": "11111111",
+          "disclose": false,
+          "fromDate": "1902-02-01"
+        }
+      ],
+      "names": [
+        {
+          "type": {
+            "code": "PRF",
+            "description": "Preferred"
+          },
+          "familyName": "Go",
+          "givenName": "Bears",
+          "middleName": "",
+          "prefixName": "",
+          "suffixName": "",
+          "formattedName": "Go Bears",
+          "preferred": true,
+          "disclose": true,
+          "uiControl": {
+            "code": "U",
+            "description": "Edit - No Delete"
+          },
+          "fromDate": "2019-01-24"
+        },
+        {
+          "type": {
+            "code": "PRI",
+            "description": "Primary"
+          },
+          "familyName": "Go",
+          "givenName": "Bears",
+          "middleName": "",
+          "prefixName": "",
+          "suffixName": "",
+          "formattedName": "Go Bears",
+          "preferred": false,
+          "disclose": true,
+          "uiControl": {
+            "code": "D",
+            "description": "Display Only"
+          },
+          "fromDate": "2019-01-24"
+        }
+      ],
+      "affiliations": [
+        {
+          "type": {
+            "code": "EMPLOYEE",
+            "description": "Employee"
+          },
+          "detail": "Active",
+          "status": {
+            "code": "ACT",
+            "description": "Active"
+          },
+          "fromDate": "2019-01-30"
+        },
+        {
+          "type": {
+            "code": "STUDENT",
+            "description": ""
+          },
+          "detail": "",
+          "status": {
+            "code": "ACT",
+            "description": "Active"
+          },
+          "fromDate": "2017-05-19"
+        },
+        {
+          "type": {
+            "code": "UNDERGRAD",
+            "description": "Undergraduate Student"
+          },
+          "detail": "Active",
+          "status": {
+            "code": "ACT",
+            "description": "Active"
+          },
+          "fromDate": "2017-05-19"
+        }
+      ],
+      "addresses": [
+        {
+          "type": {
+            "code": "DORM",
+            "description": "Dormitory"
+          },
+          "address1": "Unit 1 Residence Halls",
+          "address2": "FB-605",
+          "address3": "2650 Durant Avenue",
+          "address4": "",
+          "num1": "",
+          "num2": "",
+          "addrField1": "",
+          "addrField2": "",
+          "addrField3": "",
+          "houseType": "",
+          "city": "Berkeley",
+          "county": "",
+          "stateName": "California",
+          "countryName": "United States",
+          "formattedAddress": "Unit 1 Residence Halls\nFB-605\n2650 Durant Avenue\nBerkeley, California 94720",
+          "disclose": false,
+          "uiControl": {
+            "code": "D",
+            "description": "Display Only"
+          },
+          "fromDate": "2018-01-11",
+          "state": "CA",
+          "postal": "94720",
+          "country": "USA"
+        },
+        {
+          "type": {
+            "code": "HOME",
+            "description": "Home"
+          },
+          "address1": "1234 GoBears Street",
+          "address2": "1",
+          "address3": "",
+          "address4": "",
+          "num1": "",
+          "num2": "",
+          "addrField1": "",
+          "addrField2": "",
+          "addrField3": "",
+          "houseType": "",
+          "city": "Berkeley",
+          "county": "",
+          "stateName": "California",
+          "countryName": "United States",
+          "formattedAddress": "1234 GoBears Street\n1\nBerkeley, California 94702",
+          "disclose": true,
+          "uiControl": {
+            "code": "U",
+            "description": "Edit - No Delete"
+          },
+          "fromDate": "2019-03-02",
+          "state": "CA",
+          "postal": "94702",
+          "country": "USA"
+        },
+        {
+          "type": {
+            "code": "LOCL",
+            "description": "Local"
+          },
+          "address1": "2650 Durant Avenue",
+          "address2": "Freeborn 605",
+          "address3": "",
+          "address4": "",
+          "num1": "",
+          "num2": "",
+          "addrField1": "",
+          "addrField2": "",
+          "addrField3": "",
+          "houseType": "",
+          "city": "Berkeley",
+          "county": "",
+          "stateName": "California",
+          "countryName": "United States",
+          "formattedAddress": "2650 Durant Avenue\nFreeborn 605\nBerkeley, California 94720",
+          "disclose": true,
+          "uiControl": {
+            "code": "U",
+            "description": "Edit - No Delete"
+          },
+          "fromDate": "2017-08-23",
+          "state": "CA",
+          "postal": "94720",
+          "country": "USA"
+        }
+      ],
+      "phones": [
+        {
+          "type": {
+            "code": "CELL",
+            "description": "Mobile"
+          },
+          "number": "111/111-1111",
+          "countryCode": "",
+          "extension": "",
+          "primary": false,
+          "disclose": true,
+          "uiControl": {
+            "code": "F",
+            "description": "Full Edit"
+          }
+        },
+        {
+          "type": {
+            "code": "HOME",
+            "description": "Home/Permanent"
+          },
+          "number": "+1 11111111111",
+          "countryCode": "",
+          "extension": "",
+          "primary": false,
+          "disclose": true,
+          "uiControl": {
+            "code": "U",
+            "description": "Edit - No Delete"
+          }
+        },
+        {
+          "type": {
+            "code": "LOCL",
+            "description": "Local"
+          },
+          "number": "111/111-1111",
+          "countryCode": "",
+          "extension": "",
+          "primary": true,
+          "disclose": true,
+          "uiControl": {
+            "code": "F",
+            "description": "Full Edit"
+          }
+        }
+      ],
+      "emails": [
+        {
+          "type": {
+            "code": "CAMP",
+            "description": "Campus"
+          },
+          "emailAddress": "gobears@berkeley.edu",
+          "primary": true,
+          "disclose": true,
+          "uiControl": {
+            "code": "D",
+            "description": "Display Only"
+          }
+        },
+        {
+          "type": {
+            "code": "OTHR",
+            "description": "Other"
+          },
+          "emailAddress": "gobears@gmail.com",
+          "primary": false,
+          "disclose": true,
+          "uiControl": {
+            "code": "F",
+            "description": "Full Edit"
+          }
+        },
+        {
+          "type": {
+            "code": "PERS",
+            "description": "Personal"
+          },
+          "emailAddress": "gobears2@gmail.com",
+          "primary": false,
+          "disclose": false,
+          "uiControl": {
+            "code": "F",
+            "description": "Full Edit"
+          }
+        }
+      ],
+      "urls": [],
+      "emergencyContacts": [],
+      "confidential": false,
+      "ethnicities": [
+        {
+          "group": {
+            "code": "4",
+            "description": "Asian"
+          },
+          "hispanicLatino": false,
+          "detail": {
+            "code": "CHINESE",
+            "description": "Chinese"
+          }
+        }
+      ],
+      "languages": [
+        {
+          "code": "LCH",
+          "name": "Chinese",
+          "translate": false,
+          "teach": false,
+          "native": false
+        }
+      ],
+      "usaCountry": {
+        "citizenshipStatus": {
+          "code": "4",
+          "description": "Alien Temporary"
+        },
+        "visa": {
+          "type": {
+            "code": "F1",
+            "description": "Granted"
+          },
+          "identifier": "BIO-FTP",
+          "status": "G",
+          "issuingAuthority": "",
+          "placeIssued": "",
+          "supportDocuments": {}
+        }
+      },
+      "foreignCountries": [
+        {
+          "code": "CHN",
+          "description": "China"
+        }
+      ],
+      "residency": {
+        "source": {
+          "code": "Official"
+        },
+        "fromTerm": {
+          "id": "2178",
+          "name": "2017 Fall"
+        },
+        "fromDate": "2017-05-03",
+        "official": {
+          "code": "NON",
+          "description": "Non-Resident"
+        },
+        "financialAid": {
+          "code": "NON",
+          "description": "Non-Resident"
+        },
+        "tuition": {
+          "code": "NON",
+          "description": "Non-Resident"
+        },
+        "county": "",
+        "stateCode": "",
+        "countryCode": "",
+        "postalCode": "",
+        "statementOfLegalResidenceStatus": {
+          "code": "D",
+          "description": "Auto Residency Determined"
+        },
+        "comments": ""
+      },
+      "gender": {
+        "genderOfRecord": {
+          "code": "M",
+          "description": "Male"
+        },
+        "discloseGenderOfRecord": true,
+        "sexAtBirth": {
+          "code": "M",
+          "description": "Male"
+        },
+        "discloseSexAtBirth": false,
+        "genderIdentity": {
+          "code": "M",
+          "description": "Male"
+        },
+        "discloseGenderIdentity": false,
+        "fromDate": "2019-01-24"
+      }
+    },
+    "links": {
+      "editProfile": {
+        "url": "https://bcsweb.is.berkeley.edu/psc/bcsprd/EMPLOYEE/SA/c/SCC_PROFILE_FL.SCC_PROFILE_MD_FL.GBL?Action=U&MD=Y&GMenu=SCC_PROFILE_FL&GComp=SCC_PROFILE_SP_FL&GPage=SCC_START_PAGE_FL&scname=CS_PERSON_PROFILE&scnamem=CS_PERSON_PROFILEMF",
+        "urlId": "UC_CX_PROFILE",
+        "linkDescriptionDisplay": false,
+        "ucFrom": "CalCentral",
+        "ucFromLink": "https://calcentral-dev.berkeley.edu/profile",
+        "ucFromText": "Profile",
+        "name": "Edit Profile",
+        "title": "Edit your profile.",
+        "isCsLink": true
+      }
+    }
+  },
+  "statusCode": 200
+}

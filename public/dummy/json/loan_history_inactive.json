@@ -1,0 +1,67 @@
+{
+  "messaging": {
+    "inactiveLoanHistory": {
+      "code": "INAC",
+      "title": "No Loan Information At This Time",
+      "description": "We do not have loan data for you at this time. If you previously attended UC Berkeley, please refer to <a href=\"http://www.nslds.ed.gov\" title=\"NSLDS website to view your Federal loan details\" target=\"_blank\">National Student Loan Data Systems</a> for Federal Direct Loans and <a href= \"https://heartland.ecsi.net\" title=\"ECSI website to view details for institutional, state, Perkins or HPSL loans.\" target=\"_blank\">Heartland ECSI</a> for Institutional, State, Perkins or HPSL loans. Consult your private loan lender for private loan details."
+    }
+  },
+  "links": [
+    {
+      "sequence": 10,
+      "url": "https://financialaid.berkeley.edu/bears-financial-success",
+      "title": "Bears for Financial Success",
+      "descr": "Sit down with a financial wellness peer educator to help you understand your personal finances. Peer mentors can answer basic money management questions and help you create a personal spending plan. This service is for current students only.",
+      "hover": "Meet with a financial wellness peer educator"
+    },
+    {
+      "sequence": 20,
+      "url": "https://studentcentral.berkeley.edu/open-case",
+      "title": "Cal Student Central",
+      "descr": "Contact with any questions regarding your loans.",
+      "hover": "Get your loan questions answered"
+    },
+    {
+      "sequence": 30,
+      "url": "https://nslds.ed.gov/nslds/nslds_SA/",
+      "title": "Federal Loan Detail",
+      "descr": "Log in to National Student Loan Data Systems (NSLDS) to view your detailed federal loan history.",
+      "hover": "NSLDS website to view your Federal loan details"
+    },
+    {
+      "sequence": 40,
+      "url": "https://studentaid.ed.gov/",
+      "title": "Federal Loan Summary",
+      "descr": "Log in to studentaid.ed.gov to view a summary of your federal loan history.",
+      "hover": "View your Federal Loan Summary"
+    },
+    {
+      "sequence": 50,
+      "url": "https://heartland.ecsi.net/",
+      "title": "Institutional, State, Perkins and HPSL Loan Detail",
+      "descr": "Visit your loan servicer Heartland ESCI to access your Perkins, HPSL, state and/or institutional loan account(s).",
+      "hover": "State and Institutional Loan Servicer - Heartland ESCI"
+    },
+    {
+      "sequence": 60,
+      "url": "http://StudentLoans.gov",
+      "title": "Loan Documentation",
+      "descr": "Log in to studentloans.gov to complete or view your Federal Direct Master Promissory Note, Entrance, or Exit Counseling.",
+      "hover": "View your Loan Documentation"
+    },
+    {
+      "sequence": 70,
+      "url": "https://studentloans.gov/myDirectLoan/mobile/repayment/repaymentEstimator.action",
+      "title": "Loan Repayment Estimator",
+      "descr": "You can include Institutional, HPSL, State and/or Private loans by clicking the Add Loan(s) link and selecting Private, then enter the loan amount and interest rate for each additional loan.",
+      "hover": "A tool to estimate your loan repayment"
+    },
+    {
+      "sequence": 80,
+      "url": "https://financialaid.berkeley.edu/loan-history-faq",
+      "title": "Frequently Asked Questions (FAQs)",
+      "descr": "",
+      "hover": "Frequently Asked Questions (FAQs)"
+    }
+  ]
+}

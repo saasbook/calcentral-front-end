@@ -1,0 +1,24 @@
+{
+  "aidYears": [
+    {
+      "id": "2018",
+      "name": "2017-2018",
+      "defaultAidYear": false,
+      "availableSemesters": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ]
+    },
+    {
+      "id": "2019",
+      "name": "2018-2019",
+      "defaultAidYear": true,
+      "availableSemesters": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ]
+    }
+  ]
+}
