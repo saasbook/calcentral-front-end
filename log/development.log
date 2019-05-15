@@ -1909,3 +1909,24 @@ Processing by Dev::ApisController#edit as HTML
   Rendered dev/apis/_form.html.erb (31.5ms)
   Rendered dev/apis/edit.html.erb within layouts/application (38.8ms)
 Completed 200 OK in 93ms (Views: 89.3ms | ActiveRecord: 0.1ms)
+Started GET "/" for 127.0.0.1 at 2019-05-14 22:30:54 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /var/lib/gems/2.3.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/dev/apis" for 127.0.0.1 at 2019-05-14 22:30:54 -0700
+Processing by Dev::ApisController#index as HTML
+  Rendering dev/apis/index.html.erb within layouts/application
+  [1m[36mDev::Api Load (0.5ms)[0m  [1m[34mSELECT "apis".* FROM "apis"[0m
+  Rendered dev/apis/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 263ms (Views: 254.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/scaffolds.self-4b70c683d310aa94b0f2fc582c90ebcfcd3d01760f1e06709d102a1828ac48e0.css?body=1" for 127.0.0.1 at 2019-05-14 22:30:55 -0700
+Started GET "/api/my/activities" for 127.0.0.1 at 2019-05-14 22:31:06 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/activities"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/activities"], ["LIMIT", 1]]
+  Rendering public/dummy/json/activities.json
+  Rendered public/dummy/json/activities.json (0.7ms)
+Completed 200 OK in 8ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+
+
