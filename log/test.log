@@ -1022,3 +1022,447 @@ Processing by MasterController#master as JSON
   Rendered public/dummy/json/transfer_credit.json (0.7ms)
 Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.1ms)
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by Dev::ApisController#new as HTML
+  Rendering dev/apis/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered dev/apis/new.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 6ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "apis"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "apis" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "Uripath"], ["filepath", "Filepath"], ["created_at", "2019-05-15 05:32:11.908711"], ["updated_at", "2019-05-15 05:32:11.908711"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "apis" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "Uripath"], ["filepath", "Filepath"], ["created_at", "2019-05-15 05:32:11.909622"], ["updated_at", "2019-05-15 05:32:11.909622"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering dev/apis/index.html.erb
+  Rendered dev/apis/index.html.erb (2.8ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "apis" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "Uripath"], ["filepath", "Filepath"], ["created_at", "2019-05-15 05:32:11.917775"], ["updated_at", "2019-05-15 05:32:11.917775"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering dev/apis/show.html.erb
+  Rendered dev/apis/show.html.erb (0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/degree_progress/grad"], ["filepath", "/public/dummy/json/degree_progress_grad.json"], ["created_at", "2019-05-15 05:32:13.311540"], ["updated_at", "2019-05-15 05:32:13.311540"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/academics/degree_progress/grad" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/academics/degree_progress/grad"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/academics/degree_progress/grad"], ["LIMIT", 1]]
+  Rendering public/dummy/json/degree_progress_grad.json
+  Rendered public/dummy/json/degree_progress_grad.json (0.2ms)
+Completed 200 OK in 11ms (Views: 3.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/degree_progress/ugrd"], ["filepath", "/public/dummy/json/degree_progress_ugrd.json"], ["created_at", "2019-05-15 05:32:13.336270"], ["updated_at", "2019-05-15 05:32:13.336270"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/academics/degree_progress/ugrd" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/academics/degree_progress/ugrd"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/academics/degree_progress/ugrd"], ["LIMIT", 1]]
+  Rendering public/dummy/json/degree_progress_ugrd.json
+  Rendered public/dummy/json/degree_progress_ugrd.json (0.2ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/enrollment_verification"], ["filepath", "/public/dummy/json/enrollment_verification.json"], ["created_at", "2019-05-15 05:32:13.345006"], ["updated_at", "2019-05-15 05:32:13.345006"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/academics/enrollment_verification" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/academics/enrollment_verification"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/academics/enrollment_verification"], ["LIMIT", 1]]
+  Rendering public/dummy/json/enrollment_verification.json
+  Rendered public/dummy/json/enrollment_verification.json (0.3ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/exam_results"], ["filepath", "/public/dummy/json/exam_results.json"], ["created_at", "2019-05-15 05:32:13.352237"], ["updated_at", "2019-05-15 05:32:13.352237"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/academics/exam_results" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/academics/exam_results"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/academics/exam_results"], ["LIMIT", 1]]
+  Rendering public/dummy/json/exam_results.json
+  Rendered public/dummy/json/exam_results.json (0.3ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/has_exam_results"], ["filepath", "/public/dummy/json/has_exam_results.json"], ["created_at", "2019-05-15 05:32:13.359267"], ["updated_at", "2019-05-15 05:32:13.359267"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/academics/has_exam_results" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/academics/has_exam_results"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/academics/has_exam_results"], ["LIMIT", 1]]
+  Rendering public/dummy/json/has_exam_results.json
+  Rendered public/dummy/json/has_exam_results.json (0.1ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/academic_records"], ["filepath", "/public/dummy/json/my_academic_records.json"], ["created_at", "2019-05-15 05:32:13.366182"], ["updated_at", "2019-05-15 05:32:13.366182"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/academic_records" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/academic_records"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/academic_records"], ["LIMIT", 1]]
+  Rendering public/dummy/json/my_academic_records.json
+  Rendered public/dummy/json/my_academic_records.json (0.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/activities"], ["filepath", "/public/dummy/json/activities.json"], ["created_at", "2019-05-15 05:32:13.374917"], ["updated_at", "2019-05-15 05:32:13.374917"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/activities" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/activities"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/activities"], ["LIMIT", 1]]
+  Rendering public/dummy/json/activities.json
+  Rendered public/dummy/json/activities.json (0.5ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/advising/my_advising"], ["filepath", "/public/dummy/json/my_advising.json"], ["created_at", "2019-05-15 05:32:13.382688"], ["updated_at", "2019-05-15 05:32:13.382688"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/advising/my_advising" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/advising/my_advising"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/advising/my_advising"], ["LIMIT", 1]]
+  Rendering public/dummy/json/my_advising.json
+  Rendered public/dummy/json/my_advising.json (0.2ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/badges"], ["filepath", "/public/dummy/json/badges.json"], ["created_at", "2019-05-15 05:32:13.390651"], ["updated_at", "2019-05-15 05:32:13.390651"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/badges" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/badges"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/badges"], ["LIMIT", 1]]
+  Rendering public/dummy/json/badges.json
+  Rendered public/dummy/json/badges.json (0.5ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/classes"], ["filepath", "/public/dummy/json/classes.json"], ["created_at", "2019-05-15 05:32:13.398031"], ["updated_at", "2019-05-15 05:32:13.398031"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/classes" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/classes"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/classes"], ["LIMIT", 1]]
+  Rendering public/dummy/json/classes.json
+  Rendered public/dummy/json/classes.json (0.4ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/committees"], ["filepath", "/public/dummy/json/committees.json"], ["created_at", "2019-05-15 05:32:13.406552"], ["updated_at", "2019-05-15 05:32:13.406552"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/committees" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/committees"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/committees"], ["LIMIT", 1]]
+  Rendering public/dummy/json/committees.json
+  Rendered public/dummy/json/committees.json (0.9ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/finaid_profile/"], ["filepath", "/public/dummy/json/finaid.json"], ["created_at", "2019-05-15 05:32:13.414466"], ["updated_at", "2019-05-15 05:32:13.414466"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/finaid_profile/2018" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"wildcard"=>"2018"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/finaid_profile/"], ["LIMIT", 1]]
+  Rendering public/dummy/json/finaid.json
+  Rendered public/dummy/json/finaid.json (0.3ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/financial_aid_summary"], ["filepath", "/public/dummy/json/finaid_summary.json"], ["created_at", "2019-05-15 05:32:13.421808"], ["updated_at", "2019-05-15 05:32:13.421808"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/financial_aid_summary" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/financial_aid_summary"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/financial_aid_summary"], ["LIMIT", 1]]
+  Rendering public/dummy/json/finaid_summary.json
+  Rendered public/dummy/json/finaid_summary.json (0.2ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/financials"], ["filepath", "/public/dummy/json/financials.json"], ["created_at", "2019-05-15 05:32:13.428870"], ["updated_at", "2019-05-15 05:32:13.428870"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/financials" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/financials"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/financials"], ["LIMIT", 1]]
+  Rendering public/dummy/json/financials.json
+  Rendered public/dummy/json/financials.json (0.2ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/groups"], ["filepath", "/public/dummy/json/groups.json"], ["created_at", "2019-05-15 05:32:13.436374"], ["updated_at", "2019-05-15 05:32:13.436374"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/groups" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/groups"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/groups"], ["LIMIT", 1]]
+  Rendering public/dummy/json/groups.json
+  Rendered public/dummy/json/groups.json (0.2ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/holds"], ["filepath", "/public/dummy/json/holds_present.json"], ["created_at", "2019-05-15 05:32:13.444604"], ["updated_at", "2019-05-15 05:32:13.444604"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/holds" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/holds"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/holds"], ["LIMIT", 1]]
+  Rendering public/dummy/json/holds_present.json
+  Rendered public/dummy/json/holds_present.json (0.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/new_admit_resources"], ["filepath", "/public/dummy/json/new_admit_resources.json"], ["created_at", "2019-05-15 05:32:13.451933"], ["updated_at", "2019-05-15 05:32:13.451933"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/new_admit_resources" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/new_admit_resources"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/new_admit_resources"], ["LIMIT", 1]]
+  Rendering public/dummy/json/new_admit_resources.json
+  Rendered public/dummy/json/new_admit_resources.json (0.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/registrations"], ["filepath", "/public/dummy/json/my_registrations.json"], ["created_at", "2019-05-15 05:32:13.459329"], ["updated_at", "2019-05-15 05:32:13.459329"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/registrations" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/registrations"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/registrations"], ["LIMIT", 1]]
+  Rendering public/dummy/json/my_registrations.json
+  Rendered public/dummy/json/my_registrations.json (0.3ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/residency"], ["filepath", "/public/dummy/json/residency.json"], ["created_at", "2019-05-15 05:32:13.466689"], ["updated_at", "2019-05-15 05:32:13.466689"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/residency" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/residency"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/residency"], ["LIMIT", 1]]
+  Rendering public/dummy/json/residency.json
+  Rendered public/dummy/json/residency.json (0.2ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/sir_statuses"], ["filepath", "/public/dummy/json/sir_statuses_completed.json"], ["created_at", "2019-05-15 05:32:13.475387"], ["updated_at", "2019-05-15 05:32:13.475387"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/sir_statuses" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/sir_statuses"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/sir_statuses"], ["LIMIT", 1]]
+  Rendering public/dummy/json/sir_statuses_completed.json
+  Rendered public/dummy/json/sir_statuses_completed.json (0.3ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/standings"], ["filepath", "/public/dummy/json/standings_present.json"], ["created_at", "2019-05-15 05:32:13.483037"], ["updated_at", "2019-05-15 05:32:13.483037"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/standings" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/standings"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/standings"], ["LIMIT", 1]]
+  Rendering public/dummy/json/standings_present.json
+  Rendered public/dummy/json/standings_present.json (0.2ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/tasks"], ["filepath", "/public/dummy/json/tasks.json"], ["created_at", "2019-05-15 05:32:13.490499"], ["updated_at", "2019-05-15 05:32:13.490499"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/tasks" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/tasks"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/tasks"], ["LIMIT", 1]]
+  Rendering public/dummy/json/tasks.json
+  Rendered public/dummy/json/tasks.json (1.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/textbooks_details"], ["filepath", "/public/dummy/json/textbooks_details.json"], ["created_at", "2019-05-15 05:32:13.498745"], ["updated_at", "2019-05-15 05:32:13.498745"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/textbooks_details" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/textbooks_details"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/textbooks_details"], ["LIMIT", 1]]
+  Rendering public/dummy/json/textbooks_details.json
+  Rendered public/dummy/json/textbooks_details.json (0.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/my/up_next"], ["filepath", "/public/dummy/json/up_next.json"], ["created_at", "2019-05-15 05:32:13.507895"], ["updated_at", "2019-05-15 05:32:13.507895"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/my/up_next" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/my/up_next"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/my/up_next"], ["LIMIT", 1]]
+  Rendering public/dummy/json/up_next.json
+  Rendered public/dummy/json/up_next.json (0.2ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/pnp_calculator/ratio_message"], ["filepath", "/public/dummy/json/pnp_ratio_message.json"], ["created_at", "2019-05-15 05:32:13.515362"], ["updated_at", "2019-05-15 05:32:13.515362"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/academics/pnp_calculator/ratio_message" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/academics/pnp_calculator/ratio_message"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/academics/pnp_calculator/ratio_message"], ["LIMIT", 1]]
+  Rendering public/dummy/json/pnp_ratio_message.json
+  Rendered public/dummy/json/pnp_ratio_message.json (0.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/rosters/campus/"], ["filepath", "/public/dummy/json/campus_rosters.json"], ["created_at", "2019-05-15 05:32:13.523049"], ["updated_at", "2019-05-15 05:32:13.523049"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/academics/rosters/campus/1" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"wildcard"=>"1"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/academics/rosters/campus/"], ["LIMIT", 1]]
+  Rendering public/dummy/json/campus_rosters.json
+  Rendered public/dummy/json/campus_rosters.json (0.6ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "pathmaps" ("uripath", "filepath", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uripath", "/api/academics/transfer_credits"], ["filepath", "/public/dummy/json/transfer_credit.json"], ["created_at", "2019-05-15 05:32:13.530845"], ["updated_at", "2019-05-15 05:32:13.530845"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/api/academics/transfer_credits" for 127.0.0.1 at 2019-05-14 22:32:13 -0700
+Processing by MasterController#master as JSON
+  Parameters: {"path"=>"api/academics/transfer_credits"}
+  [1m[36mPathmap Load (0.1ms)[0m  [1m[34mSELECT  "pathmaps".* FROM "pathmaps" WHERE "pathmaps"."uripath" = ? ORDER BY "pathmaps"."id" ASC LIMIT ?[0m  [["uripath", "/api/academics/transfer_credits"], ["LIMIT", 1]]
+  Rendering public/dummy/json/transfer_credit.json
+  Rendered public/dummy/json/transfer_credit.json (0.2ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
