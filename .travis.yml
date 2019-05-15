@@ -6,8 +6,6 @@ rvm:
   - 2.4.0
 
 before_install:
-  - rvm rubygems 2.6.8
-  - gem update --system 2.6.8
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
